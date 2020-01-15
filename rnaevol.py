@@ -66,8 +66,17 @@ def getInteriorCoord(sequence, target) :
             list_+=filter(None,dt.strip().split("\n"))
     return numpy.array(list(set([tuple(map(int,string.strip().split(","))) for string in list_]))) -1
 
-def boost_hairpins(sequence, coord) :
-    stems = list(numpy.random.choice(["A"],len(range(coord[1]-coord[0]-1))))
+def boost_hairpins(sequence,target, coord) :
+    
+    if (coord[1]-coord[0]-1) > 100 : 
+
+        with open("DB3/Hp/Hp"+str(coord[1]-coord[0]-1)+".txt", 'r') as f: 
+            Hps = f.read()
+            hps = Hps.split("\n")
+            hp = "".join(numpy.random.choice(hps[1:],1)[0])
+            stems = list(hp) 
+    else : 
+        stems = list(numpy.random.choice(["A"],len(range(coord[1]-coord[0]-1))))
     if coord[1]-coord[0]-1 >=4 : 
         stems[0] = "G"
         stems.insert(0,"G")
@@ -75,22 +84,20 @@ def boost_hairpins(sequence, coord) :
         sequence[coord[0]:coord[1]+1] = stems
     else : 
         sequence[coord[0]+1:coord[1]] = stems
+    
+    
     return sequence
-
 def boostMulti(sequence, coord, pos) : 
     sequence = list(sequence) 
     if coord[1]-1 not in pos["p_table"] : 
         sequence[coord[1]-1] = "G"
     return sequence
 
-def boostInterior(sequence, coord, pos) :
+def boostInterior(sequence,target, coord) :
     
-    if [coord[0]+1,coord[1]-1] not in pos["interior"] : 
-        sequence[coord[0]+1] = "G"
-    
-    if coord[1]+1 not in pos["p_table"]: 
-        if coord[1]+1 < len(sequence) : 
-            sequence[coord[1]+1] = "G"   
+    if target[coord[0]] == "(" : 
+        if target[coord[0]+1] == ".":
+            sequence[coord[0]+1] = "G"  
     return sequence 
 
 def pphamming(listOfStructures, landscape) : 
@@ -106,7 +113,7 @@ def ppens_defect(listOfSequences, landscape) :
     return dists
 
 #Mutation function 
-def mutateOne(seq, mut_probs,target,pos, p_n, p_c, mut_bp=0.5) :  
+def mutateOne(seq, mut_probs,target,pos, p_n, p_c, mut_bp=.5) :  
     base_paire = ["GC","CG","AU","UA", "GU", "UG"]
     nucleotides = ["A", "G","U","C"]
     p_table = pos["bp_pos"]
@@ -118,12 +125,24 @@ def mutateOne(seq, mut_probs,target,pos, p_n, p_c, mut_bp=0.5) :
     apply = []
     for bp_cord in p_table : 
         r = random.uniform(0,1)
+        
         if r < mut_bp : 
             bp = numpy.random.choice(base_paire,1, p=p_c)
             
             RNA_seq[bp_cord[0]] = bp[0][0]
             RNA_seq[bp_cord[1]] = bp[0][1]
-    
+        
+        if bp_cord in pos["interior"] : 
+                RNA_seq = boost_hairpins(RNA_seq,target, bp_cord)
+        
+        """
+        elif bp_cord  in pos["multi"] : 
+            RNA_seq = boostMulti(RNA_seq, bp_cord,pos)
+     
+        elif bp_cord in pos["interior"] : 
+            RNA_seq = boostInterior(RNA_seq, bp_cord, pos)
+        """
+
     return ''.join(RNA_seq)
 
 
@@ -159,7 +178,7 @@ def ppeval(listOfSeqs, target, task) :
             file_.write(seq.strip()+"\n"+target.strip()+"\n")
         file_.close()
           
-    os.system("RNAeval -j --infile=tmp/rnaeval_in"+str(task)+" |tr -d A-Z,'(',')'|cut -d ' ' -f 2- > tmp/result_"+str(task))
+    os.system("RNAeval -j -P vrna185x.par --infile=tmp/rnaeval_in"+str(task)+" |tr -d A-Z,'(',')'|cut -d ' ' -f 2- > tmp/result_"+str(task))
     with open("tmp/result_"+str(task), "r") as file_ : 
         eval_ = file_.read().split()
     os.remove("tmp/result_"+str(task))
@@ -169,7 +188,7 @@ def ppeval(listOfSeqs, target, task) :
 def ppfold(listOfSeqs,task) : 
     dataFrame= pandas.DataFrame(listOfSeqs)
     dataFrame.to_csv("tmp/sequences"+str(task),sep=" ",index=False, header=False)    
-    os.system("RNAfold -j --infile=tmp/sequences"+str(task)+" --noPS > tmp/rnafold_result"+str(task)) #To change the energy par just add -P vrna185x.par  to RNAfold
+    os.system("RNAfold -j -P vrna185x.par --infile=tmp/sequences"+str(task)+" --noPS > tmp/rnafold_result"+str(task)) #To change the energy par just add -P vrna185x.par  to RNAfold
     os.system("cut -d ' ' -f 1 tmp/rnafold_result"+str(task)+" | tr -d A-Z > tmp/result_"+str(task))
     os.system("cat tmp/rnafold_result"+str(task)+"|tr -d A-Z,'(',')' | cut -d ' ' -f 2- >tmp/mfes"+str(task))
     with open("tmp/result_"+str(task), "r") as file_ : 
@@ -193,7 +212,11 @@ def eval_proportion_selection(population, size) :
     delta_mfe = delta_mfe / sum(delta_mfe)
     weights = (1-delta_mfe)**100
     
-    selected = numpy.random.choice(list(population["RNA_sequence"]),size=size,p=weights/sum(weights))
+    p = numpy.exp(mfes)/sum(numpy.exp(mfes))
+    #selected = numpy.random.choice(list(population["RNA_sequence"]),size=size,p=weights/sum(weights))
+    #print sum(p)
+    selected = numpy.random.choice(list(population["RNA_sequence"]),size=size,p=p)
+    
     return list(selected)
 
 
@@ -236,11 +259,13 @@ def simple_EA(landscape, number_of_generation, mut_probs, init_pop, selection_me
     population_size =  len(init_pop)
     n = number_of_generation
     max_fitness = max(numpy.array(prev_population["Fitness"], dtype = float))
+    best_sequence = list(prev_population["RNA_sequence"])[list(prev_population["Fitness"]).index(str(max_fitness))]
     
     while (n > 0) and (max_fitness < 1.):
         
         if (number_of_generation - n)%10 == 0 : 
-            print ('Generation '+str(number_of_generation - n)), "Max fitness = ", max_fitness
+            print ('Generation '+str(number_of_generation - n)), "Max fitness = ", max_fitness,best_sequence,list(prev_population["Mfes"])[list(prev_population["Fitness"]).index(str(max_fitness))]
+           
         newgeneration = []
     
         selected_ind = eval_proportion_selection(prev_population,population_size)
@@ -259,9 +284,9 @@ def simple_EA(landscape, number_of_generation, mut_probs, init_pop, selection_me
         #newgeneration.append(defects)
         
         prev_population = pandas.DataFrame(numpy.array(newgeneration).T, columns=["RNA_sequence", "RNA_structure", "Mfes", "Fitness","Evals"])
-        new_max = max(numpy.array(prev_population["Fitness"], dtype=float))
-        if new_max > max_fitness : 
-            max_fitness = new_max
+        max_fitness = max(numpy.array(prev_population["Fitness"], dtype=float))
+        
+        best_sequence = list(prev_population["RNA_sequence"])[list(prev_population["Fitness"]).index(str(max_fitness))]
         n -=1
 
     return prev_population
@@ -350,8 +375,8 @@ def main() :
     mut_prob = 1./init_depth
     number_of_generation = args.g
     pop_size = args.n
-    p_n = [0.25,0.65,0.05,.05] # default = [0.25,0.25,0.25,.25]
-    p_c =[0.4,0.5,0.1,0.,0.,0.] #[0.2,0.2,0.1,0.1,0.2,0.2] #[0.4, 0.5, 0.1, 0.,0.,0.]
+    p_n = [0.7,0.1,0.1,.1] #default = [0.25,0.25,0.25,.25] [0.25,0.65,0.05,.05] ["A", "G","U","C"]
+    p_c =[0.2,0.2,0.1,0.1,0.2,0.2] #[0.2,0.2,0.1,0.1,0.2,0.2] #[0.4, 0.5, 0.1, 0.,0.,0.] ["GC","CG","AU","UA", "GU", "UG"]
     ppservers = ()
 
     mut_probs = numpy.array(RNA.ptable(target)[1:])
@@ -362,13 +387,14 @@ def main() :
     job_server = pp.Server(4, ppservers=ppservers)
     
     print "Start running job", number_of_run
-    #run(number_of_generation, pop_size, mut_probs, 0, landscape, p_n, p_c)
+    run(number_of_generation, pop_size, mut_probs, 0, landscape, p_n, p_c)
     
+    """
     jobs = [(task , job_server.submit(run, (number_of_generation,pop_size, mut_probs, task,landscape, p_n, p_c), (ppeval,ppfold, getInteriorCoord,boostInterior,getMultiCoord, boostMulti, pphamming,mutateAll,get_bp_position, eval_proportion_selection,getHairepinCoord, boost_hairpins, mutateOne,  save_population, simple_EA, ppens_defect),("numpy", "Individual", "RNA", "random","pandas","os", "time", "collections","subprocess","multiprocess"))) for task in range(number_of_run)]
     
     for task, job in jobs : 
         job()
-    
+    """
     
 if __name__ == "__main__":
     main()
