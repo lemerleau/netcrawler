@@ -68,7 +68,16 @@ def getInteriorCoord(sequence, target) :
     return numpy.array(list(set([tuple(map(int,string.strip().split(","))) for string in list_]))) -1
 
 def boost_hairpins(sequence, coord) :
-    stems = list(numpy.random.choice(["A"],len(range(coord[1]-coord[0]-1))))
+    #stems = list(numpy.random.choice(["A"],len(range(coord[1]-coord[0]-1))))
+    if (coord[1]-coord[0]-1)>100 : 
+
+        with open("DB3/Hp/Hp"+str(coord[1]-coord[0]-1)+".txt", 'r') as f: 
+            Hps = f.read()
+            hps = Hps.split("\n")
+            hp = "".join(numpy.random.choice(hps[1:],1)[0])
+            stems = list(hp) 
+    else : 
+        stems = list(numpy.random.choice(["A"],len(range(coord[1]-coord[0]-1))))
     if coord[1]-coord[0]-1 >=4 : 
         stems[0] = "G"
         stems.insert(0,"G")
@@ -79,9 +88,21 @@ def boost_hairpins(sequence, coord) :
     return sequence
 
 def boostMulti(sequence, coord, pos) : 
-    sequence = list(sequence) 
+    #sequence = list(sequence) 
+    if (coord[1]-coord[0]-1) <100 : 
+        with open("DB3/Ml/Ml"+str(coord[1]-coord[0]+1)+".txt", 'r') as f: 
+            Mls = f.read()
+            mls = Mls.split("\n")
+            ml = "".join(numpy.random.choice(mls[1:],1)[0])
+            if ml =="" :
+                print "Empty"
+                ml = "".join(numpy.random.choice(mls[1:],1)[0])
+            stems = list(ml) 
+        sequence[coord[0]:coord[1]+1] = stems
+    
     if coord[1]-1 not in pos["p_table"] : 
         sequence[coord[1]-1] = "G"
+    
     return sequence
 
 def boostInterior(sequence, coord, pos) :
@@ -121,12 +142,23 @@ def mutateOne(seq, mut_probs,target,pos, p_n, p_c, mut_bp=0.5) :
     
     for bp_cord in p_table : 
         r = random.uniform(0,1)
+       
+        if bp_cord in pos["interior"] : 
+            RNA_seq = boost_hairpins(RNA_seq, bp_cord)
+        
         if r < mut_bp : 
             bp = numpy.random.choice(base_paire,1, p=p_c)
             
             RNA_seq[bp_cord[0]] = bp[0][0]
             RNA_seq[bp_cord[1]] = bp[0][1]
-    
+        
+        
+        """
+        elif bp_cord  in pos["multi"] : 
+            RNA_seq = boostMulti(RNA_seq, bp_cord,pos)
+        """
+       
+
     return ''.join(RNA_seq)
 
 
@@ -162,7 +194,7 @@ def ppeval(listOfSeqs, target, task) :
             file_.write(seq.strip()+"\n"+target.strip()+"\n")
         file_.close()
           
-    os.system("RNAeval -j --infile=rnaeval_in"+str(task)+" |tr -d A-Z,'(',')'|cut -d ' ' -f 2- > result_"+str(task))
+    os.system("RNAeval -j -P vrna185x.par --infile=rnaeval_in"+str(task)+"  |tr -d A-Z,'(',')'|cut -d ' ' -f 2- > result_"+str(task))
     with open("result_"+str(task), "r") as file_ : 
         eval_ = file_.read().split()
     os.remove("result_"+str(task))
@@ -172,7 +204,7 @@ def ppeval(listOfSeqs, target, task) :
 def ppfold(listOfSeqs,task) : 
     dataFrame= pandas.DataFrame(listOfSeqs)
     dataFrame.to_csv("sequences"+str(task),sep=" ",index=False, header=False)    
-    os.system("RNAfold -j --infile=sequences"+str(task)+" --noPS > rnafold_result"+str(task)) #To change the energy par just add -P vrna185x.par  to RNAfold
+    os.system("RNAfold -j -P vrna185x.par --infile=sequences"+str(task)+" --noPS > rnafold_result"+str(task)) #To change the energy par just add -P vrna185x.par  to RNAfold
     os.system("cut -d ' ' -f 1 rnafold_result"+str(task)+" | tr -d A-Z > result_"+str(task))
     os.system("cat rnafold_result"+str(task)+"|tr -d A-Z,'(',')' | cut -d ' ' -f 2- >mfes"+str(task))
     with open("result_"+str(task), "r") as file_ : 
@@ -202,9 +234,9 @@ def eval_proportion_selection(population, size) :
     choices = list(population["RNA_sequence"])
     choices = numpy.array(choices)
 
-    weights = list(weights)
-    
-    return choices[weights.index(max(weights))] 
+    weights = list(population["Mfes"])
+    #weights = list(weights)
+    return choices[weights.index(max(weights))] , max(weights)
 
 
 def ensDefect_proportion_selection(population, size, target) : 
@@ -280,8 +312,9 @@ def simple_EA(landscape, number_of_generation, mut_probs, init_pop, selection_me
 def netcrawler(landscape, number_of_generation, mut_probs, init_pop, selection_method, log_folder,pos,p_n, p_c, wind_size) : 
     
     print (" Starting of evolution ")
-    init_sequence = init_pop[0] #Initialize the population of RNA
+    init_sequence = ''.join(numpy.random.choice(['A'],len(landscape.target))) #Initialize the population of RNA
     current_structure, current_mfe = RNA.fold(init_sequence)
+    print "initial seq :", init_sequence
     
     w_i = landscape.fitness(current_structure)
     n = 0
@@ -298,7 +331,7 @@ def netcrawler(landscape, number_of_generation, mut_probs, init_pop, selection_m
     fitness_data.append([0., w_i])
     t= 0.
     
-    while (n<number_of_generation): #and (w_i < 1.):
+    while (n<number_of_generation) and (w_i < 1.):
         
         if (number_of_generation - n)%10 == 0 : 
             print ('Generation '+str(number_of_generation - n)), "Max fitness = ", w_i
@@ -348,11 +381,11 @@ def netcrawler(landscape, number_of_generation, mut_probs, init_pop, selection_m
 
 		evals = ppeval(mutants, landscape.target,log_folder)
     		strcs, mfes = ppfold(mutants,log_folder)
-    		fitnesses = numpy.ones(len(mutants))
+    		fitnesses = numpy.array(pphamming(strcs,landscape))
 		
 		pop = pandas.DataFrame(numpy.array([mutants, strcs, mfes, fitnesses, evals]).T, columns=["RNA_sequence", "RNA_structure", "Mfes", "Fitness","Evals"])
     
-		init_sequence = eval_proportion_selection(pop,1)
+		init_sequence,current_mfe = eval_proportion_selection(pop,1)
 		
 		mutants =[]
 	
@@ -388,7 +421,7 @@ def run_netcrawler(number_of_generation,pop_size, mut_probs, log_folder,landscap
             arn[bp_cord[1]] = bp[0][1]
         pop.append(''.join(arn))
         i = len(pop)
-
+    
     pos = {
         "p_table" : numpy.array(RNA.ptable(target)) - 1,
         "bp_pos"  : p_table,
@@ -498,8 +531,8 @@ def main() :
     mut_prob = 1./init_depth
     number_of_generation = args.g
     pop_size = args.n
-    p_n = [0.25,0.65,0.05,.05] # default = [0.25,0.25,0.25,.25]
-    p_c =[0.4,0.5,0.1,0.,0.,0.] #[0.2,0.2,0.1,0.1,0.2,0.2] #[0.4, 0.5, 0.1, 0.,0.,0.]
+    p_n = [0.9,0.0,0.1,.0] #default = [0.25,0.25,0.25,.25] [0.25,0.65,0.05,.05] ["A", "G","U","C"]
+    p_c =[0.2,0.2,0.1,0.1,0.2,0.2] #[0.2,0.2,0.1,0.1,0.2,0.2] #[0.4, 0.5, 0.1, 0.,0.,0.] ["GC","CG","AU","UA", "GU", "UG"]
     ppservers = ()
 
     mut_probs = numpy.array(RNA.ptable(target)[1:])
@@ -510,10 +543,10 @@ def main() :
     job_server = pp.Server(4, ppservers=ppservers)
     
     print "Start running job", number_of_run
-    #run_netcrawler(number_of_generation, pop_size, mut_probs, 0, landscape, p_n, p_c)
+    run_netcrawler(number_of_generation, pop_size, mut_probs, 0, landscape, p_n, p_c)
     
-    jobs = [(task , job_server.submit(run_netcrawler, (number_of_generation,pop_size, mut_probs, task,landscape, p_n, p_c), (ppeval,ppfold, netcrawler,  getInteriorCoord,boostInterior,getMultiCoord, boostMulti, pphamming,mutateAll,get_bp_position, eval_proportion_selection,getHairepinCoord, boost_hairpins, mutateOne,  save_population, simple_EA, ppens_defect),("numpy", "Individual", "RNA", "random","pandas","os", "time", "collections","subprocess","multiprocess"))) for task in range(number_of_run)]
-    
+   #obs = [(task , job_server.submit(run_netcrawler, (number_of_generation,pop_size, mut_probs, task,landscape, p_n, p_c), (ppeval,ppfold, netcrawler,  getInteriorCoord,boostInterior,getMultiCoord, boostMulti, pphamming,mutateAll,get_bp_position, eval_proportion_selection,getHairepinCoord, boost_hairpins, mutateOne,  save_population, simple_EA, ppens_defect),("numpy", "Individual", "RNA", "random","pandas","os", "time", "collections","subprocess","multiprocess"))) for task in range(number_of_run)]
+    """
     netcrawler_data = []
     for task, job in jobs : 
         netcrawler_data.append(job()[1])
@@ -529,6 +562,7 @@ def main() :
     plt.savefig("necrawler2.eps")
     
     plt.show() 
+    """
     
 	
 if __name__ == "__main__":

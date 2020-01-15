@@ -1,0 +1,2895 @@
+=====================================================================================================
+Solving for the target =  ((((...)))).
+=====================================================================================================
+Start running job 1
+0  multi loop(s)
+4  Interior loop(s)
+1  Hairpin loop(s)
+4  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+['UGCGGCACGUAA' '((((...)))).' '-0.5' '1.0' '-0.5']
+['CCGUAUCAUGGG' '((((...)))).' '-1.2' '1.0' '-1.2']
+['CGCGGGUCGUGC' '((((...)))).' '-1.0' '1.0' '-1.0']
+['ACGCGGGGCGUC' '((((...)))).' '-1.9' '1.0' '-1.9']
+['CGCGGUACGUGG' '((((...)))).' '-1.9' '1.0' '-1.9']
+['CGAGAAACUCGC' '((((...)))).' '-1.6' '1.0' '-1.6']
+['GGCCUAGGGCUC' '((((...)))).' '-2.7' '1.0' '-2.7']
+['UUCCGGUGGAGC' '((((...)))).' '-0.6' '1.0' '-0.6']
+['GGCCGCGGGCUG' '((((...)))).' '-3.3' '1.0' '-3.3']
+['GGUGUGGCACUC' '((((...)))).' '-0.3' '1.0' '-0.3']
+['UGUGUCCCACAG' '((((...)))).' '-1.0' '1.0' '-1.0']
+['AGUGAAGCACUG' '((((...)))).' '-0.9' '1.0' '-0.9']
+['CCUGGGCCAGGC' '((((...)))).' '-2.2' '1.0' '-2.2']
+['GCUGGAUCGGCU' '((((...)))).' '-2.4' '1.0' '-2.4']
+['GACGGCACGUCA' '((((...)))).' '-3.0' '1.0' '-3.0']
+['UCCCUAAGGGAG' '((((...)))).' '-3.6' '1.0' '-3.6']
+['UCGGGUGCUGAA' '((((...)))).' '-0.5' '1.0' '-0.5']
+['ACCCCAAGGGUC' '((((...)))).' '-2.7' '1.0' '-2.7']
+Time =  0.00324487686157 For method :  EVAL
+=====================================================================================================
+Solving for the target =  (((((......)))))
+=====================================================================================================
+Start running job 1
+0  multi loop(s)
+5  Interior loop(s)
+1  Hairpin loop(s)
+5  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+['UCGGGUUGCACUCUGA' '(((((......)))))' '-1.8' '1.0' '-1.8']
+['AUGUUAGGCGGAGCAU' '(((((......)))))' '-1.0' '1.0' '-1.0']
+['GACUGUCCUGCCAGUC' '(((((......)))))' '-4.4' '1.0' '-4.4']
+['UCGGGCAAUCUCUCGA' '(((((......)))))' '-3.0' '1.0' '-3.0']
+['GGAUCACUGGGGAUCU' '(((((......)))))' '-3.5' '1.0' '-3.5']
+['CUCUGCUAUUCCAGGG' '(((((......)))))' '-3.1' '1.0' '-3.1']
+['UAGGUAAUAAAGCUUA' '(((((......)))))' '-1.1' '1.0' '-1.1']
+['UUGGGCGCCAUCUCGA' '(((((......)))))' '-0.9' '1.0' '-0.9']
+['GGAGGUAGUUGUUUCU' '(((((......)))))' '-0.1' '1.0' '-0.1']
+['GGAAUGCGUCGAUUCC' '(((((......)))))' '-3.0' '1.0' '-3.0']
+['GGGCGUGCAAGUGCCC' '(((((......)))))' '-6.4' '1.0' '-6.4']
+['AAGAUGGUAUUGUCUU' '(((((......)))))' '-1.6' '1.0' '-1.6']
+['CUAUGCAGCGACAUAG' '(((((......)))))' '-2.3' '1.0' '-2.3']
+['CGGAUGUUAGUGUCCG' '(((((......)))))' '-4.8' '1.0' '-4.8']
+['CAAUGCCUUUUCAUUG' '(((((......)))))' '-1.3' '1.0' '-1.3']
+['AUCUGAACCUCCAGAU' '(((((......)))))' '-3.3' '1.0' '-3.3']
+['GGCACCGUGGCGUGUC' '(((((......)))))' '-3.8' '1.0' '-3.8']
+['AGCCUCAGUGAAGGCU' '(((((......)))))' '-5.2' '1.0' '-5.2']
+['GUAAGACACGACUUAU' '(((((......)))))' '-0.9' '1.0' '-0.9']
+['GUAUAUGCGUUUAUGC' '(((((......)))))' '-1.6' '1.0' '-1.6']
+['AUCCUGAACUGGGGAU' '(((((......)))))' '-3.3' '1.0' '-3.3']
+['CGAGCUCGGGUGCUCG' '(((((......)))))' '-6.9' '1.0' '-6.9']
+['CACUAGCCCCGUAGUG' '(((((......)))))' '-2.5' '1.0' '-2.5']
+['UACAUUUCAAUAUGUG' '(((((......)))))' '-1.3' '1.0' '-1.3']
+['AGUGUUUCACUGCGCU' '(((((......)))))' '-3.4' '1.0' '-3.4']
+['GCUUUUAGACGGAGGU' '(((((......)))))' '-1.2' '1.0' '-1.2']
+Time =  0.00131511688232 For method :  EVAL
+=====================================================================================================
+Solving for the target =  ((....)).((....))
+=====================================================================================================
+Start running job 1
+0  multi loop(s)
+4  Interior loop(s)
+2  Hairpin loop(s)
+4  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.2
+['GGAGUCCCGCCGGUAGG' '((....)).((....))' '-1.0' '1.0' '-1.0']
+Time =  0.137048959732 For method :  EVAL
+=====================================================================================================
+Solving for the target =  ..((((((((.....)).))))))..
+=====================================================================================================
+Start running job 1
+0  multi loop(s)
+8  Interior loop(s)
+1  Hairpin loop(s)
+8  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+['AAAGGUGUGAAAAAAUCAACAUCUAA' '..((((((((.....)).))))))..' '-5.2' '1.0'
+ '-5.2']
+['UUCUAGGGGCUUUUUGCUUUCUGGUU' '..((((((((.....)).))))))..' '-6.0' '1.0'
+ '-6.0']
+['AAUAGGGGACUCGCCGUACCUUUGAA' '..((((((((.....)).))))))..' '-4.7' '1.0'
+ '-4.7']
+['UUGAAGGUACUUUUAGUGAUUUUCCC' '..((((((((.....)).))))))..' '-2.4' '1.0'
+ '-2.4']
+['UUGCUGAGUGCCAGUCACCUCAGUCC' '..((((((((.....)).))))))..' '-6.4' '1.0'
+ '-6.4']
+Time =  0.00144696235657 For method :  EVAL
+=====================================================================================================
+Solving for the target =  (((((.....))..((.........)))))
+=====================================================================================================
+Start running job 1
+1  multi loop(s)
+7  Interior loop(s)
+2  Hairpin loop(s)
+7  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.142857142857
+['GGCGCGCGCAGCAUCCAAGGUUUUAGGGCC' '(((((.....))..((.........)))))' '-5.6'
+ '1.0' '-5.6']
+['GCCCCUUUUUGGUUGGUUUUUUUUUCCGGC' '(((((.....))..((.........)))))' '-3.9'
+ '1.0' '-3.9']
+Time =  0.304902076721 For method :  EVAL
+=====================================================================================================
+Solving for the target =  .(((((((((((...)))))....)))))).
+=====================================================================================================
+Start running job 1
+0  multi loop(s)
+11  Interior loop(s)
+1  Hairpin loop(s)
+11  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+['AAUAGGCUUGACCCGGUCAAUAACGUCUAUG' '.(((((((((((...)))))....)))))).'
+ '-6.8' '1.0' '-6.8']
+['AGCCGUAUAGAGACACUCUAGCGAUAUGGCA' '.(((((((((((...)))))....)))))).'
+ '-10.3' '1.0' '-10.3']
+['UGCCGUGUGCAGGACCUGCGUUUUUAUGGCG' '.(((((((((((...)))))....)))))).'
+ '-10.9' '1.0' '-10.9']
+Time =  0.00157999992371 For method :  EVAL
+=====================================================================================================
+Solving for the target =  ....((((((((.(....)).).).)))))....
+=====================================================================================================
+Start running job 1
+0  multi loop(s)
+9  Interior loop(s)
+1  Hairpin loop(s)
+9  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.2
+Generation 10 Max fitness =  0.333333333333
+Generation 20 Max fitness =  0.333333333333
+Generation 30 Max fitness =  0.333333333333
+Generation 40 Max fitness =  0.333333333333
+Generation 50 Max fitness =  0.333333333333
+Generation 60 Max fitness =  0.333333333333
+Generation 70 Max fitness =  0.333333333333
+Generation 80 Max fitness =  0.333333333333
+Generation 90 Max fitness =  0.333333333333
+['GCAACCACGGGCGCGGAAGGACUCACGUGGAAGA' '....((((((((.(....)).).).)))))....'
+ '-9.3' '1.0' '-9.3']
+Time =  16.7520201206 For method :  EVAL
+=====================================================================================================
+Solving for the target =  ((....)).((....)).((....)).((....))
+=====================================================================================================
+Start running job 1
+0  multi loop(s)
+8  Interior loop(s)
+4  Hairpin loop(s)
+8  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.0769230769231
+Generation 10 Max fitness =  0.2
+['CGUAUGCGACCGAAGGGACCAAGAGGACCGAGAGG'
+ '((....)).((....)).((....)).((....))' '-6.7' '1.0' '-6.7']
+Time =  3.30846095085 For method :  EVAL
+=====================================================================================================
+Solving for the target =  .((.((.((..((.(...).)).))..))....)).
+=====================================================================================================
+Start running job 1
+0  multi loop(s)
+9  Interior loop(s)
+1  Hairpin loop(s)
+9  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.111111111111
+Generation 10 Max fitness =  0.333333333333
+Generation 20 Max fitness =  0.333333333333
+Generation 30 Max fitness =  0.333333333333
+Generation 40 Max fitness =  0.333333333333
+Generation 50 Max fitness =  0.333333333333
+Generation 60 Max fitness =  0.333333333333
+['UGGUAGUCGUUACGCGUUGGGUUCGUUCUUUUUCCG'
+ '.((.((.((..((.(...).)).))..))....)).' '-1.9' '1.0' '-1.9']
+Time =  11.1909270287 For method :  EVAL
+=====================================================================================================
+Solving for the target =  ((((((.((((((((....))))).)).).))))))
+=====================================================================================================
+Start running job 1
+0  multi loop(s)
+14  Interior loop(s)
+1  Hairpin loop(s)
+14  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.333333333333
+['CACUCAACCGGCGGCUGCUGCCGCACGAGAUGAGUG'
+ '((((((.((((((((....))))).)).).))))))' '-20.1' '1.0' '-20.1']
+['GUCGCGUCACGUGAAUGCUUUUACUGUAGUCGCGAC'
+ '((((((.((((((((....))))).)).).))))))' '-13.5' '1.0' '-13.5']
+['UCGGGCUCGCGGAAUGGGCGUUCCAGCUGUGCCCGA'
+ '((((((.((((((((....))))).)).).))))))' '-18.8' '1.0' '-18.8']
+['GACGCCACACGCCGAUGGUUCGGCAGUAGAGGCGUC'
+ '((((((.((((((((....))))).)).).))))))' '-19.4' '1.0' '-19.4']
+['GUCUCCGCGGAUCGCGGGCGCGGUACCGGGGGAGAC'
+ '((((((.((((((((....))))).)).).))))))' '-19.7' '1.0' '-19.7']
+Time =  0.173744916916 For method :  EVAL
+=====================================================================================================
+Solving for the target =  ((((((.((((....))))))).)))..........
+=====================================================================================================
+Start running job 1
+0  multi loop(s)
+10  Interior loop(s)
+1  Hairpin loop(s)
+10  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+['UGCACACAUAUCUAUAUAUUGUCGCAUUAUCUCGGA'
+ '((((((.((((....))))))).)))..........' '-3.2' '1.0' '-3.2']
+Time =  0.00152587890625 For method :  EVAL
+=====================================================================================================
+Solving for the target =  ((.(..(.(....).(....).)..).(....).))
+=====================================================================================================
+Start running job 1
+2  multi loop(s)
+4  Interior loop(s)
+3  Hairpin loop(s)
+7  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.0909090909091
+Generation 10 Max fitness =  0.142857142857
+Generation 20 Max fitness =  0.166666666667
+['GCAGGAGGGGAAACACGUAAGACGACACGAAGGAGC'
+ '((.(..(.(....).(....).)..).(....).))' '-3.3' '1.0' '-3.3']
+Time =  3.82280707359 For method :  EVAL
+=====================================================================================================
+Solving for the target =  ..((((((((.....))))((((.....))))))))..
+=====================================================================================================
+Start running job 1
+1  multi loop(s)
+12  Interior loop(s)
+2  Hairpin loop(s)
+12  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+['UACGCUCGAUGGCAGGUUGGAGCAUCUAGUUCAGCGGU'
+ '..((((((((.....))))((((.....))))))))..' '-8.3' '1.0' '-8.3']
+['CCUCGCUGGGGCUGAUCCAUAUUUGACUGAUGGCGAAG'
+ '..((((((((.....))))((((.....))))))))..' '-6.8' '1.0' '-6.8']
+['AAAACCAGGCUUAGUGUUUUACCAUCCAGGUAGGUUAC'
+ '..((((((((.....))))((((.....))))))))..' '-7.3' '1.0' '-7.3']
+['AUCGCUUUGUUCUUAACAACUGGUCCAGCUAGGGUGUC'
+ '..((((((((.....))))((((.....))))))))..' '-5.8' '1.0' '-5.8']
+Time =  0.00136017799377 For method :  EVAL
+=====================================================================================================
+Solving for the target =  .(((((........)((((....))))..)))).......
+=====================================================================================================
+Start running job 1
+1  multi loop(s)
+8  Interior loop(s)
+2  Hairpin loop(s)
+9  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.25
+['ACGCCGAAAAAAGACGCCCAGAAGGGCAAGGCGAAAAAAA'
+ '.(((((........)((((....))))..)))).......' '-13.4' '1.0' '-13.4']
+['UCGCAGUUUUUUUUCGCGCUUUUGCGCUUUGCGUUUGUUU'
+ '.(((((........)((((....))))..)))).......' '-9.4' '1.0' '-9.4']
+Time =  1.78855895996 For method :  EVAL
+=====================================================================================================
+Solving for the target =  (((((((.(.(.(.(((((((....)))))))))))))))))
+=====================================================================================================
+Start running job 1
+0  multi loop(s)
+17  Interior loop(s)
+1  Hairpin loop(s)
+17  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.333333333333
+['CGAGGUCAGCGUGUGGGGGCCGGGUGGCCCCCCCCGGCCUCG'
+ '(((((((.(.(.(.(((((((....)))))))))))))))))' '-26.7' '1.0' '-26.7']
+['UCCCCUAAGAGAGAGCCUGAGGUCACUCGGGCCCCUAGGGGA'
+ '(((((((.(.(.(.(((((((....)))))))))))))))))' '-23.5' '1.0' '-23.5']
+Time =  0.28010392189 For method :  EVAL
+=====================================================================================================
+Solving for the target =  .......(.(.(.(.(.((.((.(....).)).)).).).).).)
+=====================================================================================================
+Start running job 1
+0  multi loop(s)
+10  Interior loop(s)
+1  Hairpin loop(s)
+10  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.111111111111
+['GGGGAGGCGAGCGGGCGGCGCCGCGGGGGGGGGGCGGGCGGGUGG'
+ '.......(.(.(.(.(.((.((.(....).)).)).).).).).)' '-13.2' '1.0' '-13.2']
+['GGGGGGGGGCGGGCGGGGCGGCGCGGGGGGGCGGCGCGGGCGGGC'
+ '.......(.(.(.(.(.((.((.(....).)).)).).).).).)' '-14.6' '1.0' '-14.6']
+['GGGGGGGCGCGCGCGGGCAGACGCGGGGGGGUGUGGCGGGGGGGG'
+ '.......(.(.(.(.(.((.((.(....).)).)).).).).).)' '-11.2' '1.0' '-11.2']
+Time =  0.991057872772 For method :  EVAL
+=====================================================================================================
+Solving for the target =  ..........((((....))))((((....))))((((...))))
+=====================================================================================================
+Start running job 1
+0  multi loop(s)
+12  Interior loop(s)
+3  Hairpin loop(s)
+12  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.0909090909091
+['AAAAAGAAAAGCACAAAAGUGCCACGAAAACGUGUCCCAAAGGGA'
+ '..........((((....))))((((....))))((((...))))' '-10.7' '1.0' '-10.7']
+['UAGCCAUAGUGUCCCGCUGGACCCGCUCAAGCGGGGGGAGUCCCC'
+ '..........((((....))))((((....))))((((...))))' '-14.9' '1.0' '-14.9']
+['AACAGCAACAACCCAAAGGGGUGGCGUGGACGCCGGGCCGGGCCC'
+ '..........((((....))))((((....))))((((...))))' '-16.8' '1.0' '-16.8']
+Time =  0.45979309082 For method :  EVAL
+=====================================================================================================
+Solving for the target =  ((((......(((((...))).((....)).........)).....))))
+=====================================================================================================
+Start running job 1
+1  multi loop(s)
+11  Interior loop(s)
+2  Hairpin loop(s)
+11  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.0625
+['CCCUAAAAAAGCGGCAAAGCCAGGAAAACCAAAAAAAAAGCAAAAAAGGG'
+ '((((......(((((...))).((....)).........)).....))))' '-9.3' '1.0' '-9.3']
+['GCGAAAAAAACCGAGAAACUCACGAAAACGAAAAAAAAAGGAAAAAUCGC'
+ '((((......(((((...))).((....)).........)).....))))' '-5.3' '1.0' '-5.3']
+['GGCAAAAAAAGCGACAAAGUCAGCAAAAGCAAAAAAAAAGCAAAAGUGCC'
+ '((((......(((((...))).((....)).........)).....))))' '-8.9' '1.0' '-8.9']
+['GAGAAAAGAAGGACCAAAGGUACGAAAACGAAAAAAAAACCAAAAAUCUC'
+ '((((......(((((...))).((....)).........)).....))))' '-3.3' '1.0' '-3.3']
+['CGGAAAAAAAGGGACAAAGUCAGGAAAACCAAAAAAAAACCAAAAAUCCG'
+ '((((......(((((...))).((....)).........)).....))))' '-6.1' '1.0' '-6.1']
+Time =  0.666491985321 For method :  EVAL
+=====================================================================================================
+Solving for the target =  .((.((.((.((..((..((.((...))..)).)).))..))..))....)).
+=====================================================================================================
+Start running job 1
+0  multi loop(s)
+14  Interior loop(s)
+1  Hairpin loop(s)
+14  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.0666666666667
+['UCGUCAUACUCCUUGGUUGCUGCUUUGCUUGCUCCUGGUUGUUUUGUUUUCGU'
+ '.((.((.((.((..((..((.((...))..)).)).))..))..))....)).' '-5.7' '1.0'
+ '-5.7']
+Time =  0.974076032639 For method :  EVAL
+=====================================================================================================
+Solving for the target =  .....(((((.(.(.((.(.(((((((((....))))))))))))))))))).....
+=====================================================================================================
+Start running job 1
+0  multi loop(s)
+19  Interior loop(s)
+1  Hairpin loop(s)
+19  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.2
+['AUAAUGAACAAGACGCGUGUCCGGGCGCGAUUUCGCGCCCGGCCGGCUGUUCCAGGC'
+ '.....(((((.(.(.((.(.(((((((((....))))))))))))))))))).....' '-27.7' '1.0'
+ '-27.7']
+Time =  1.35744905472 For method :  EVAL
+=====================================================================================================
+Solving for the target =  (((.....(((.....(((.....(((.....(((........))).))).))).))).)))
+=====================================================================================================
+Start running job 1
+0  multi loop(s)
+15  Interior loop(s)
+1  Hairpin loop(s)
+15  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.05
+['GUCUUUUUGGGUUUUUCCGUUUUUGGGUUUUUGCGUUUUUUUUCGCUCCCUCGGUCCUUGAU'
+ '(((.....(((.....(((.....(((.....(((........))).))).))).))).)))' '-11.6'
+ '1.0' '-11.6']
+['GUGUUUUUCGCUUUUUUCGUUUUUGGCUUUUUCUGUUUUUUUUUAGUGCUUCGAUGCGUCAC'
+ '(((.....(((.....(((.....(((.....(((........))).))).))).))).)))' '-7.2'
+ '1.0' '-7.2']
+Time =  0.279872179031 For method :  EVAL
+=====================================================================================================
+Solving for the target =  ......(.........((((.....)))).........)......................
+=====================================================================================================
+Start running job 1
+0  multi loop(s)
+5  Interior loop(s)
+1  Hairpin loop(s)
+5  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.333333333333
+Generation 10 Max fitness =  0.333333333333
+Generation 20 Max fitness =  0.333333333333
+Generation 30 Max fitness =  0.333333333333
+Generation 40 Max fitness =  0.333333333333
+Generation 50 Max fitness =  0.333333333333
+Generation 60 Max fitness =  0.333333333333
+Generation 70 Max fitness =  0.333333333333
+Generation 80 Max fitness =  0.333333333333
+Generation 90 Max fitness =  0.333333333333
+Generation 100 Max fitness =  0.333333333333
+Generation 110 Max fitness =  0.333333333333
+Generation 120 Max fitness =  0.333333333333
+Generation 130 Max fitness =  0.333333333333
+Generation 140 Max fitness =  0.333333333333
+Generation 150 Max fitness =  0.333333333333
+Generation 160 Max fitness =  0.333333333333
+Generation 170 Max fitness =  0.333333333333
+Generation 180 Max fitness =  0.333333333333
+Generation 190 Max fitness =  0.333333333333
+Generation 200 Max fitness =  0.333333333333
+Generation 210 Max fitness =  0.333333333333
+Generation 220 Max fitness =  0.333333333333
+Generation 230 Max fitness =  0.333333333333
+Generation 240 Max fitness =  0.333333333333
+Generation 250 Max fitness =  0.333333333333
+Generation 260 Max fitness =  0.333333333333
+Generation 270 Max fitness =  0.333333333333
+Generation 280 Max fitness =  0.333333333333
+Generation 290 Max fitness =  0.333333333333
+Generation 300 Max fitness =  0.333333333333
+Generation 310 Max fitness =  0.333333333333
+Generation 320 Max fitness =  0.333333333333
+Generation 330 Max fitness =  0.333333333333
+Generation 340 Max fitness =  0.333333333333
+Generation 350 Max fitness =  0.333333333333
+Generation 360 Max fitness =  0.333333333333
+Generation 370 Max fitness =  0.333333333333
+Generation 380 Max fitness =  0.333333333333
+Generation 390 Max fitness =  0.333333333333
+Generation 400 Max fitness =  0.333333333333
+Generation 410 Max fitness =  0.333333333333
+Generation 420 Max fitness =  0.333333333333
+Generation 430 Max fitness =  0.333333333333
+Generation 440 Max fitness =  0.333333333333
+Generation 450 Max fitness =  0.333333333333
+Generation 460 Max fitness =  0.333333333333
+Generation 470 Max fitness =  0.333333333333
+Generation 480 Max fitness =  0.333333333333
+Generation 490 Max fitness =  0.333333333333
+Time =  84.3938632011 For method :  EVAL
+=====================================================================================================
+Solving for the target =  .....(((.(((((....)).)))(((.((....))))).)))....................
+=====================================================================================================
+Start running job 1
+1  multi loop(s)
+13  Interior loop(s)
+2  Hairpin loop(s)
+13  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.111111111111
+['AAAAAGUGAGCCGGAAAACCAGGCCCGAGCAAAAGCCGGACGCAAAAAAAAAAAAAAAAGAAA'
+ '.....(((.(((((....)).)))(((.((....))))).)))....................' '-13.8'
+ '1.0' '-13.8']
+['UUUUUCGCUCGGGGUUUUCCGCCGGCCUCAUUUUUGGGCUGCGUUUUUUUUUUUUUUUUUUUU'
+ '.....(((.(((((....)).)))(((.((....))))).)))....................' '-13.9'
+ '1.0' '-13.9']
+['AAAAAGCCAGCAAGAAAACUAUGCCCCACCAAAAGGGGGAGGCAAAAAAAAAAAAAAAAGAAA'
+ '.....(((.(((((....)).)))(((.((....))))).)))....................' '-13.8'
+ '1.0' '-13.8']
+['UUUUUCCCUGCGCCUUUUGGUCGCGGUGCCUUUUGGACCUGGGUUUUUUUUUUUUUUUUUUUU'
+ '.....(((.(((((....)).)))(((.((....))))).)))....................' '-16.0'
+ '1.0' '-16.0']
+['UUUUUCCGUGCGCGUUUUCGUCGCGCCUCCUUUUGGGGCUCGGUUUUUUUUUUUUUUUUUUUU'
+ '.....(((.(((((....)).)))(((.((....))))).)))....................' '-15.3'
+ '1.0' '-15.3']
+['AAAAAGCCAGCCGCAAAAGUAGGCGGGAGCAAAAGCCCCAGGCAAAAAAAAAAAAAAAAAAAA'
+ '.....(((.(((((....)).)))(((.((....))))).)))....................' '-17.9'
+ '1.0' '-17.9']
+['AAAAACACAGCAGCAAAAGUAUGCCGGACCAAAAGGCCGAGUGAAAAAAAAACAAAAAAAAAA'
+ '.....(((.(((((....)).)))(((.((....))))).)))....................' '-10.8'
+ '1.0' '-10.8']
+['UGUUUGCCUCCGCAUUUUUGUCGGGAAUGGUUUUCCUUCUGGCUUUUUUUUUUUUUUUUUUUU'
+ '.....(((.(((((....)).)))(((.((....))))).)))....................' '-10.8'
+ '1.0' '-10.8']
+['UUUUUGCCUCCGCGUUUUCGUCGGGCUGCCUUUUGGAGCUGGCUUUUUUGUUUUGUUUUUUUU'
+ '.....(((.(((((....)).)))(((.((....))))).)))....................' '-14.5'
+ '1.0' '-14.5']
+['AAAAAGCCAGGGACAAAAGUACCCCGCAGCGAAAGCGCGAGGCAAAAAAAAAAAAAAAAGAAA'
+ '.....(((.(((((....)).)))(((.((....))))).)))....................' '-19.0'
+ '1.0' '-19.0']
+['AAAAAGGGACCCGCAAAAGCAGGGCCCGCCAAAAGGGGGACCCAAAAAAAAAAAAAAAAGAAA'
+ '.....(((.(((((....)).)))(((.((....))))).)))....................' '-17.5'
+ '1.0' '-17.5']
+['UUUUUGCUUGAGCUUUUUGGUCUCGCCUGCUUUUGCGGCUAGCUUUUUUUUUUUUUUUUUUUU'
+ '.....(((.(((((....)).)))(((.((....))))).)))....................' '-11.6'
+ '1.0' '-11.6']
+['UUUUUGCGUCAGCUUUUUGGUCUGCCGUCGUUUUCGCGGUCGCUGUUUUUUUUUUUUUUUUUU'
+ '.....(((.(((((....)).)))(((.((....))))).)))....................' '-9.1'
+ '1.0' '-9.1']
+Time =  0.511276960373 For method :  EVAL
+=====================================================================================================
+Solving for the target =  (((((((((....))))(((((....)))))(((((....)))))((((....))))))))).
+=====================================================================================================
+Start running job 1
+1  multi loop(s)
+23  Interior loop(s)
+4  Hairpin loop(s)
+23  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.0909090909091
+['GGAGGCAUGCACCCAUGGGCAGCACCCUGCCGGGACGUUAGUCCCGCCGCUAGCGGCUCUCUA'
+ '(((((((((....))))(((((....)))))(((((....)))))((((....))))))))).' '-29.8'
+ '1.0' '-29.8']
+['UGGCGCUCAUCACUGGGGUCCCUAAGGGGACACCCGCCAGCGGGUGGCCUUGAGGCCCGCCAG'
+ '(((((((((....))))(((((....)))))(((((....)))))((((....))))))))).' '-33.2'
+ '1.0' '-33.2']
+['GAGAUAGCCUUAGGGCUGGGCAUGCUUGCUCGACACGCAGGUGUCUUGCUGACGCAGGUCUUC'
+ '(((((((((....))))(((((....)))))(((((....)))))((((....))))))))).' '-22.4'
+ '1.0' '-22.4']
+['GUGCGUACGUUUACGUAGGCCCCAUCGGGCCUCACCCCUUGGUGACUGUUGCAGCAGCGCACA'
+ '(((((((((....))))(((((....)))))(((((....)))))((((....))))))))).' '-27.8'
+ '1.0' '-27.8']
+['GGGCCGCCAAAUCUGGCCCCGGGACACCGGGCCAGGGAAGCCUGGGCGUAACUACGCGGCCUC'
+ '(((((((((....))))(((((....)))))(((((....)))))((((....))))))))).' '-37.1'
+ '1.0' '-37.1']
+['GGUCCGAAGUGUGCUUCGACCCAACCGGGUCAGAUCAGAAGAUCUAUCGCCAGCGGUGGACCC'
+ '(((((((((....))))(((((....)))))(((((....)))))((((....))))))))).' '-28.3'
+ '1.0' '-28.3']
+['CAAUCCCGGUACACCGGGCUCCUCGAGGAGCGGGGGGGGUCCUCUGCCCAGUCGGGCGAUUGA'
+ '(((((((((....))))(((((....)))))(((((....)))))((((....))))))))).' '-31.9'
+ '1.0' '-31.9']
+['GCCGACGGGGGCCCCCGUAAGCACUAGUUUGAGCGUCUGAGCGCUACCCGAAAGGGUUCGGCU'
+ '(((((((((....))))(((((....)))))(((((....)))))((((....))))))))).' '-30.1'
+ '1.0' '-30.1']
+Time =  0.287417888641 For method :  EVAL
+=====================================================================================================
+Solving for the target =  .....((.((.((...)).((...))...)))).((.((.((...)).((...))...)))).....
+=====================================================================================================
+Start running job 1
+2  multi loop(s)
+16  Interior loop(s)
+4  Hairpin loop(s)
+16  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.0416666666667
+Generation 10 Max fitness =  0.333333333333
+Generation 20 Max fitness =  0.333333333333
+['AAAAAGGACCAGGAACCCACCAAAGGAUAGGCCAGGAGGAGCUAAGCACGAAACGAAACCCCGAAAA'
+ '.....((.((.((...)).((...))...)))).((.((.((...)).((...))...)))).....'
+ '-7.0' '1.0' '-7.0']
+Time =  5.70326900482 For method :  EVAL
+=====================================================================================================
+Solving for the target =  ((((((((((((((((((((((((((...))))))....)))))))....))))))....)))))))
+=====================================================================================================
+Start running job 1
+0  multi loop(s)
+26  Interior loop(s)
+1  Hairpin loop(s)
+26  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+['GGCCUAGCGAUGGGGGCGUACCGGAGGGCUUCCGGAGCUUAUGUCCACGUUCGUCGUGUACUAGGCU'
+ '((((((((((((((((((((((((((...))))))....)))))))....))))))....)))))))'
+ '-28.3' '1.0' '-28.3']
+['UCUUGGUUCGGACCACCUUAAAUUCGAAACGAGUUUUCCUGAGGUGUAACGUUCGACCAUGCCAGGA'
+ '((((((((((((((((((((((((((...))))))....)))))))....))))))....)))))))'
+ '-23.5' '1.0' '-23.5']
+Time =  0.00351190567017 For method :  EVAL
+=====================================================================================================
+Solving for the target =  .....((((((.((((((((....))))))).)))((((((((((....)))))))))))))).....
+=====================================================================================================
+Start running job 1
+1  multi loop(s)
+24  Interior loop(s)
+2  Hairpin loop(s)
+24  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.333333333333
+Generation 10 Max fitness =  0.333333333333
+Generation 20 Max fitness =  0.333333333333
+Generation 30 Max fitness =  0.333333333333
+Generation 40 Max fitness =  0.333333333333
+Generation 50 Max fitness =  0.333333333333
+Generation 60 Max fitness =  0.333333333333
+Generation 70 Max fitness =  0.333333333333
+['AGAUUCGGACGACCACCACCAGAAGGUGGUGCGCGGGGCCCCCAAUGAGUUGGGGGCCCUCCGUAAGG'
+ '.....((((((.((((((((....))))))).)))((((((((((....)))))))))))))).....'
+ '-41.1' '1.0' '-41.1']
+Time =  24.7191429138 For method :  EVAL
+=====================================================================================================
+Solving for the target =  ((((((.....(((....(((...(((((.............)))))....)))..)))..))))))
+=====================================================================================================
+Start running job 1
+0  multi loop(s)
+17  Interior loop(s)
+1  Hairpin loop(s)
+17  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+['CUGGCUUUUUUGGUUUUUUCAUUUCGAGCUUUUUUUUUUUUUGCUCGUUUUUGAUUACUUUAGCUAG'
+ '((((((.....(((....(((...(((((.............)))))....)))..)))..))))))'
+ '-16.32' '1.0' '-16.32']
+Time =  0.00216889381409 For method :  EVAL
+=====================================================================================================
+Solving for the target =  ..((((((((.......(.((((((....)))))).(((((((....))))))).).......))))))))..
+=====================================================================================================
+Start running job 1
+1  multi loop(s)
+22  Interior loop(s)
+2  Hairpin loop(s)
+22  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.333333333333
+Generation 10 Max fitness =  0.333333333333
+Generation 20 Max fitness =  0.333333333333
+Generation 30 Max fitness =  0.333333333333
+Generation 40 Max fitness =  0.333333333333
+Generation 50 Max fitness =  0.333333333333
+Generation 60 Max fitness =  0.333333333333
+Generation 70 Max fitness =  0.333333333333
+Generation 80 Max fitness =  0.333333333333
+Generation 90 Max fitness =  0.333333333333
+['GCGCCCCCGGUAGGGGGCACCGCCGGUAACGGCGGACCGCGCGAGAGCGCGCGGAGAAGAGAUCCGGGGGCUG'
+ '..((((((((.......(.((((((....)))))).(((((((....))))))).).......))))))))..'
+ '-47.84' '1.0' '-47.84']
+Time =  31.8153319359 For method :  EVAL
+=====================================================================================================
+Solving for the target =  ......(((......((((..(....(((........)))....).....)))).......)))...........
+=====================================================================================================
+Start running job 1
+0  multi loop(s)
+11  Interior loop(s)
+1  Hairpin loop(s)
+11  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.0526315789474
+['AAAAAAGGGAGAAAAGGCGAGCAAAAGGGAAAAAAAACCCAAAGGAAAAACGCCAAAAAAACCCAAAAAAAAGAA'
+ '......(((......((((..(....(((........)))....).....)))).......)))...........'
+ '-12.62' '1.0' '-12.62']
+Time =  2.23158693314 For method :  EVAL
+=====================================================================================================
+Solving for the target =  .((......((......))......((......((......))......((......))......))......)).....
+=====================================================================================================
+Start running job 1
+2  multi loop(s)
+10  Interior loop(s)
+3  Hairpin loop(s)
+10  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.047619047619
+['AGAAAAAAACCAAAAAAGGAAAAAAGGAAAAAAACAAAAAAGUAAAAAACGAAAAAACGAAAAAACCAAAAAAUCAAAAA'
+ '.((......((......))......((......((......))......((......))......))......)).....'
+ '-2.0' '1.0' '-2.0']
+Time =  0.731616020203 For method :  EVAL
+=====================================================================================================
+Solving for the target =  ..(((((((((((((....)))))(((((....))))))))((((((((....)))))(((((....)))))))))))))..
+=====================================================================================================
+Start running job 1
+3  multi loop(s)
+31  Interior loop(s)
+4  Hairpin loop(s)
+31  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.0588235294118
+['CCGCCCCGCCAAGGCAGUAGCCUUUCGGCAGUGGCCGAGGCUCAAACGCGAUGGCGUUGGGGGUAUCCUCCCUGAGGGGUUU'
+ '..(((((((((((((....)))))(((((....))))))))((((((((....)))))(((((....)))))))))))))..'
+ '-41.3' '1.0' '-41.3']
+['CAGGCUCCCCUGGCCUUCGGGCCAAACGCGGGUGCGUUGGGGCGACCAGCUUUCUGGUCUAGCUUCGGUUGGCGCGGGCCCA'
+ '..(((((((((((((....)))))(((((....))))))))((((((((....)))))(((((....)))))))))))))..'
+ '-43.9' '1.0' '-43.9']
+['UGUGGGCGGCCCGCCGCAUGGCGGGUCAAGUGAUUGGCGCCGUCCGGGGCGAUCCCCGGGGAGUGUCCUCCCGACGCCCAGG'
+ '..(((((((((((((....)))))(((((....))))))))((((((((....)))))(((((....)))))))))))))..'
+ '-50.5' '1.0' '-50.5']
+['AUGGUCCGGUGUCGCUUGGGCGGCGCCUCUACUGGGGCGCCCCGGCCCCCUGAGGGGUGAGGGUCAGCCCUCCGGGGACCCG'
+ '..(((((((((((((....)))))(((((....))))))))((((((((....)))))(((((....)))))))))))))..'
+ '-49.5' '1.0' '-49.5']
+['AAGGGAUUGCUGGCCAAACGGUCGGGAUAUAGCUAUCCGCAGGACCAAGUACCCUUGGGGUCGGGGGCGGCCUCCAUCCCCC'
+ '..(((((((((((((....)))))(((((....))))))))((((((((....)))))(((((....)))))))))))))..'
+ '-34.2' '1.0' '-34.2']
+['UGUCAGGGCCGGACUGCAUAGUCCGUGCGGUAACGCGCGGCCUCCCGGCCGAUGCCGGCACACUGUCGUGUGGAGCCUGAGG'
+ '..(((((((((((((....)))))(((((....))))))))((((((((....)))))(((((....)))))))))))))..'
+ '-42.9' '1.0' '-42.9']
+['AACCCCGCCCGGCCCCCAGGGGCCCCGGCCCCAGCCGGGGGGUCCGCCCAUACGGGCGGCCGUAUGGACGGCGAUCGGGGAC'
+ '..(((((((((((((....)))))(((((....))))))))((((((((....)))))(((((....)))))))))))))..'
+ '-54.3' '1.0' '-54.3']
+Time =  0.896768093109 For method :  EVAL
+=====================================================================================================
+Solving for the target =  .....(((((..((..((..(((..(((..((..((...)).)).))).))).)).)).))))).....................
+=====================================================================================================
+Start running job 1
+0  multi loop(s)
+19  Interior loop(s)
+1  Hairpin loop(s)
+19  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.0526315789474
+['AAAACCCACUAACCAAGCAAGGCAAGGGAACGAAGCAAAGCACGACCCAGCCAGCAGGAAGUGGAAAAAAAAAAUAAAAAAAAAA'
+ '.....(((((..((..((..(((..(((..((..((...)).)).))).))).)).)).))))).....................'
+ '-16.1' '1.0' '-16.1']
+Time =  2.10690379143 For method :  EVAL
+=====================================================================================================
+Solving for the target =  ....((....((....((....((..((..((...))..))....))......)).......)).........)).............
+=====================================================================================================
+Start running job 1
+0  multi loop(s)
+12  Interior loop(s)
+1  Hairpin loop(s)
+12  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.0526315789474
+['UUUUGCUUAUCCUUCUGGUUUUCCUUCCUUAGUUUCUUUGGUUUUGGUUUUUUCCUUUUUUUGGUUUUUUUUUGCUUUUGUUGUAUUU'
+ '....((....((....((....((..((..((...))..))....))......)).......)).........)).............'
+ '-3.62' '1.0' '-3.62']
+Time =  3.17943882942 For method :  EVAL
+=====================================================================================================
+Solving for the target =  (((((((((....)))))(((((....)))))(((((....)))))(((((....)))))(((((....)))))(((((....)))))))))
+=====================================================================================================
+Start running job 1
+1  multi loop(s)
+34  Interior loop(s)
+6  Hairpin loop(s)
+34  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.0666666666667
+['CCCCGACAGCUAGCUGUCCGCCCACAUGGGCGAGUCAUUACUGGCUGAAAGAAUUCUUUCGCUACCACAGUAGUCCUCCGAUGGGAGGGGGG'
+ '(((((((((....)))))(((((....)))))(((((....)))))(((((....)))))(((((....)))))(((((....)))))))))'
+ '-42.0' '1.0' '-42.0']
+Time =  0.558256864548 For method :  EVAL
+=====================================================================================================
+Solving for the target =  .....((((.(((((....))))).(((....))).)).))....((((.(((....))).(((....))).))))....................
+=====================================================================================================
+Start running job 1
+2  multi loop(s)
+22  Interior loop(s)
+4  Hairpin loop(s)
+22  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.0333333333333
+['AAAAAGCCCAGCCCGAAAACGGGCACAGAAAACUGAGGAGCAAAAGGGGACAGAAAACUGAUCGAAAACGGACCUCAGAAAAAAAAAAAAAAAAAA'
+ '.....((((.(((((....))))).(((....))).)).))....((((.(((....))).(((....))).))))....................'
+ '-23.6' '1.0' '-23.6']
+['AAAAAUGGCACGCGCAAAAGCGCGAGGCAAAAGCCAGCACAAAAAGAGGACCCAAAAGGGACCGGGAACGGACCUCAAAAAAAAAAAAAAAAAAAA'
+ '.....((((.(((((....))))).(((....))).)).))....((((.(((....))).(((....))).))))....................'
+ '-32.9' '1.0' '-32.9']
+['AAAAAUGAGACGGAGAAAACUCCGACGCAAAAGUGACUACAAAAAGCGCACCGAAAACGGAGCGAAAACGCAGCGCAAAAGAAAAAAAAAAAAAAA'
+ '.....((((.(((((....))))).(((....))).)).))....((((.(((....))).(((....))).))))....................'
+ '-23.5' '1.0' '-23.5']
+Time =  0.936575889587 For method :  EVAL
+=====================================================================================================
+Solving for the target =  ......((.((..((..(...(.((.((....))))..)...(.((..((....))..))..)...).))..)))).....................
+=====================================================================================================
+Start running job 1
+1  multi loop(s)
+17  Interior loop(s)
+2  Hairpin loop(s)
+17  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.0434782608696
+Generation 10 Max fitness =  0.0526315789474
+Generation 20 Max fitness =  0.0666666666667
+Generation 30 Max fitness =  0.0769230769231
+Generation 40 Max fitness =  0.0769230769231
+Generation 50 Max fitness =  0.111111111111
+Generation 60 Max fitness =  0.111111111111
+Generation 70 Max fitness =  0.142857142857
+Generation 80 Max fitness =  0.142857142857
+Generation 90 Max fitness =  0.142857142857
+Generation 100 Max fitness =  0.142857142857
+Generation 110 Max fitness =  0.142857142857
+Generation 120 Max fitness =  0.2
+Generation 130 Max fitness =  0.2
+Generation 140 Max fitness =  0.2
+Generation 150 Max fitness =  0.2
+Generation 160 Max fitness =  0.2
+Generation 170 Max fitness =  0.2
+Generation 180 Max fitness =  0.2
+Generation 190 Max fitness =  0.2
+Generation 200 Max fitness =  0.2
+Generation 210 Max fitness =  0.2
+Generation 220 Max fitness =  0.2
+Generation 230 Max fitness =  0.2
+Generation 240 Max fitness =  0.2
+Generation 250 Max fitness =  0.2
+Generation 260 Max fitness =  0.2
+Generation 270 Max fitness =  0.2
+Generation 280 Max fitness =  0.2
+Generation 290 Max fitness =  0.2
+Generation 300 Max fitness =  0.2
+Generation 310 Max fitness =  0.2
+Generation 320 Max fitness =  0.2
+Generation 330 Max fitness =  0.2
+Generation 340 Max fitness =  0.2
+Generation 350 Max fitness =  0.2
+Generation 360 Max fitness =  0.2
+Generation 370 Max fitness =  0.2
+Generation 380 Max fitness =  0.2
+Generation 390 Max fitness =  0.2
+Generation 400 Max fitness =  0.2
+Generation 410 Max fitness =  0.2
+Generation 420 Max fitness =  0.2
+Generation 430 Max fitness =  0.2
+Generation 440 Max fitness =  0.2
+Generation 450 Max fitness =  0.2
+Generation 460 Max fitness =  0.2
+Generation 470 Max fitness =  0.2
+Generation 480 Max fitness =  0.2
+Generation 490 Max fitness =  0.2
+Time =  165.898133993 For method :  EVAL
+=====================================================================================================
+Solving for the target =  ....((((((((....((..(...................)..((...((....))...((....))........))......))))))))))....
+=====================================================================================================
+Start running job 1
+2  multi loop(s)
+16  Interior loop(s)
+3  Hairpin loop(s)
+17  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.0909090909091
+Generation 10 Max fitness =  0.333333333333
+Generation 20 Max fitness =  0.333333333333
+Generation 30 Max fitness =  0.333333333333
+Generation 40 Max fitness =  0.333333333333
+Generation 50 Max fitness =  0.333333333333
+Generation 60 Max fitness =  0.333333333333
+Generation 70 Max fitness =  0.333333333333
+Generation 80 Max fitness =  0.333333333333
+Generation 90 Max fitness =  0.333333333333
+Generation 100 Max fitness =  0.333333333333
+Generation 110 Max fitness =  0.333333333333
+Generation 120 Max fitness =  0.333333333333
+Generation 130 Max fitness =  0.333333333333
+Generation 140 Max fitness =  0.333333333333
+Generation 150 Max fitness =  0.333333333333
+Generation 160 Max fitness =  0.333333333333
+Generation 170 Max fitness =  0.333333333333
+Generation 180 Max fitness =  0.333333333333
+Generation 190 Max fitness =  0.333333333333
+Generation 200 Max fitness =  0.333333333333
+Generation 210 Max fitness =  0.333333333333
+Generation 220 Max fitness =  0.333333333333
+Generation 230 Max fitness =  0.333333333333
+Generation 240 Max fitness =  0.333333333333
+Generation 250 Max fitness =  0.333333333333
+Generation 260 Max fitness =  0.333333333333
+Generation 270 Max fitness =  0.333333333333
+Generation 280 Max fitness =  0.333333333333
+Generation 290 Max fitness =  0.333333333333
+Generation 300 Max fitness =  0.333333333333
+Generation 310 Max fitness =  0.333333333333
+Generation 320 Max fitness =  0.333333333333
+Generation 330 Max fitness =  0.333333333333
+Generation 340 Max fitness =  0.333333333333
+Generation 350 Max fitness =  0.333333333333
+Generation 360 Max fitness =  0.333333333333
+Generation 370 Max fitness =  0.333333333333
+Generation 380 Max fitness =  0.333333333333
+Generation 390 Max fitness =  0.333333333333
+Generation 400 Max fitness =  0.333333333333
+Generation 410 Max fitness =  0.333333333333
+Generation 420 Max fitness =  0.333333333333
+Generation 430 Max fitness =  0.333333333333
+Generation 440 Max fitness =  0.333333333333
+Generation 450 Max fitness =  0.333333333333
+Generation 460 Max fitness =  0.333333333333
+Generation 470 Max fitness =  0.333333333333
+Generation 480 Max fitness =  0.333333333333
+Generation 490 Max fitness =  0.333333333333
+Time =  151.177340031 For method :  EVAL
+=====================================================================================================
+Solving for the target =  .....((((((((((((....))))((((....))))))))((((((((....))))((((....))))))))))))....................
+=====================================================================================================
+Start running job 1
+3  multi loop(s)
+28  Interior loop(s)
+4  Hairpin loop(s)
+28  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.0454545454545
+['UUUUUAGGGGACGGGCCUUUUGGCCGCAUUUUUGUGCCGUUAGCCGCGGUUUUCCGCCCUAUUUUUAGGGGCUCCUUUUUUUUUUUUUUUUUUUUUU'
+ '.....((((((((((((....))))((((....))))))))((((((((....))))((((....))))))))))))....................'
+ '-33.0' '1.0' '-33.0']
+['AAAAACCAGCGCACCCCAAAAGGGGCAGGAAAACCUGUGCGAGGUGCUAAAAAUAGCGGGUAAAAGCCCGCCUUUGGAAAAAAAAAAAAAAAAAAAA'
+ '.....((((((((((((....))))((((....))))))))((((((((....))))((((....))))))))))))....................'
+ '-31.5' '1.0' '-31.5']
+Time =  0.508632898331 For method :  EVAL
+=====================================================================================================
+Solving for the target =  .....((...((....))...((....))...((....))...((....))...((....))...((....))...))....................
+=====================================================================================================
+Start running job 1
+1  multi loop(s)
+14  Interior loop(s)
+6  Hairpin loop(s)
+14  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.0454545454545
+Generation 10 Max fitness =  0.2
+['AAAAACCAGAGCAAGAGCGAAGCAAAAGCAAAGAGAAAUCAGACGGAAACGAAAAGGAAACUAAAGGAAAACCAAAGGAAAAAAAAAAAAAAUAGAAA'
+ '.....((...((....))...((....))...((....))...((....))...((....))...((....))...))....................'
+ '-11.7' '1.0' '-11.7']
+Time =  5.4947810173 For method :  EVAL
+=====================================================================================================
+Solving for the target =  .......((.((.((...)).((...))...)))).((.((.((...)).((...))...)))).((.((.((...)).((...))...)))).......
+=====================================================================================================
+Start running job 1
+3  multi loop(s)
+24  Interior loop(s)
+6  Hairpin loop(s)
+24  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.0263157894737
+Generation 10 Max fitness =  0.111111111111
+Generation 20 Max fitness =  0.2
+Generation 30 Max fitness =  0.2
+Generation 40 Max fitness =  0.2
+Generation 50 Max fitness =  0.2
+Generation 60 Max fitness =  0.2
+Generation 70 Max fitness =  0.2
+Generation 80 Max fitness =  0.2
+Generation 90 Max fitness =  0.2
+Generation 100 Max fitness =  0.2
+Generation 110 Max fitness =  0.2
+Generation 120 Max fitness =  0.2
+Generation 130 Max fitness =  0.2
+Generation 140 Max fitness =  0.2
+Generation 150 Max fitness =  0.2
+Generation 160 Max fitness =  0.2
+Generation 170 Max fitness =  0.2
+Generation 180 Max fitness =  0.2
+Generation 190 Max fitness =  0.2
+Generation 200 Max fitness =  0.2
+Generation 210 Max fitness =  0.2
+Generation 220 Max fitness =  0.2
+Generation 230 Max fitness =  0.2
+Generation 240 Max fitness =  0.2
+Generation 250 Max fitness =  0.2
+Generation 260 Max fitness =  0.2
+Generation 270 Max fitness =  0.2
+Generation 280 Max fitness =  0.2
+Generation 290 Max fitness =  0.2
+Generation 300 Max fitness =  0.2
+Generation 310 Max fitness =  0.2
+Generation 320 Max fitness =  0.2
+Generation 330 Max fitness =  0.2
+Generation 340 Max fitness =  0.2
+Generation 350 Max fitness =  0.2
+Generation 360 Max fitness =  0.2
+Generation 370 Max fitness =  0.2
+Generation 380 Max fitness =  0.2
+Generation 390 Max fitness =  0.2
+Generation 400 Max fitness =  0.2
+Generation 410 Max fitness =  0.2
+Generation 420 Max fitness =  0.2
+Generation 430 Max fitness =  0.2
+Generation 440 Max fitness =  0.2
+Generation 450 Max fitness =  0.2
+Generation 460 Max fitness =  0.2
+Generation 470 Max fitness =  0.2
+Generation 480 Max fitness =  0.2
+Generation 490 Max fitness =  0.2
+Time =  172.793798208 For method :  EVAL
+=====================================================================================================
+Solving for the target =  ......(.((((.((((....(...((((.(....).))))...)))))..((......((((....)))))).)))).).....................
+=====================================================================================================
+Start running job 1
+1  multi loop(s)
+21  Interior loop(s)
+2  Hairpin loop(s)
+21  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.0588235294118
+Generation 10 Max fitness =  0.2
+Generation 20 Max fitness =  0.2
+Generation 30 Max fitness =  0.333333333333
+Generation 40 Max fitness =  0.333333333333
+Generation 50 Max fitness =  0.333333333333
+Generation 60 Max fitness =  0.333333333333
+Generation 70 Max fitness =  0.333333333333
+Generation 80 Max fitness =  0.333333333333
+Generation 90 Max fitness =  0.333333333333
+Generation 100 Max fitness =  0.333333333333
+Generation 110 Max fitness =  0.333333333333
+Generation 120 Max fitness =  0.333333333333
+Generation 130 Max fitness =  0.333333333333
+Generation 140 Max fitness =  0.333333333333
+Generation 150 Max fitness =  0.333333333333
+Generation 160 Max fitness =  0.333333333333
+Generation 170 Max fitness =  0.333333333333
+Generation 180 Max fitness =  0.333333333333
+Generation 190 Max fitness =  0.333333333333
+Generation 200 Max fitness =  0.333333333333
+Generation 210 Max fitness =  0.333333333333
+Generation 220 Max fitness =  0.333333333333
+Generation 230 Max fitness =  0.333333333333
+Generation 240 Max fitness =  0.333333333333
+Generation 250 Max fitness =  0.333333333333
+Generation 260 Max fitness =  0.333333333333
+Generation 270 Max fitness =  0.333333333333
+Generation 280 Max fitness =  0.333333333333
+Generation 290 Max fitness =  0.333333333333
+Generation 300 Max fitness =  0.333333333333
+Generation 310 Max fitness =  0.333333333333
+Generation 320 Max fitness =  0.333333333333
+Generation 330 Max fitness =  0.333333333333
+Generation 340 Max fitness =  0.333333333333
+Generation 350 Max fitness =  0.333333333333
+Generation 360 Max fitness =  0.333333333333
+Generation 370 Max fitness =  0.333333333333
+Generation 380 Max fitness =  0.333333333333
+Generation 390 Max fitness =  0.333333333333
+Generation 400 Max fitness =  0.333333333333
+Generation 410 Max fitness =  0.333333333333
+Generation 420 Max fitness =  0.333333333333
+Generation 430 Max fitness =  0.333333333333
+Generation 440 Max fitness =  0.333333333333
+Generation 450 Max fitness =  0.333333333333
+Generation 460 Max fitness =  0.333333333333
+Generation 470 Max fitness =  0.333333333333
+Generation 480 Max fitness =  0.333333333333
+Generation 490 Max fitness =  0.333333333333
+Time =  174.264827013 For method :  EVAL
+=====================================================================================================
+Solving for the target =  .....(((.(..(.(((((.((((.((...)))).))))((((((...)).))))..(((...)))...))).)..).)))....................
+=====================================================================================================
+Start running job 1
+1  multi loop(s)
+25  Interior loop(s)
+3  Hairpin loop(s)
+25  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.0333333333333
+['AAAAAGCCACAACACACGGAGGGCACGAAACGGCACCCCCCCGCCAAAGGACGGGAACCCAAAGGGAAAGUGAGAAGAGGCAAAGAAAAAAAAGAAAAAAA'
+ '.....(((.(..(.(((((.((((.((...)))).))))((((((...)).))))..(((...)))...))).)..).)))....................'
+ '-24.9' '1.0' '-24.9']
+Time =  3.01886987686 For method :  EVAL
+=====================================================================================================
+Solving for the target =  ..(.(..((((((....))))))..).)......((((..(((.(((((((((....)))))....)))))))))))..((((((((....))))))))..
+=====================================================================================================
+Start running job 1
+0  multi loop(s)
+32  Interior loop(s)
+3  Hairpin loop(s)
+32  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.111111111111
+['UUGUGUUCCCCCCUGUUGGGGGGUUCUCUUUUUUCCCAUUGCGUACAGCGCGGUUUUCCGCGUUUUCUGUCGCUGGGUUGCGGCGGGAUUUCCUGCCGCUU'
+ '..(.(..((((((....))))))..).)......((((..(((.(((((((((....)))))....)))))))))))..((((((((....))))))))..'
+ '-52.6' '1.0' '-52.6']
+['UUGUCUUGCCGCCUUUUGGCGGCUUGUCUUUUUUAAUGUUACAUCGCCCGGGCUUUUGCCCGUUUUGGCGUGUCAUUUUGUGCGCGCUUUUGCGCGCACUU'
+ '..(.(..((((((....))))))..).)......((((..(((.(((((((((....)))))....)))))))))))..((((((((....))))))))..'
+ '-49.0' '1.0' '-49.0']
+['UUGUGUUCGGGGGUUUUCCCCCGUUCUCUUUUUUGGCCUUCGCUCGCCGCGCAUUUUUGCGCUUUUGGCGGCGGGCCUUGCCGCGCCUUUUGGCGCGGUUU'
+ '..(.(..((((((....))))))..).)......((((..(((.(((((((((....)))))....)))))))))))..((((((((....))))))))..'
+ '-56.4' '1.0' '-56.4']
+['UUGUCUUCCACGCUUUUGCGUGGUUGUCUUUUUUCGGCUUGCAUGGGCCCCCCUUUUGGGGGUUUUGUCCUGCGCCGUUGGGCCCGGAUUUCCGGGCCCUU'
+ '..(.(..((((((....))))))..).)......((((..(((.(((((((((....)))))....)))))))))))..((((((((....))))))))..'
+ '-55.2' '1.0' '-55.2']
+['UUGUGUUCCCCACUUUUGUGGGGUUCUCUUUUUUGCCAUUCGCGUGACCCGCUUUUUGGCGGUUUUGUCGGCGUGGCUUGCCCGGCCUUUUGGCUGGGUUU'
+ '..(.(..((((((....))))))..).)......((((..(((.(((((((((....)))))....)))))))))))..((((((((....))))))))..'
+ '-47.7' '1.0' '-47.7']
+Time =  1.64582705498 For method :  EVAL
+=====================================================================================================
+Solving for the target =  .....((((((((((....)))(((....((((.(((.....))).((((((......)))...))))))))))))).))))....................
+=====================================================================================================
+Start running job 1
+2  multi loop(s)
+26  Interior loop(s)
+3  Hairpin loop(s)
+26  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.030303030303
+['AAAAAGCGUGGGUGAAAAAUCAGACAAAAGGCGACGGAAAAACCGAGCCCCGAAAGAACGGAAAGGCCGCCGUCCCCAACGCAAAAAAAAAAAAAAAAAAAA'
+ '.....((((((((((....)))(((....((((.(((.....))).((((((......)))...))))))))))))).))))....................'
+ '-27.4' '1.0' '-27.4']
+Time =  1.07175397873 For method :  EVAL
+=====================================================================================================
+Solving for the target =  .....((((.((((((.(((.(((((.((((.((((.((.((.((.((.((.((.....)))))))))))))))))))))))))))))))))))))).....
+=====================================================================================================
+Start running job 1
+0  multi loop(s)
+38  Interior loop(s)
+1  Hairpin loop(s)
+38  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.0666666666667
+['UUUUUGGCCUGGGCCCUACUUGCCGGUAUCGUGGCCAUGUCCACGUAGUGCUCCUUUUUGGGCCUCGGGCAGGCCCGGUCCGGCGGUGGGCCCGGUCUUUUU'
+ '.....((((.((((((.(((.(((((.((((.((((.((.((.((.((.((.((.....)))))))))))))))))))))))))))))))))))))).....'
+ '-57.7' '1.0' '-57.7']
+Time =  1.17439508438 For method :  EVAL
+=====================================================================================================
+Solving for the target =  .....((((((((...)))).((((((((...))))..((((...))))..((((...)))))))).((((...))))))))....................
+=====================================================================================================
+Start running job 1
+2  multi loop(s)
+28  Interior loop(s)
+5  Hairpin loop(s)
+28  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.037037037037
+['AAAAACCGGACCGAAACGGUACACCAGGCAAAGCCUAAGAGGAAACCUCAAUCGGAAACCGGGGUGACGGCAAAGCCGCCGGAAAAAAAAAAAAAAAAAAAA'
+ '.....((((((((...)))).((((((((...))))..((((...))))..((((...)))))))).((((...))))))))....................'
+ '-29.6' '1.0' '-29.6']
+['AAAAACGGGCGCGAAACGCGACACGAGGCAAAGCCUAAGGGCAAAGCCCAAUCCGAAACGGGCGUGAGGGCAAAGCCCCCCGAAAAAAAAAAAAAAAAAAAA'
+ '.....((((((((...)))).((((((((...))))..((((...))))..((((...)))))))).((((...))))))))....................'
+ '-31.7' '1.0' '-31.7']
+Time =  2.17751979828 For method :  EVAL
+=====================================================================================================
+Solving for the target =  .....((.((..(((((.(((....)))(((....)))))).....((((((....)))(((....))).)))))..)).)).....................
+=====================================================================================================
+Start running job 1
+3  multi loop(s)
+24  Interior loop(s)
+4  Hairpin loop(s)
+24  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.047619047619
+['AAAAAGGAGGAACCGCAAGACAAAGGUCCGCAAAAGCGUGCAAAAAAGAGGCAAAAGCCGGAAAAAUCCAUCUGGAACCACCAAAAAAAAAAAAAAAAAAAAA'
+ '.....((.((..(((((.(((....)))(((....)))))).....((((((....)))(((....))).)))))..)).)).....................'
+ '-22.3' '1.0' '-22.3']
+Time =  1.56402015686 For method :  EVAL
+=====================================================================================================
+Solving for the target =  .....((((((((((....)))(((....((((((((...(((.....)))))))(((......))).))))))))))..))))....................
+=====================================================================================================
+Start running job 1
+2  multi loop(s)
+27  Interior loop(s)
+3  Hairpin loop(s)
+27  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.0357142857143
+['UUUUUGGCCGCCGCGUUUUCGCCCCUUUUGCGGGCCGUUUAGCUUUUUGCUCGGCCAGUUUUUUCUGUCCGCGGGGGCUUGGCCUUUUUUUUUUUUUUUUUUUU'
+ '.....((((((((((....)))(((....((((((((...(((.....)))))))(((......))).))))))))))..))))....................'
+ '-34.8' '1.0' '-34.8']
+Time =  2.2025449276 For method :  EVAL
+=====================================================================================================
+Solving for the target =  .....(.((((..(((((........)))))..(((.(((.(((((.....))))).((((....)))).))))))..)))).)....................
+=====================================================================================================
+Start running job 1
+2  multi loop(s)
+25  Interior loop(s)
+3  Hairpin loop(s)
+25  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.111111111111
+['AAAAAGAUGACAAGCUCUAAAAAAAAAGAGUAACGGACUGAGGCGUAAAAAGCGCCAAAUGAAAACAUUACGGCCGAAGUCAACAAAAAAAAAAAAAAAAAAAA'
+ '.....(.((((..(((((........)))))..(((.(((.(((((.....))))).((((....)))).))))))..)))).)....................'
+ '-25.2' '1.0' '-25.2']
+Time =  0.541130065918 For method :  EVAL
+=====================================================================================================
+Solving for the target =  .....((((.(((((....)).))).(((.(((....)))))).((((((....)).)))).(((((....))).)))))).......................
+=====================================================================================================
+Start running job 1
+1  multi loop(s)
+26  Interior loop(s)
+4  Hairpin loop(s)
+26  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.037037037037
+['AAAAAGGCGACCCGCAAAAGCAGGGACCGAGCCAAAAGGCCGGACCCCCCAAAAGGAGGGGACGCGGAAAACCGACGCGCCAAAAAAAAAAAAAAAAAAAAAAA'
+ '.....((((.(((((....)).))).(((.(((....)))))).((((((....)).)))).(((((....))).)))))).......................'
+ '-36.7' '1.0' '-36.7']
+Time =  1.08852100372 For method :  EVAL
+=====================================================================================================
+Solving for the target =  .....((((((((..((((....))))..)))).((((..(...)..)))).((((..(..(((.....)))..)..))))))))....................
+=====================================================================================================
+Start running job 1
+1  multi loop(s)
+25  Interior loop(s)
+3  Hairpin loop(s)
+25  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.2
+['AAAAAAGCCCGCCAACCAGAGAACUGGAAGGCGACGCCGACAAAGGAGGCGAGGCCAACAACCCAAAAAGGGAAGAAGGCCGGCUAAAAAAAGAAAAAAAAACAA'
+ '.....((((((((..((((....))))..)))).((((..(...)..)))).((((..(..(((.....)))..)..))))))))....................'
+ '-38.5' '1.0' '-38.5']
+Time =  3.78310394287 For method :  EVAL
+=====================================================================================================
+Solving for the target =  .....(((((((.(((((....)))).)))(((((.((..((((....))))..(((((......)))))..)).))))))))))....................
+=====================================================================================================
+Start running job 1
+2  multi loop(s)
+28  Interior loop(s)
+3  Hairpin loop(s)
+28  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.333333333333
+Generation 10 Max fitness =  0.333333333333
+Generation 20 Max fitness =  0.333333333333
+Generation 30 Max fitness =  0.333333333333
+Generation 40 Max fitness =  0.333333333333
+Generation 50 Max fitness =  0.333333333333
+Generation 60 Max fitness =  0.333333333333
+Generation 70 Max fitness =  0.333333333333
+Generation 80 Max fitness =  0.333333333333
+Generation 90 Max fitness =  0.333333333333
+Generation 100 Max fitness =  0.333333333333
+Generation 110 Max fitness =  0.333333333333
+Generation 120 Max fitness =  0.333333333333
+['GGAAGGGAGCCGCGCAGGAAAGCCUGACCGAAGCAAACAGCGAGACUGCUCGGAGCCGGGAGGAACCGGCAAGUAUGCUUGCUCCGAGAGAAGAAGGUGAAAAGA'
+ '.....(((((((.(((((....)))).)))(((((.((..((((....))))..(((((......)))))..)).))))))))))....................'
+ '-37.5' '1.0' '-37.5']
+Time =  47.9987339973 For method :  EVAL
+=====================================================================================================
+Solving for the target =  .....((((.(...(.((((.(.((((.((.((((.((.(((....))).).)))))).)))))....).)))).)...).))))....................
+=====================================================================================================
+Start running job 1
+0  multi loop(s)
+26  Interior loop(s)
+1  Hairpin loop(s)
+26  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.0769230769231
+Generation 10 Max fitness =  0.2
+Generation 20 Max fitness =  0.333333333333
+Generation 30 Max fitness =  0.333333333333
+Generation 40 Max fitness =  0.333333333333
+Generation 50 Max fitness =  0.333333333333
+Generation 60 Max fitness =  0.333333333333
+Generation 70 Max fitness =  0.333333333333
+Generation 80 Max fitness =  0.333333333333
+Generation 90 Max fitness =  0.333333333333
+Generation 100 Max fitness =  0.333333333333
+Generation 110 Max fitness =  0.333333333333
+Generation 120 Max fitness =  0.333333333333
+Generation 130 Max fitness =  0.333333333333
+Generation 140 Max fitness =  0.333333333333
+Generation 150 Max fitness =  0.333333333333
+Generation 160 Max fitness =  0.333333333333
+Generation 170 Max fitness =  0.333333333333
+Generation 180 Max fitness =  0.333333333333
+Generation 190 Max fitness =  0.333333333333
+Generation 200 Max fitness =  0.333333333333
+Generation 210 Max fitness =  0.333333333333
+Generation 220 Max fitness =  0.333333333333
+Generation 230 Max fitness =  0.333333333333
+Generation 240 Max fitness =  0.333333333333
+Generation 250 Max fitness =  0.333333333333
+Generation 260 Max fitness =  0.333333333333
+Generation 270 Max fitness =  0.333333333333
+Generation 280 Max fitness =  0.333333333333
+Generation 290 Max fitness =  0.333333333333
+Generation 300 Max fitness =  0.333333333333
+Generation 310 Max fitness =  0.333333333333
+Generation 320 Max fitness =  0.333333333333
+Generation 330 Max fitness =  0.333333333333
+Generation 340 Max fitness =  0.333333333333
+Generation 350 Max fitness =  0.333333333333
+Generation 360 Max fitness =  0.333333333333
+Generation 370 Max fitness =  0.333333333333
+Generation 380 Max fitness =  0.333333333333
+Generation 390 Max fitness =  0.333333333333
+Generation 400 Max fitness =  0.333333333333
+Generation 410 Max fitness =  0.333333333333
+Generation 420 Max fitness =  0.333333333333
+Generation 430 Max fitness =  0.333333333333
+Generation 440 Max fitness =  0.333333333333
+Generation 450 Max fitness =  0.333333333333
+Generation 460 Max fitness =  0.333333333333
+Generation 470 Max fitness =  0.333333333333
+Generation 480 Max fitness =  0.333333333333
+Generation 490 Max fitness =  0.333333333333
+Time =  299.774928093 For method :  EVAL
+=====================================================================================================
+Solving for the target =  .....((((.(((((....))....))).(((....))).)).))....((((.(((....)...)).(((....))).))..))....................
+=====================================================================================================
+Start running job 1
+2  multi loop(s)
+22  Interior loop(s)
+4  Hairpin loop(s)
+22  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.0322580645161
+Generation 10 Max fitness =  0.333333333333
+Generation 20 Max fitness =  0.333333333333
+['AAGAACGACAGCCGCAAAAGCAGAAGGCACGCAAAAGCGAGUACGAAGACCCCAGCGGAAACAAAGCACACAAAAGUGAGGAAGGAAAAAGAGAAAAAAAAAAAA'
+ '.....((((.(((((....))....))).(((....))).)).))....((((.(((....)...)).(((....))).))..))....................'
+ '-16.1' '1.0' '-16.1']
+['AAGAAGCCAACCCGCAAAAGCAAAAGGGACCCAAAAGGGAUGAGCAAGAGCGGAGCGGAAACAAAGCACGGAAAACCGACCAAGCAAAAGAAGAAAAAAAAAAAA'
+ '.....((((.(((((....))....))).(((....))).)).))....((((.(((....)...)).(((....))).))..))....................'
+ '-18.4' '1.0' '-18.4']
+['AAGAAGACAAGCCGCAAAAGCAAAAGGCACCGGAAACGGAUGAUCAAGACCCCAGCGGAAACAAAGCACACAAAAGUGAGGAAGGAAAAAAAGAAAAAAAAAAAA'
+ '.....((((.(((((....))....))).(((....))).)).))....((((.(((....)...)).(((....))).))..))....................'
+ '-18.6' '1.0' '-18.6']
+Time =  8.0947201252 For method :  EVAL
+=====================================================================================================
+Solving for the target =  .....((((((((....))))((((.((((....))))(((((....))))).((((....))))))))((((....))))))))....................
+=====================================================================================================
+Start running job 1
+2  multi loop(s)
+29  Interior loop(s)
+5  Hairpin loop(s)
+29  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.0333333333333
+['UUUUUCGUCGGCGUUUUCGCCGCCCUAGGGUUUUCCCUCCAGCUUUUGCUGGUGCAGUUUUCUGCGGGUCGGCUUUUGCCGGACGUUUUUUUUUUUUUUUUUUUU'
+ '.....((((((((....))))((((.((((....))))(((((....))))).((((....))))))))((((....))))))))....................'
+ '-41.4' '1.0' '-41.4']
+['UUUUUGCCAGGCCUUUUGGCCGCCAUGGCCUUUUGGCCCCGCCUUUUGGCGGUCAGCUUUUGCUGUGGCGCCGUUUUCGGCUGGCUUUUUUUUUUUUUUUUUUUU'
+ '.....((((((((....))))((((.((((....))))(((((....))))).((((....))))))))((((....))))))))....................'
+ '-47.9' '1.0' '-47.9']
+Time =  1.71490979195 For method :  EVAL
+=====================================================================================================
+Solving for the target =  .....((....((....))....((....))....((....))....((....))....((....))....((....))....))....................
+=====================================================================================================
+Start running job 1
+1  multi loop(s)
+14  Interior loop(s)
+6  Hairpin loop(s)
+14  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.04
+Generation 10 Max fitness =  0.2
+Generation 20 Max fitness =  0.2
+Generation 30 Max fitness =  0.2
+['GGAGAGGAGAAGCGAAAGCAAAAGCGAAAGCAACAACGAAAGUAAACGGGAGACCAGAAGCAAAAGCAGAACGGAGACGGAAGCCGAACAAAUAAGAAGAAAGAG'
+ '.....((....((....))....((....))....((....))....((....))....((....))....((....))....))....................'
+ '-22.7' '1.0' '-22.7']
+Time =  8.75918602943 For method :  EVAL
+=====================================================================================================
+Solving for the target =  ............((....))...((...((....))..((...((....))...))..((....))...))..((....))........................
+=====================================================================================================
+Start running job 1
+1  multi loop(s)
+14  Interior loop(s)
+5  Hairpin loop(s)
+14  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.04
+['AAGAAAGAAAAACCAAAAGGAAACCAGAGCAAGGGCAAGCAAACGAAAACGAAAGCAACCAAAAGGGAAGGAAGGAAAACCAAAAAAAAAAAAAAAAAAAAAAAA'
+ '............((....))...((...((....))..((...((....))...))..((....))...))..((....))........................'
+ '-6.6' '1.0' '-6.6']
+['AAAGAUGAAAAAGGAAAACCAAACCAAACCAAGGGGAAGAGAACGAAAACGAAAUCAAGCAAAAGCAAAGGAAGCAGAAGCAAAAAAAAAAAAAAAAAAAAAAAA'
+ '............((....))...((...((....))..((...((....))...))..((....))...))..((....))........................'
+ '-6.2' '1.0' '-6.2']
+Time =  3.82763910294 For method :  EVAL
+=====================================================================================================
+Solving for the target =  .....((((((((..((((....))))..)))).((((..(...)..)))).((((..(..(((.....)))..)..))))))))....................
+=====================================================================================================
+Start running job 1
+1  multi loop(s)
+25  Interior loop(s)
+3  Hairpin loop(s)
+25  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.0588235294118
+['AAAAAAGGCCCCCAACCGCAAAAGCGGGAGGGGAGCGGAACAAAGGACCGCACGAGAACAACCCAAAAAGGGAAGAACUCGGCCUAAAAAAAAAAAAAAAGAAAA'
+ '.....((((((((..((((....))))..)))).((((..(...)..)))).((((..(..(((.....)))..)..))))))))....................'
+ '-36.7' '1.0' '-36.7']
+Time =  2.21096611023 For method :  EVAL
+=====================================================================================================
+Solving for the target =  ((...((....((.....((.........((..............................))...............)).........)).......))....))...
+=====================================================================================================
+Start running job 1
+0  multi loop(s)
+10  Interior loop(s)
+1  Hairpin loop(s)
+10  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.05
+Generation 10 Max fitness =  0.2
+Generation 20 Max fitness =  0.2
+Generation 30 Max fitness =  0.2
+Generation 40 Max fitness =  0.2
+Generation 50 Max fitness =  0.2
+Generation 60 Max fitness =  0.2
+Generation 70 Max fitness =  0.2
+Generation 80 Max fitness =  0.2
+Generation 90 Max fitness =  0.2
+Generation 100 Max fitness =  0.2
+Generation 110 Max fitness =  0.2
+Generation 120 Max fitness =  0.2
+Generation 130 Max fitness =  0.2
+Generation 140 Max fitness =  0.2
+Generation 150 Max fitness =  0.2
+Generation 160 Max fitness =  0.2
+Generation 170 Max fitness =  0.2
+Generation 180 Max fitness =  0.2
+Generation 190 Max fitness =  0.2
+Generation 200 Max fitness =  0.2
+Generation 210 Max fitness =  0.2
+Generation 220 Max fitness =  0.2
+Generation 230 Max fitness =  0.2
+Generation 240 Max fitness =  0.2
+Generation 250 Max fitness =  0.2
+Generation 260 Max fitness =  0.2
+Generation 270 Max fitness =  0.2
+Generation 280 Max fitness =  0.2
+Generation 290 Max fitness =  0.2
+Generation 300 Max fitness =  0.2
+Generation 310 Max fitness =  0.2
+Generation 320 Max fitness =  0.2
+Generation 330 Max fitness =  0.2
+Generation 340 Max fitness =  0.2
+Generation 350 Max fitness =  0.2
+Generation 360 Max fitness =  0.2
+Generation 370 Max fitness =  0.2
+Generation 380 Max fitness =  0.2
+Generation 390 Max fitness =  0.2
+Generation 400 Max fitness =  0.2
+Generation 410 Max fitness =  0.2
+Generation 420 Max fitness =  0.2
+Generation 430 Max fitness =  0.2
+Generation 440 Max fitness =  0.2
+Generation 450 Max fitness =  0.2
+Generation 460 Max fitness =  0.2
+Generation 470 Max fitness =  0.2
+Generation 480 Max fitness =  0.2
+Generation 490 Max fitness =  0.2
+Time =  143.252883911 For method :  EVAL
+=====================================================================================================
+Solving for the target =  ((((.((((.(((....))).(((....))).(((....))).(((....))).(((....))).(((....))).)))).(((((......)))))(((....)))))))
+=====================================================================================================
+Start running job 1
+2  multi loop(s)
+34  Interior loop(s)
+8  Hairpin loop(s)
+34  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.0384615384615
+['GCCAACCCGACCAAAAAUGGACCCAAAAGGGACGGAAAACCGACGCAAAAGCGAGGGAAAACCCACACAAAAGUGACGGGAACAGGAAAAAACCUGUGGGAAAACCCUGGC'
+ '((((.((((.(((....))).(((....))).(((....))).(((....))).(((....))).(((....))).)))).(((((......)))))(((....)))))))'
+ '-37.1' '1.0' '-37.1']
+['CGCAACCCGAGCAAAAAUGCAUGCAAAAGCAAAGCGAAAGCUACCGAAAACGGACGGAAAACCGAGCCAAAAGGCACGGGACCCCGAAAAAACGGGGGGCAAAAGUCUGCG'
+ '((((.((((.(((....))).(((....))).(((....))).(((....))).(((....))).(((....))).)))).(((((......)))))(((....)))))))'
+ '-40.0' '1.0' '-40.0']
+Time =  1.8557767868 For method :  EVAL
+=====================================================================================================
+Solving for the target =  .....((((.((((.....((((...)))).))))...(((..((((((...)))...)))((((((...)))...))).)))...(((...(((....))).))).)))).....
+=====================================================================================================
+Start running job 1
+2  multi loop(s)
+33  Interior loop(s)
+4  Hairpin loop(s)
+33  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.0243902439024
+['AAAAACCGGAGGCCGAAAACCCCAAAGGGGAGGCCAAACCCAACCCCCGAAACGGAAAGGGCGGCGCAAAGCGAAACCGAGGGAAACACAAACACAAAAGUGAGUGACCGGAAAAA'
+ '.....((((.((((.....((((...)))).))))...(((..((((((...)))...)))((((((...)))...))).)))...(((...(((....))).))).)))).....'
+ '-37.5' '1.0' '-37.5']
+Time =  2.72353506088 For method :  EVAL
+=====================================================================================================
+Solving for the target =  ........(((((((((((....))))..((((....))))..((((....)))))))))))..(((((((...))))..((((...))))..((((...))))))).........
+=====================================================================================================
+Start running job 1
+2  multi loop(s)
+34  Interior loop(s)
+6  Hairpin loop(s)
+34  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.030303030303
+['AAAAAAAACGCCCGCUCCCAAAAGGGAAAGGCAAAAAUGCCAUGAGCAAAAGCUCGCGGGCGAACGCGGCCAAAGGCCAAGCCGAAACGGCAACUGCAAAGCGGGCGAAAAAAAAA'
+ '........(((((((((((....))))..((((....))))..((((....)))))))))))..(((((((...))))..((((...))))..((((...))))))).........'
+ '-51.2' '1.0' '-51.2']
+Time =  2.03819584846 For method :  EVAL
+=====================================================================================================
+Solving for the target =  (((((((....(((...........)))((((((((..(((((((((((((((((((...(((((......))))).)))))).)))))))))))))..))))))))..)))))))
+=====================================================================================================
+Start running job 1
+1  multi loop(s)
+42  Interior loop(s)
+2  Hairpin loop(s)
+42  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.142857142857
+['CCUCCACUUUUGUAUUUUUUUUUUUUGCCCCCGGCGUUACCGACCCCGCCGGCCGUGUUUGGCCGUUUUUUCGGCUUCGCGGCUCGGCGGGGUCGGUUUCGCCGGGGUUGUGGAGG'
+ '(((((((....(((...........)))((((((((..(((((((((((((((((((...(((((......))))).)))))).)))))))))))))..))))))))..)))))))'
+ '-84.5' '1.0' '-84.5']
+Time =  1.47276997566 For method :  EVAL
+=====================================================================================================
+Solving for the target =  .....((((.(((.((....))((....)).))).(((.((....))((....)).))).(((.((....))((....)).))).(((.((....))((....)).))).)))).....
+=====================================================================================================
+Start running job 1
+5  multi loop(s)
+32  Interior loop(s)
+8  Hairpin loop(s)
+32  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.027027027027
+['AAAAACCGCACGAGGCAAAAGCGCAAAGGCAUCGACCGAGGAAAACCGCAAAAGCACGGACCGACCAAAAGGGCAAAAGCACGGAGGGAGGAAAACCCCAAAAGGACCCAGCGGAAAAA'
+ '.....((((.(((.((....))((....)).))).(((.((....))((....)).))).(((.((....))((....)).))).(((.((....))((....)).))).)))).....'
+ '-30.3' '1.0' '-30.3']
+['AAAAAGGCAAGGGACCAAAAGGGAAAAAUCACCCACCCAGCAAAAGCGGAAAACCAGGGAAGCAGCAAAGGCGCAAAAGCAGCUAGCCACGAAAACGGGAAAACCAGGCAUGCCAAAAA'
+ '.....((((.(((.((....))((....)).))).(((.((....))((....)).))).(((.((....))((....)).))).(((.((....))((....)).))).)))).....'
+ '-30.5' '1.0' '-30.5']
+Time =  4.0415968895 For method :  EVAL
+=====================================================================================================
+Solving for the target =  .............................((((......((((....((((...((((..((((.((((.....)).)).)).))..)).))...)).)).....)).))......)).)).
+=====================================================================================================
+Start running job 1
+0  multi loop(s)
+24  Interior loop(s)
+1  Hairpin loop(s)
+24  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.0526315789474
+['UUUUUUUUUUUUUUUUUUUUUUUUUUUUUCGCGUUUUUUGGCCUUUUCGCCUUUCCGAUUCGCCUACCCUUUUUGGUGUUGGUCGUUUCUGGUUUGGUCGUUUUUGGUCCUUUUUUCGUCGU'
+ '.............................((((......((((....((((...((((..((((.((((.....)).)).)).))..)).))...)).)).....)).))......)).)).'
+ '-23.1' '1.0' '-23.1']
+Time =  2.05535411835 For method :  EVAL
+=====================================================================================================
+Solving for the target =  .(((.(((...(((.(((...))).(((....))).)))...(((.(((....))).(((...))).)))...(((.(((....))).(((...))).)))...))).(((...))).)))..
+=====================================================================================================
+Start running job 1
+5  multi loop(s)
+36  Interior loop(s)
+7  Hairpin loop(s)
+36  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.0222222222222
+['ACGGAGAGAAAAGGACGGAAACCGACCCAAAAGGGACCUAAAGACAGCGAAAACGCACCCAAAGGGAGUCAAAGCUACCUAAAAAGGACGGAAACCGAAGCAAACUCACCCAAAGGGACCGAA'
+ '.(((.(((...(((.(((...))).(((....))).)))...(((.(((....))).(((...))).)))...(((.(((....))).(((...))).)))...))).(((...))).)))..'
+ '-34.7' '1.0' '-34.7']
+Time =  2.22470092773 For method :  EVAL
+=====================================================================================================
+Solving for the target =  .....(((((((...((((...((((...((((.........(((((............)))))...))))....((((..........))))...))))...(((........)))...))))..((......))...))))))).....
+=====================================================================================================
+Start running job 1
+3  multi loop(s)
+33  Interior loop(s)
+4  Hairpin loop(s)
+33  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.037037037037
+['AAAAACCCCGCCAAACGCCAAACCGCAAACCGGAAAAAAAAACCGGCAAAAAAAAAAAAGCCGGAAACCGGAAAAGAGGAAAAAAAAAACCUCAAAGCGGAAACCUAAAAAAAAGGGAAAGGCGAACGAAAAAACGAAAGGCGGGGAAAAA'
+ '.....(((((((...((((...((((...((((.........(((((............)))))...))))....((((..........))))...))))...(((........)))...))))..((......))...))))))).....'
+ '-51.9' '1.0' '-51.9']
+['AAAAACGGACCCAAAGGGCAAACCGAAAACCGCAAAAAAAAACGGGCAAAAAAAAAAAAGCCCGAAAGCGGAAAAGCCCAAAAAAAAAAGGGCAAAUCGGAAACGCAAAAAAAAGCGAAAGCCCAACGAAAAAACGAAAGGGUCCGAAAAA'
+ '.....(((((((...((((...((((...((((.........(((((............)))))...))))....((((..........))))...))))...(((........)))...))))..((......))...))))))).....'
+ '-52.8' '1.0' '-52.8']
+Time =  2.13991785049 For method :  EVAL
+=====================================================================================================
+Solving for the target =  (((((.((((((.((((((.((((((.((((((.((((((....((((((......)))))).)))))).(((((...(((((((...)))))))))))).)))))).((((((((((((...)))))))...))))).))))))....))))))....))))))....)))))
+=====================================================================================================
+Start running job 1
+2  multi loop(s)
+65  Interior loop(s)
+3  Hairpin loop(s)
+65  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.0666666666667
+['CGCGCAGCGAGCAGGGGGUACGACGGAGGUAGCACACCGUAAAACGCCCGAAAAAACGGGCGAGCGGUGAGCUCCAAAGCGCACGAAACGUGCGCGGGGCAGCUGCCAAGCGCGCCCGCCAAAGGCGGGCAAAGCGCUACCGUCGAAAAACCCUCAAAAGUUCGCAAAAGCGCG'
+ '(((((.((((((.((((((.((((((.((((((.((((((....((((((......)))))).)))))).(((((...(((((((...)))))))))))).)))))).((((((((((((...)))))))...))))).))))))....))))))....))))))....)))))'
+ '-107.7' '1.0' '-107.7']
+['ACCGGAAGCCCCAGGGGUCAGACGCCAGCGCCUACCCGGCAAAACUUCGGAAAAAACUGAAGAGCCGGGAUGCCCAAAACCCAACAAAGUUGGGUGGGCGAAGGCGCAACGGCGGGAGGGAAACCCUCCCAAAGCCGUAGGCGUCAAAAGACCUCAAAAGGGGCUAAAACCGGU'
+ '(((((.((((((.((((((.((((((.((((((.((((((....((((((......)))))).)))))).(((((...(((((((...)))))))))))).)))))).((((((((((((...)))))))...))))).))))))....))))))....))))))....)))))'
+ '-106.2' '1.0' '-106.2']
+['GCCGGACCGAGCAGCCCUAACGUCCCAGCUCCUACGGGCAAAAACCCGCCAAAAAAGGCGGGAUGCUCGAGCUCCAAACCCCAUCAAAGAUGGGGGGGGCAAGGGGCAAGCGCCGGCGCCAAAGGCGCCGAAAGCGCUAGGGACGAAAAUAGGGCAAAAGCUCGGAAAACCGGC'
+ '(((((.((((((.((((((.((((((.((((((.((((((....((((((......)))))).)))))).(((((...(((((((...)))))))))))).)))))).((((((((((((...)))))))...))))).))))))....))))))....))))))....)))))'
+ '-110.7' '1.0' '-110.7']
+['GGCGGAGGGCGGAGCCAUCAGGUGGCACACCCUACGGCUGAAAAGCCGCGAAAAAACGCGGCACAGUCGAGAGCCAAACCGGAUAAAAUAUCCGGGGCUCAAGGGUGAAGCCCCGCCCGCAAAGCGGGCGAAAGGGCUAGCCACCAAAAGAUGGCAAAACUGCCCAAAACCGCC'
+ '(((((.((((((.((((((.((((((.((((((.((((((....((((((......)))))).)))))).(((((...(((((((...)))))))))))).)))))).((((((((((((...)))))))...))))).))))))....))))))....))))))....)))))'
+ '-109.3' '1.0' '-109.3']
+Time =  3.08911800385 For method :  EVAL
+=====================================================================================================
+Solving for the target =  ...(((((((....((..((..(((..((..((..((..((..((..((...)).))..)).)).))..)).))).)).)))))))))........(((((((....((..((..(((..((..((..((..((..((..((...)).))..)).)).))..)).))).)).)))))))))...
+=====================================================================================================
+Start running job 1
+0  multi loop(s)
+52  Interior loop(s)
+2  Hairpin loop(s)
+52  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.015625
+['UUUACCUACCUUUUGCUUACUUGGGUUCCUUGGUUCCUUGGUUUGUUGGUUUCCUCGUUCCUGGUCCUUGGUCCCUGUUGCGGUGGGUUUUUUUUUCGGCGGAUUUUGGUUCGUUCGCUUCCUUACUUGAUUGGUUCCUUGCUUUGCUGGUUCCUUCUGUUUGGUGCGUCGUCCUCCGCCGUUU'
+ '...(((((((....((..((..(((..((..((..((..((..((..((...)).))..)).)).))..)).))).)).)))))))))........(((((((....((..((..(((..((..((..((..((..((..((...)).))..)).)).))..)).))).)).)))))))))...'
+ '-56.8' '1.0' '-56.8']
+['UUUGCCGGCCUUUUGGUUGCUUCGGUUCGUUCCUUGAUUCCUUGAUUGGAUUCCUUCUUGGUUCUGGUUUGUCCGUGCUCCGGCCGGCUUUUUUUUGCACCGGUUAUGGUUCGUUGGGUUACUUCAUUCCUUCAUUCGUUGCUUUGCUCGUUUGUGGUUGUUGUUCCCUCGUCCCCGGUGCUUU'
+ '...(((((((....((..((..(((..((..((..((..((..((..((...)).))..)).)).))..)).))).)).)))))))))........(((((((....((..((..(((..((..((..((..((..((..((...)).))..)).)).))..)).))).)).)))))))))...'
+ '-58.1' '1.0' '-58.1']
+['UUUAGGCGCCUUUUGGUUUGUUGGGUUCCUUACUUACUUGGUUCGUUCCUUUGGUCGUUCCUGUUGUUUGGUCCCUCAUCCGGCGCCUUUUUUUUUGUCGACGUUUUGCUUCCUUCCGUUACUUGCUUGCUUGCUUCCUUCCUUUGGUGGUUGCUGCUGCUUGUUCGGUGGUGCCGUCGACUUU'
+ '...(((((((....((..((..(((..((..((..((..((..((..((...)).))..)).)).))..)).))).)).)))))))))........(((((((....((..((..(((..((..((..((..((..((..((...)).))..)).)).))..)).))).)).)))))))))...'
+ '-57.6' '1.0' '-57.6']
+Time =  4.88048291206 For method :  EVAL
+=====================================================================================================
+Solving for the target =  ((((((((((((((.((((((...........((((((((((((.....((((((((....(((((((((((((........))))))))))....))))))))....))))))....)))))...((((((.......))))))))))............)))))).))))....))))))...))))...
+=====================================================================================================
+Start running job 1
+1  multi loop(s)
+59  Interior loop(s)
+2  Hairpin loop(s)
+59  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.0344827586207
+['GCGGCCGAGCGGCCAGCACGGAAAAAAAAAAACCGGGGGCCCGGAAAAAGCCGCGGCAAAAGGGAGCGGGGGCCAAAAAAAAGGCCCCCGCUAAAACCCGCCGCAAAAGGCCCGAAAAGGCCCAAACAGGGGAAAAAAACCCCUGCCGGAAAAAAAAGAAACCGUGCAGGCCAAAAGCUCGGAAACCGCAAA'
+ '((((((((((((((.((((((...........((((((((((((.....((((((((....(((((((((((((........))))))))))....))))))))....))))))....)))))...((((((.......))))))))))............)))))).))))....))))))...))))...'
+ '-103.4' '1.0' '-103.4']
+Time =  10.712651968 For method :  EVAL
+=====================================================================================================
+Solving for the target =  .((.((.....(((((...((.(((.........................))).))...))).))...)).)).(((..(((..((.......((....)).......)))))......))).(((((.......(((..((..(((..((.(((...............)))..))..)))..)).)))..))..))).
+=====================================================================================================
+Start running job 1
+0  multi loop(s)
+42  Interior loop(s)
+3  Hairpin loop(s)
+42  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.0212765957447
+['UGCUGGUUUUUCCGGCUGUGGUCCCUUUUUUUUUUGUUUGUUUUUUUUUUGGGUCCUUUGCCUGGUUUCCUGCUCGCUUGGGUUACUUUUUUUACUUUUGUUUUUUUUGUCCCUUUUUUGCGUGCCCCUUUUUUUCCCUUCGUUCGCUUGCUCGGUUUUUUUUUUUUGUUCCGUUGCUUGCGUUCGUGGGUUGGUUGGCU'
+ '.((.((.....(((((...((.(((.........................))).))...))).))...)).)).(((..(((..((.......((....)).......)))))......))).(((((.......(((..((..(((..((.(((...............)))..))..)))..)).)))..))..))).'
+ '-46.11' '1.0' '-46.11']
+['UGCUGGUUUUUCGGGCUGUGCUCAGUUUUUUUUUUGUUUGUUUUUUAUUUCUGUGCUUUGCCUCGUUUCCUGCUACCUUGGGUUCCUUUUUUUCUUUUUAGUUUUUUUGGCCCUUUUUUGGUUGCCCCUUUUUUUAACUUGGUUGGGUUCCUCGCUUUUUUUUUUUUUUUGCGUUGGUUCCCUUCCUGUUUUGGUUGGCU'
+ '.((.((.....(((((...((.(((.........................))).))...))).))...)).)).(((..(((..((.......((....)).......)))))......))).(((((.......(((..((..(((..((.(((...............)))..))..)))..)).)))..))..))).'
+ '-39.71' '1.0' '-39.71']
+Time =  14.8267841339 For method :  EVAL
+=====================================================================================================
+Solving for the target =  ...(((((((...))))..((((...))))..((((...)))))))........(((((((...))))..((((...))))..((((...)))))))........(((((((...))))..((((...))))..((((...)))))))........(((((((...))))..((((...))))..((((...)))))))...
+=====================================================================================================
+Start running job 1
+4  multi loop(s)
+60  Interior loop(s)
+12  Hairpin loop(s)
+60  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.0121951219512
+Generation 10 Max fitness =  0.0181818181818
+Generation 20 Max fitness =  0.0181818181818
+Generation 30 Max fitness =  0.0208333333333
+Generation 40 Max fitness =  0.0208333333333
+Generation 50 Max fitness =  0.0208333333333
+Generation 60 Max fitness =  0.0208333333333
+Generation 70 Max fitness =  0.0208333333333
+Generation 80 Max fitness =  0.0208333333333
+Generation 90 Max fitness =  0.0208333333333
+Generation 100 Max fitness =  0.0208333333333
+Generation 110 Max fitness =  0.0208333333333
+Generation 120 Max fitness =  0.0208333333333
+Generation 130 Max fitness =  0.0208333333333
+Generation 140 Max fitness =  0.0208333333333
+Generation 150 Max fitness =  0.0208333333333
+Generation 160 Max fitness =  0.0208333333333
+Generation 170 Max fitness =  0.0208333333333
+Generation 180 Max fitness =  0.0208333333333
+Generation 190 Max fitness =  0.0208333333333
+Generation 200 Max fitness =  0.0208333333333
+Generation 210 Max fitness =  0.0208333333333
+Generation 220 Max fitness =  0.0208333333333
+Generation 230 Max fitness =  0.0208333333333
+Generation 240 Max fitness =  0.0208333333333
+Generation 250 Max fitness =  0.0208333333333
+Generation 260 Max fitness =  0.0208333333333
+Generation 270 Max fitness =  0.0208333333333
+Generation 280 Max fitness =  0.0208333333333
+Generation 290 Max fitness =  0.0208333333333
+Generation 300 Max fitness =  0.0208333333333
+Generation 310 Max fitness =  0.0208333333333
+Generation 320 Max fitness =  0.0208333333333
+Generation 330 Max fitness =  0.0212765957447
+Generation 340 Max fitness =  0.0217391304348
+Generation 350 Max fitness =  0.0294117647059
+Generation 360 Max fitness =  0.0294117647059
+Generation 370 Max fitness =  0.0294117647059
+Generation 380 Max fitness =  0.0294117647059
+Generation 390 Max fitness =  0.0294117647059
+Generation 400 Max fitness =  0.0294117647059
+Generation 410 Max fitness =  0.0294117647059
+Generation 420 Max fitness =  0.0294117647059
+Generation 430 Max fitness =  0.0294117647059
+Generation 440 Max fitness =  0.0294117647059
+Generation 450 Max fitness =  0.0294117647059
+Generation 460 Max fitness =  0.0294117647059
+Generation 470 Max fitness =  0.0294117647059
+Generation 480 Max fitness =  0.0294117647059
+Generation 490 Max fitness =  0.0294117647059
+Time =  867.985713005 For method :  EVAL
+=====================================================================================================
+Solving for the target =  ....((((..(((((..((((..((((.....))))((((((...))).)))))))((((((.((.((.(((((....)).)))))))(((((.((.((.((....))))))((((.(((....)).)).)))..)).)))))).))))))))(((.(((.(((.((((....))))))))))((((((((...))).)).))).)))))))
+=====================================================================================================
+Start running job 1
+6  multi loop(s)
+77  Interior loop(s)
+7  Hairpin loop(s)
+77  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.0123456790123
+Generation 10 Max fitness =  0.047619047619
+Generation 20 Max fitness =  0.047619047619
+Generation 30 Max fitness =  0.047619047619
+Generation 40 Max fitness =  0.0625
+Generation 50 Max fitness =  0.0625
+Generation 60 Max fitness =  0.0625
+Generation 70 Max fitness =  0.0625
+Generation 80 Max fitness =  0.0625
+Generation 90 Max fitness =  0.0625
+Generation 100 Max fitness =  0.0625
+Generation 110 Max fitness =  0.0625
+Generation 120 Max fitness =  0.0625
+Generation 130 Max fitness =  0.0625
+Generation 140 Max fitness =  0.0625
+Generation 150 Max fitness =  0.0625
+Generation 160 Max fitness =  0.0625
+Generation 170 Max fitness =  0.0625
+Generation 180 Max fitness =  0.0666666666667
+Generation 190 Max fitness =  0.0666666666667
+Generation 200 Max fitness =  0.0666666666667
+Generation 210 Max fitness =  0.0666666666667
+Generation 220 Max fitness =  0.0833333333333
+Generation 230 Max fitness =  0.1
+Generation 240 Max fitness =  0.1
+Generation 250 Max fitness =  0.1
+Generation 260 Max fitness =  0.142857142857
+Generation 270 Max fitness =  0.142857142857
+Generation 280 Max fitness =  0.142857142857
+Generation 290 Max fitness =  0.142857142857
+Generation 300 Max fitness =  0.142857142857
+Generation 310 Max fitness =  0.142857142857
+Generation 320 Max fitness =  0.142857142857
+Generation 330 Max fitness =  0.142857142857
+Generation 340 Max fitness =  0.142857142857
+Generation 350 Max fitness =  0.2
+Generation 360 Max fitness =  0.2
+Generation 370 Max fitness =  0.2
+Generation 380 Max fitness =  0.2
+Generation 390 Max fitness =  0.2
+Generation 400 Max fitness =  0.2
+Generation 410 Max fitness =  0.2
+Generation 420 Max fitness =  0.2
+Generation 430 Max fitness =  0.2
+Generation 440 Max fitness =  0.2
+Generation 450 Max fitness =  0.2
+Generation 460 Max fitness =  0.2
+Generation 470 Max fitness =  0.333333333333
+Generation 480 Max fitness =  0.333333333333
+Generation 490 Max fitness =  0.333333333333
+Time =  1070.06869912 For method :  EVAL
+=====================================================================================================
+Solving for the target =  ((((....))))...(((((((..(((((((.......))))))))))))))...((((((((......(((((((.(((((((.......))))))))))))))...((((((((((((((.......))))))).)))))))......))))))))...((((((((((((((.......)))))))..)))))))...((((....))))
+=====================================================================================================
+Start running job 1
+1  multi loop(s)
+72  Interior loop(s)
+6  Hairpin loop(s)
+72  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.0909090909091
+['CGCGAAAACGCGGAAGCGCUCCAAGCCGGGGAAAAAAACCCCGGUGGGGCGCAAACCGGGAACAAAAAAGGAGCGGAUGCGCUCAAAAAAAGGGCGCACCGCUCCAAACGCCCGCCGGGCCCAAAAAAAGGGCCCGAGCGGGCGAAAAAAGUUCCCGGAAAGCCGGCCCCGGGCGAAAAAAACGCCCGGAAGGCCGGUAAAGCGGAAAACCGC'
+ '((((....))))...(((((((..(((((((.......))))))))))))))...((((((((......(((((((.(((((((.......))))))))))))))...((((((((((((((.......))))))).)))))))......))))))))...((((((((((((((.......)))))))..)))))))...((((....))))'
+ '-145.3' '1.0' '-145.3']
+Time =  7.01105284691 For method :  EVAL
+=====================================================================================================
+Solving for the target =  ...((((((....))))))(((((....)))))((((((....))))))(((((....)))))((((((....))))))(((((....)))))(((((....)))))((((((....)))))).(((((....)))))((((((....))))))(((((....)))))((((((....))))))(((((....)))))((((((....))))))
+=====================================================================================================
+Start running job 1
+0  multi loop(s)
+77  Interior loop(s)
+14  Hairpin loop(s)
+77  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.0178571428571
+['AAACCACGGAAAACCGUGGCAGCGAAAACGCUGCCCACGAAAACGUGGGGAGGGAAAACCCUCGCGCCCAAAAGGGCGUCCCGCAAAAGCGGGGAAGGAAAACCUUCCGGCCCAAAAGGGCCGACCGCCAAAAGGCGGCACGGGAAAACCUGUGCCCGGAAAACCGGGGCCCCCAAAAGGGGGCGUAAUAAAAGUUACCGCGCCAAAAGGCGCG'
+ '...((((((....))))))(((((....)))))((((((....))))))(((((....)))))((((((....))))))(((((....)))))(((((....)))))((((((....)))))).(((((....)))))((((((....))))))(((((....)))))((((((....))))))(((((....)))))((((((....))))))'
+ '-125.6' '1.0' '-125.6']
+['AAAGAAAGGAAAACCUUUCCCCGCAAAAGCGGGGGCACGAAAACGUGCCGAUCCAAAAGGAUCCGGUCGAAAACGAUCGCCCCCAAAAGGGGGGGCCCAAGAGGGCCCGCCGGAAAACCGGCGAAGCCCAAAAGGGCUGGCGGCAAAAGUCGCCCGCAAAAAAUUGCGGGCGCCAAAAGGCGCCGGGGUAAAAGCCCCGCCGGCAAAAGCCGGC'
+ '...((((((....))))))(((((....)))))((((((....))))))(((((....)))))((((((....))))))(((((....)))))(((((....)))))((((((....)))))).(((((....)))))((((((....))))))(((((....)))))((((((....))))))(((((....)))))((((((....))))))'
+ '-129.5' '1.0' '-129.5']
+Time =  6.87042999268 For method :  EVAL
+=====================================================================================================
+Solving for the target =  ((((....).))).((((....).))).((((....).))).((((....).))).((((....).))).((((....).))).((((((((((((((((((((((...)))).))))))).(((((..((((((((((..(((((((...))))))).))))))))))((((.((((((...)))))))))))))))...))))))))))).((((....).))).((((....).))).((((....).))).((((....).))).((((....).)))
+=====================================================================================================
+Start running job 1
+2  multi loop(s)
+98  Interior loop(s)
+14  Hairpin loop(s)
+98  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.0140845070423
+Generation 10 Max fitness =  0.0526315789474
+Generation 20 Max fitness =  0.0625
+Generation 30 Max fitness =  0.0666666666667
+Generation 40 Max fitness =  0.111111111111
+Generation 50 Max fitness =  0.111111111111
+Generation 60 Max fitness =  0.111111111111
+Generation 70 Max fitness =  0.111111111111
+Generation 80 Max fitness =  0.142857142857
+Generation 90 Max fitness =  0.333333333333
+Generation 100 Max fitness =  0.333333333333
+Generation 110 Max fitness =  0.333333333333
+Generation 120 Max fitness =  0.333333333333
+['GGACAAACGAUCCAGCCCGGAGGAGGCGCCGCGAAAGACGGACCGGGAAACACGGACGCCGAAAGAGCGACGGGGAAACACCGGCCGCGGAGGGGACCGCGGGCCGAAACGGCACCGCGGUGGACGCGAGCCCGCCGGCGAAGGACGGUAGCCGUCCUAGCCGGCGGGCCGCGACCGACCAGAGGUCGGCGCGGCGUCAGACCCCUCCGCGGAGCAGGAAACGUGCACAGGGAAACUCUGACCACGAAAGAUGGAAGGCGAAAGACCUACCACGAAAGAUGG'
+ '((((....).))).((((....).))).((((....).))).((((....).))).((((....).))).((((....).))).((((((((((((((((((((((...)))).))))))).(((((..((((((((((..(((((((...))))))).))))))))))((((.((((((...)))))))))))))))...))))))))))).((((....).))).((((....).))).((((....).))).((((....).))).((((....).)))'
+ '-168.4' '1.0' '-168.4']
+Time =  330.338632822 For method :  EVAL
+=====================================================================================================
+Solving for the target =  .....((((((((...((((((((((..((((..........))))..((((..........))))..((((..........))))..))))))))))...((((((((((..((((..........))))..((((..........))))..((((..........))))..))))))))))...((((((((((..((((..........))))..((((..........))))..((((..........))))..))))))))))...)))))))).....
+=====================================================================================================
+Start running job 1
+4  multi loop(s)
+74  Interior loop(s)
+9  Hairpin loop(s)
+74  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.025
+['AAAAACGUCUGCGAAAGGAAAGGGCCAAACCGAAAAAAAAAACGGUAAACGCAAAAAAAAAAGCGUAAAGCCAAAAAAAAAAGGCUAAGGCCUUUUCCAAAUCAGCCGGGGAAGCCCAAAAAAAAAAGGGCAACCGGAAAAAAAAAACCGGAAACGAAAAAAAAAAAUCGUAACCCCGGCUGAAAAGGGCGCCCCAAAGCCGAAAAAAAAAACGGUAACCCCAAAAAAAAAAGGGGAACCCCAAAAAAAAAAGGGGAAUGGGGCGCCCAAAUGUAGGCGAAAAA'
+ '.....((((((((...((((((((((..((((..........))))..((((..........))))..((((..........))))..))))))))))...((((((((((..((((..........))))..((((..........))))..((((..........))))..))))))))))...((((((((((..((((..........))))..((((..........))))..((((..........))))..))))))))))...)))))))).....'
+ '-118.2' '1.0' '-118.2']
+['AAAAAACCCCGGCAAAGGCCGGGUCCAAACGCAAAAAAAAAAGUGUAAAGCGAAAAAAAAAACGCUAAGCCGAAAAAAAAAACGGCAAGGGCCCGGCCAAACCACGGCGACAAACCCAAAAAAAAAAGGGUAAGCCCAAAAAAAAAAGGGCAACGGGAAAAAAAAAACCCGAAGUCGCCGUGGAAAGGCGGCGGCCAAGGGGAAAAAAAAAACCCCAAAGGGAAAAAAAAAACCCUAAACCCAAAAAAAAAAGGGUAAGGCCGCCGCUAAAGCUGGGGUAAAAA'
+ '.....((((((((...((((((((((..((((..........))))..((((..........))))..((((..........))))..))))))))))...((((((((((..((((..........))))..((((..........))))..((((..........))))..))))))))))...((((((((((..((((..........))))..((((..........))))..((((..........))))..))))))))))...)))))))).....'
+ '-129.2' '1.0' '-129.2']
+['AAAAACGGGUGCGAAAACACCGGGACAAACAGAAAAAAAAAACUGUAACCAGAAAAAAAAAACUGGAACUCCAAAAAAAAAAGGGGAAGUCCUGGUGUAAAGCAUCCCAGCAAGGGGAAGAAAAAAACCCCAAGGCGAAAAAAAAAACGCCAAGCGGAAAAAAAAAACCGCAAGCUGGGAUGCAAAGCGGCGCCCGAAGGGCAAAAAAAAAAGCUUAACCCCAAAAAAAAAAGGGGAACCGCAAAAAAAAAAGCGGAACGGGCGCUGCAAACGUACCCGAAAAA'
+ '.....((((((((...((((((((((..((((..........))))..((((..........))))..((((..........))))..))))))))))...((((((((((..((((..........))))..((((..........))))..((((..........))))..))))))))))...((((((((((..((((..........))))..((((..........))))..((((..........))))..))))))))))...)))))))).....'
+ '-119.5' '1.0' '-119.5']
+['AAAAACGUCGCAGAAAGCAAGGGUCCAAGCGGAAAAAAAAAACCGCAAACGGAAAAAAAAAACCGUAACGCGAAAAAAAAAACGCGAAGGGCUCUUGCAAAUAGUCGGCGCAAGGGCAAAAAAAAAAGCCCAACGCCAAAAAAAAAAGGCGAAGCGCAAAAAAAAAAGCGCAAGCGCCGACUAAAAGGCGCACCGCAACAGGAAAAAAAAAACCUGAACAACAAAAAAAAAAGUUGAACCGCAAAAAAAAAAGCGGAAGCGGUGCGCCAAAUUGCGGCGAAAAA'
+ '.....((((((((...((((((((((..((((..........))))..((((..........))))..((((..........))))..))))))))))...((((((((((..((((..........))))..((((..........))))..((((..........))))..))))))))))...((((((((((..((((..........))))..((((..........))))..((((..........))))..))))))))))...)))))))).....'
+ '-118.3' '1.0' '-118.3']
+['AAAAACCGCGGGGAAACGGACCAUCCAAACGGAAAAAAAAAACCGUAACCGCAAAAAAAAAAGCGGAAAUCCAAAAAAAAAAGGGUAAGGGUGGUCCGAAAGCAUCCCAGCAAGGGGAAAAAAAAAACCCCAACCGCAAAAAAAAAAGCGGAAGCGAAAAAAAAAAAUCGCAAGCUGGGAUGCAAAGGCGGGGGCAAACGAGAAAAAAAAAACUCGAAGGACAAAAAAAAAAGUCCAACCGCAAAAAAAAAAGCGGAAUGCCCCCGCCAAAUCUCGCGGAAAAA'
+ '.....((((((((...((((((((((..((((..........))))..((((..........))))..((((..........))))..))))))))))...((((((((((..((((..........))))..((((..........))))..((((..........))))..))))))))))...((((((((((..((((..........))))..((((..........))))..((((..........))))..))))))))))...)))))))).....'
+ '-121.5' '1.0' '-121.5']
+['AAAAACGUGCAGCAAAACGCCGGCCGAAGCCGAAAAAAAAAACGGCAAACCCAAAAAAAAAAGGGUAACUCCAAAAAAAAAAGGGGAACGGCCGGUGUAAACCCUAGGGAGAACGCAAAAAAAAAAAUGCGAACCCCAAAAAAAAAAGGGGAACCCGAAAAAAAAAACGGGAACUCCCUAGGGAAACGCGGCGGGGAAGCGGAAAAAAAAAACCGCAAGCCAAAAAAAAAAAUGGCAAACCCAGAAAAAAAAGGGUAACCCCGCCGCGAAAGCUGCGCGAAAAA'
+ '.....((((((((...((((((((((..((((..........))))..((((..........))))..((((..........))))..))))))))))...((((((((((..((((..........))))..((((..........))))..((((..........))))..))))))))))...((((((((((..((((..........))))..((((..........))))..((((..........))))..))))))))))...)))))))).....'
+ '-126.7' '1.0' '-126.7']
+['AAAAACGUCCGACAAAGAGCCCAUCGAACCGUAAAAAAAAAAGCGGAACUGCAAAAAAAAAAGCAGAAGUCGAAAAAAAAAAUGGCAACGGUGGGUUCAAACCGUACGCGGAAAGCAAAAAAAAAAAUGCUAAACGCAAAAAAAAAAGCGUAACGCGAAAAAAAAAACGCGAACCGCGUACGGAAAGGCGACGGCGAACCGAAAAAAAAAAAUCGGAACUCCAAAAAAAAAAGGGGAAGCCGAAAAAAAAAACGGCAACGCCGUCGCUAAAGUUGGGCGAAAAA'
+ '.....((((((((...((((((((((..((((..........))))..((((..........))))..((((..........))))..))))))))))...((((((((((..((((..........))))..((((..........))))..((((..........))))..))))))))))...((((((((((..((((..........))))..((((..........))))..((((..........))))..))))))))))...)))))))).....'
+ '-104.3' '1.0' '-104.3']
+['UUUUUCACGGCCGUUUCCUGCCGCUCUUCGCUUUUUUUUUUUAGCGUUCCGGUUUUUUUUUUCCGGUUCGGCUUUUUUUUUUGCUGUUGGGCGGCAGGUUUGGGGAACGGCUUAGGAUUUUUUUUUUUCCUUUCCCCUUUUUUUUUUGGGGUUGGCCUUUUUUUUUUGGCCUUGCCGUUCCCCUUUAGUGGCUACCUUCGCGUUUUUUUUUUCGCGUUGACCUUUUUUUUUUGGUUUUCCGGUUUUUUUUUUCCGGUUGGUGGCCACUUUUCGGCCGUGUUUUU'
+ '.....((((((((...((((((((((..((((..........))))..((((..........))))..((((..........))))..))))))))))...((((((((((..((((..........))))..((((..........))))..((((..........))))..))))))))))...((((((((((..((((..........))))..((((..........))))..((((..........))))..))))))))))...)))))))).....'
+ '-112.0' '1.0' '-112.0']
+Time =  7.45269107819 For method :  EVAL
+=====================================================================================================
+Solving for the target =  (..(((..((((..((....((..((((....))....))..))))..))....))..))((..((..((..((((..((....((..((((..((....((....))))..))....))..))))..))((..((..((....))((..((((..((....((..((((....))....))..))))..))....))..))))..))..))..))((..((....((..((((..((....((....))))..))....))..))))..))))..))..)..)
+=====================================================================================================
+Start running job 1
+4  multi loop(s)
+72  Interior loop(s)
+5  Hairpin loop(s)
+72  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.00943396226415
+Generation 10 Max fitness =  0.0227272727273
+Generation 20 Max fitness =  0.0227272727273
+Generation 30 Max fitness =  0.0243902439024
+Generation 40 Max fitness =  0.0243902439024
+Generation 50 Max fitness =  0.0243902439024
+Generation 60 Max fitness =  0.0243902439024
+Generation 70 Max fitness =  0.0243902439024
+Generation 80 Max fitness =  0.0243902439024
+Generation 90 Max fitness =  0.0243902439024
+Generation 100 Max fitness =  0.0243902439024
+Generation 110 Max fitness =  0.0243902439024
+Generation 120 Max fitness =  0.0243902439024
+Generation 130 Max fitness =  0.0243902439024
+Generation 140 Max fitness =  0.0243902439024
+Generation 150 Max fitness =  0.0243902439024
+Generation 160 Max fitness =  0.0243902439024
+Generation 170 Max fitness =  0.0243902439024
+Generation 180 Max fitness =  0.0243902439024
+Generation 190 Max fitness =  0.0243902439024
+Generation 200 Max fitness =  0.0243902439024
+Generation 210 Max fitness =  0.0243902439024
+Generation 220 Max fitness =  0.0243902439024
+Generation 230 Max fitness =  0.0243902439024
+Generation 240 Max fitness =  0.0243902439024
+Generation 250 Max fitness =  0.0243902439024
+Generation 260 Max fitness =  0.0243902439024
+Generation 270 Max fitness =  0.0243902439024
+Generation 280 Max fitness =  0.0243902439024
+Generation 290 Max fitness =  0.0243902439024
+Generation 300 Max fitness =  0.0243902439024
+Generation 310 Max fitness =  0.0243902439024
+Generation 320 Max fitness =  0.0243902439024
+Generation 330 Max fitness =  0.0243902439024
+Generation 340 Max fitness =  0.0243902439024
+Generation 350 Max fitness =  0.0243902439024
+Generation 360 Max fitness =  0.0243902439024
+Generation 370 Max fitness =  0.0243902439024
+Generation 380 Max fitness =  0.0243902439024
+Generation 390 Max fitness =  0.0243902439024
+Generation 400 Max fitness =  0.0243902439024
+Generation 410 Max fitness =  0.0243902439024
+Generation 420 Max fitness =  0.0243902439024
+Generation 430 Max fitness =  0.0243902439024
+Generation 440 Max fitness =  0.0243902439024
+Generation 450 Max fitness =  0.0243902439024
+Generation 460 Max fitness =  0.0243902439024
+Generation 470 Max fitness =  0.0243902439024
+Generation 480 Max fitness =  0.0243902439024
+Generation 490 Max fitness =  0.0243902439024
+Time =  1093.54729199 For method :  EVAL
+=====================================================================================================
+Solving for the target =  ...((....))....(((((((((.........)))))))))....((((.....)))).....(((....)))...(((((.......)))))....(((...((....)).....(((....)))....((((((.......))))))....(((....))).....((((((....(((.......)))..(((........)))...(((((......)))))...((((.....))))..)))))).........((....)).....((....))......(((((..........)))))......))) Length =  316
+=====================================================================================================
+Start running job 1
+2  multi loop(s)
+70  Interior loop(s)
+16  Hairpin loop(s)
+70  loop(s) in total
+ Starting of evolution 
+Generation 200 Max fitness =  0.00709219858156
+v_i =  1.0 w_j =  0.01 v_obs =  0.5  total of mutants =  2.0
+v_i =  1.0 w_j =  0.0175438596491 v_obs =  0.5  total of mutants =  2.0
+v_i =  1.0 w_j =  0.0243902439024 v_obs =  0.5  total of mutants =  2.0
+v_i =  1.0 w_j =  0.0588235294118 v_obs =  0.5  total of mutants =  2.0
+v_i =  1.0 w_j =  0.0666666666667 v_obs =  0.5  total of mutants =  2.0
+v_i =  1.0 w_j =  0.0909090909091 v_obs =  0.5  total of mutants =  2.0
+v_i =  1.0 w_j =  0.142857142857 v_obs =  0.333333333333  total of mutants =  3.0
+v_i =  4.0 w_j =  1.0 v_obs =  0.4  total of mutants =  10.0
+Time =  0.70155620575 For method :  EVAL
+AAACGGAAACGAAAACGCAGCACGGAAAAAAAACGUGCUGCGAAAACCCGGAAAACGGGAAAAACAGGAAACUGAAACGCGGGAAAAAACCGCGAAAAGGCAAAGGGAAACCAAAAACCGGAAACGGAGAACACCCGGAAAAAACGGGUGAAAACCGGAAACGGAAAAAGCCCGCAAAAACGGAAAAAACGUAAGCGGAAAAAAACGCGAAGACCGGAAAAACGGUCAAAGAAGGAAAACUUCAAGCGGGCAAAAAAAAAGGGAAACCAGAGACGGAAACGAAAGAAGGGCGGAAAAAAAAACGCCCAAAAAAGCC ...((....))....(((((((((.........)))))))))....((((.....)))).....(((....)))...(((((.......)))))....(((...((....)).....(((....)))....((((((.......))))))....(((....))).....((((((....(((.......)))..(((........)))...(((((......)))))...((((.....))))..)))))).........((....)).....((....))......(((((..........)))))......))) -111.400001526 1.0
+=====================================================================================================
+Solving for the target =  ((((((.((((((....)))))).(((....))).(((....))).((((((....)))))).(((....))).((((((....)))))).(((....))).(((....))).((((((....)))))).(((....))).((((((....)))))).(((....))).(((....))).((((((....)))))).(((....))).((((((....)))))).(((....))).(((....))).((((((....)))))).(((....))).((((((....)))))).(((....))).(((....))).((((((....)))))).))))))
+=====================================================================================================
+Start running job 1
+1  multi loop(s)
+108  Interior loop(s)
+24  Hairpin loop(s)
+108  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.0108695652174
+Generation 10 Max fitness =  0.0526315789474
+Generation 20 Max fitness =  0.0588235294118
+Generation 30 Max fitness =  0.0769230769231
+Generation 40 Max fitness =  0.142857142857
+Generation 50 Max fitness =  0.142857142857
+Generation 60 Max fitness =  0.142857142857
+Generation 70 Max fitness =  0.142857142857
+Generation 80 Max fitness =  0.142857142857
+Generation 90 Max fitness =  0.142857142857
+Generation 100 Max fitness =  0.142857142857
+Generation 110 Max fitness =  0.142857142857
+Generation 120 Max fitness =  0.142857142857
+['CGCCGGACACCCGAAUGCGGGUGAAGCGGAAGCUACGAGAAAUCGACAGGCGAAGUCGCCUGACCCGAAAGGGAGGCGGCGAAGGCCGCCACGGGAAGCCGACACAAAAGUGAGAAGCGAGAACGCUUCAGCCGAAAGGCAGGGCCCAAAAGGGCCCAGCCAAAAGGCACCCAAAAGGGACGCCCCGGGGGGGGCGACCGGAAACGGGCCCCACAAAAGUGGGGAGGCAAAAGCCAGACAGAAGUCACCAGACGGAAGUCUGGACGCGGAAGCGACCCGAGAAAACUCGGGGGGAGAAAUCCACCCGAAAGGGAGGCCCCACGAGGGGCCACCGGCG'
+ '((((((.((((((....)))))).(((....))).(((....))).((((((....)))))).(((....))).((((((....)))))).(((....))).(((....))).((((((....)))))).(((....))).((((((....)))))).(((....))).(((....))).((((((....)))))).(((....))).((((((....)))))).(((....))).(((....))).((((((....)))))).(((....))).((((((....)))))).(((....))).(((....))).((((((....)))))).))))))'
+ '-201.8' '1.0' '-201.8']
+Time =  485.940503836 For method :  EVAL
+=====================================================================================================
+Solving for the target =  .......((((.((((.(((.(((....))).(((.(((....))).(((.(((....))).(((.(((....))).(((.......))).))).))).))).))).(...).)))).((((...((.(((...((...))........))).(((.(((....)))(((....)))(((....)))))).))...((((.(...).(((.(((.(((.(((.(((....(((....))).))).(((....))).))).(((....))).))).(((....))).))).((((((....)))(((....))).(((....)))))).))).))))...)))).)))).......
+=====================================================================================================
+Start running job 1
+15  multi loop(s)
+101  Interior loop(s)
+18  Hairpin loop(s)
+103  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.00675675675676
+Generation 10 Max fitness =  0.2
+Generation 20 Max fitness =  0.2
+Generation 30 Max fitness =  0.2
+Generation 40 Max fitness =  0.333333333333
+Generation 50 Max fitness =  0.333333333333
+Generation 60 Max fitness =  0.333333333333
+Generation 70 Max fitness =  0.333333333333
+Generation 80 Max fitness =  0.333333333333
+Generation 90 Max fitness =  0.333333333333
+Generation 100 Max fitness =  0.333333333333
+Generation 110 Max fitness =  0.333333333333
+Generation 120 Max fitness =  0.333333333333
+Generation 130 Max fitness =  0.333333333333
+Generation 140 Max fitness =  0.333333333333
+Generation 150 Max fitness =  0.333333333333
+Generation 160 Max fitness =  0.333333333333
+Generation 170 Max fitness =  0.333333333333
+Generation 180 Max fitness =  0.333333333333
+Generation 190 Max fitness =  0.333333333333
+Generation 200 Max fitness =  0.333333333333
+Generation 210 Max fitness =  0.333333333333
+Generation 220 Max fitness =  0.333333333333
+Generation 230 Max fitness =  0.333333333333
+Generation 240 Max fitness =  0.333333333333
+Generation 250 Max fitness =  0.333333333333
+Generation 260 Max fitness =  0.333333333333
+Generation 270 Max fitness =  0.333333333333
+Generation 280 Max fitness =  0.333333333333
+Generation 290 Max fitness =  0.333333333333
+Generation 300 Max fitness =  0.333333333333
+Generation 310 Max fitness =  0.333333333333
+Generation 320 Max fitness =  0.333333333333
+Generation 330 Max fitness =  0.333333333333
+Generation 340 Max fitness =  0.333333333333
+Generation 350 Max fitness =  0.333333333333
+Generation 360 Max fitness =  0.333333333333
+Generation 370 Max fitness =  0.333333333333
+Generation 380 Max fitness =  0.333333333333
+Generation 390 Max fitness =  0.333333333333
+Generation 400 Max fitness =  0.333333333333
+Generation 410 Max fitness =  0.333333333333
+Generation 420 Max fitness =  0.333333333333
+Generation 430 Max fitness =  0.333333333333
+Generation 440 Max fitness =  0.333333333333
+Generation 450 Max fitness =  0.333333333333
+Generation 460 Max fitness =  0.333333333333
+Generation 470 Max fitness =  0.333333333333
+Generation 480 Max fitness =  0.333333333333
+Generation 490 Max fitness =  0.333333333333
+Time =  1753.77563095 For method :  EVAL
+=====================================================================================================
+Solving for the target =  (..(..(....)..(((..(.(.(((...)))..)..)..)))..(..(....)..).(..(....)..).....(....)..)..)..(..(..(....)..(((..(.(.(((...)))..)..)..)))..(..(....)..).(..(....)..).....(....)..)..)..((..(..(....)..(((..(.(.(((...)))..)..)..)))..(..(....)..).(..(....)..).....(....)..)..))..((..(..(....)..(((..(.(.(((...)))..)..)..)))..(..(....)..).(..(....)..).....(....)..)..))
+=====================================================================================================
+Start running job 1
+4  multi loop(s)
+58  Interior loop(s)
+20  Hairpin loop(s)
+66  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.008
+Generation 10 Max fitness =  0.0138888888889
+Generation 20 Max fitness =  0.0138888888889
+Generation 30 Max fitness =  0.0138888888889
+Generation 40 Max fitness =  0.0138888888889
+Generation 50 Max fitness =  0.0138888888889
+Generation 60 Max fitness =  0.0138888888889
+Generation 70 Max fitness =  0.0140845070423
+Generation 80 Max fitness =  0.0153846153846
+Generation 90 Max fitness =  0.0153846153846
+Generation 100 Max fitness =  0.0153846153846
+Generation 110 Max fitness =  0.0166666666667
+Generation 120 Max fitness =  0.0166666666667
+Generation 130 Max fitness =  0.0166666666667
+Generation 140 Max fitness =  0.0166666666667
+Generation 150 Max fitness =  0.0166666666667
+Generation 160 Max fitness =  0.0166666666667
+Generation 170 Max fitness =  0.0166666666667
+Generation 180 Max fitness =  0.0166666666667
+Generation 190 Max fitness =  0.0166666666667
+Generation 200 Max fitness =  0.0166666666667
+Generation 210 Max fitness =  0.0166666666667
+Generation 220 Max fitness =  0.0166666666667
+Generation 230 Max fitness =  0.0166666666667
+Generation 240 Max fitness =  0.0166666666667
+Generation 250 Max fitness =  0.0166666666667
+Generation 260 Max fitness =  0.0166666666667
+Generation 270 Max fitness =  0.0166666666667
+Generation 280 Max fitness =  0.0166666666667
+Generation 290 Max fitness =  0.0166666666667
+Generation 300 Max fitness =  0.0166666666667
+Generation 310 Max fitness =  0.0166666666667
+Generation 320 Max fitness =  0.0166666666667
+Generation 330 Max fitness =  0.0166666666667
+Generation 340 Max fitness =  0.0166666666667
+Generation 350 Max fitness =  0.0166666666667
+Generation 360 Max fitness =  0.0166666666667
+Generation 370 Max fitness =  0.0166666666667
+Generation 380 Max fitness =  0.0166666666667
+Generation 390 Max fitness =  0.0166666666667
+Generation 400 Max fitness =  0.0166666666667
+Generation 410 Max fitness =  0.0166666666667
+Generation 420 Max fitness =  0.0166666666667
+Generation 430 Max fitness =  0.0166666666667
+Generation 440 Max fitness =  0.0166666666667
+Generation 450 Max fitness =  0.0166666666667
+Generation 460 Max fitness =  0.0166666666667
+Generation 470 Max fitness =  0.0166666666667
+Generation 480 Max fitness =  0.0166666666667
+Generation 490 Max fitness =  0.0166666666667
+Time =  1372.39791083 For method :  EVAL
+=====================================================================================================
+Solving for the target =  (((((((((((((((((...(.(..((.(((.(((.((....).))).)))).).)..))..))))))).(((((..(.(..((.(((.(((((.(((.((((.((....).)))).))))).))).)))).).)..))..)(....)..))))(((((((((...))))).(((((...)))))(.(....).).)))).)))).((((.((((...(((((((...))))))).(((((...)))))))))(((((((...))))))).(((((...)))))))))((((..(....)(..(..(..(.(.(((.((((.((....).)))).)))).)..)..).)..))))).)))))).
+=====================================================================================================
+Start running job 1
+7  multi loop(s)
+121  Interior loop(s)
+12  Hairpin loop(s)
+123  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.00641025641026
+Generation 10 Max fitness =  0.0212765957447
+Generation 20 Max fitness =  0.0243902439024
+Generation 30 Max fitness =  0.0243902439024
+Generation 40 Max fitness =  0.0243902439024
+Generation 50 Max fitness =  0.0243902439024
+Generation 60 Max fitness =  0.0243902439024
+Generation 70 Max fitness =  0.0243902439024
+Generation 80 Max fitness =  0.0243902439024
+Generation 90 Max fitness =  0.0243902439024
+Generation 100 Max fitness =  0.0243902439024
+Generation 110 Max fitness =  0.0243902439024
+Generation 120 Max fitness =  0.0243902439024
+Generation 130 Max fitness =  0.0243902439024
+Generation 140 Max fitness =  0.0243902439024
+Generation 150 Max fitness =  0.0243902439024
+Generation 160 Max fitness =  0.0243902439024
+Generation 170 Max fitness =  0.0243902439024
+Generation 180 Max fitness =  0.0243902439024
+Generation 190 Max fitness =  0.0243902439024
+Generation 200 Max fitness =  0.0243902439024
+Generation 210 Max fitness =  0.0243902439024
+Generation 220 Max fitness =  0.0243902439024
+Generation 230 Max fitness =  0.0243902439024
+Generation 240 Max fitness =  0.0243902439024
+Generation 250 Max fitness =  0.0243902439024
+Generation 260 Max fitness =  0.0243902439024
+Generation 270 Max fitness =  0.0243902439024
+Generation 280 Max fitness =  0.0243902439024
+Generation 290 Max fitness =  0.0243902439024
+Generation 300 Max fitness =  0.0243902439024
+Generation 310 Max fitness =  0.0243902439024
+Generation 320 Max fitness =  0.0243902439024
+Generation 330 Max fitness =  0.0243902439024
+Generation 340 Max fitness =  0.0243902439024
+Generation 350 Max fitness =  0.0243902439024
+Generation 360 Max fitness =  0.0243902439024
+Generation 370 Max fitness =  0.0243902439024
+Generation 380 Max fitness =  0.0243902439024
+Generation 390 Max fitness =  0.0243902439024
+Generation 400 Max fitness =  0.0243902439024
+Generation 410 Max fitness =  0.0243902439024
+Generation 420 Max fitness =  0.0243902439024
+Generation 430 Max fitness =  0.0243902439024
+Generation 440 Max fitness =  0.0243902439024
+Generation 450 Max fitness =  0.0243902439024
+Generation 460 Max fitness =  0.0243902439024
+Generation 470 Max fitness =  0.0243902439024
+Generation 480 Max fitness =  0.0243902439024
+Generation 490 Max fitness =  0.0243902439024
+Time =  3799.01559711 For method :  EVAL
+=====================================================================================================
+Solving for the target =  ((((...))))(((((((....))(((((..(((((((....))(((((((((...))))..((((...)))))))))((....)))))))..(((((((....))(((((((((...))))..((((...)))))))))((....)))))))..(((((((....))(((((((((...))))..((((...)))))))))((....)))))))..(((((((....))(((((((((...))))..((((...)))))))))((....)))))))..(((((((....))(((((((((...))))..((((...)))))))))((....)))))))..)))))((....)))))))((((...))))
+=====================================================================================================
+Start running job 1
+12  multi loop(s)
+132  Interior loop(s)
+24  Hairpin loop(s)
+132  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.00606060606061
+Generation 10 Max fitness =  0.0243902439024
+Generation 20 Max fitness =  0.0322580645161
+Generation 30 Max fitness =  0.0322580645161
+Generation 40 Max fitness =  0.0322580645161
+Generation 50 Max fitness =  0.0322580645161
+Generation 60 Max fitness =  0.0322580645161
+Generation 70 Max fitness =  0.0322580645161
+Generation 80 Max fitness =  0.0322580645161
+Generation 90 Max fitness =  0.0322580645161
+Generation 100 Max fitness =  0.0322580645161
+Generation 110 Max fitness =  0.0322580645161
+Generation 120 Max fitness =  0.0322580645161
+Generation 130 Max fitness =  0.0322580645161
+Generation 140 Max fitness =  0.0322580645161
+Generation 150 Max fitness =  0.0322580645161
+Generation 160 Max fitness =  0.0322580645161
+Generation 170 Max fitness =  0.0322580645161
+Generation 180 Max fitness =  0.0322580645161
+Generation 190 Max fitness =  0.0322580645161
+Generation 200 Max fitness =  0.0322580645161
+Generation 210 Max fitness =  0.0322580645161
+Generation 220 Max fitness =  0.0322580645161
+Generation 230 Max fitness =  0.0322580645161
+Generation 240 Max fitness =  0.0322580645161
+Generation 250 Max fitness =  0.0322580645161
+Generation 260 Max fitness =  0.0322580645161
+Generation 270 Max fitness =  0.0322580645161
+Generation 280 Max fitness =  0.0322580645161
+Generation 290 Max fitness =  0.0322580645161
+Generation 300 Max fitness =  0.0322580645161
+Generation 310 Max fitness =  0.0322580645161
+Generation 320 Max fitness =  0.0322580645161
+Generation 330 Max fitness =  0.0322580645161
+Generation 340 Max fitness =  0.0322580645161
+Generation 350 Max fitness =  0.0322580645161
+Generation 360 Max fitness =  0.0322580645161
+Generation 370 Max fitness =  0.0322580645161
+Generation 380 Max fitness =  0.0322580645161
+Generation 390 Max fitness =  0.0322580645161
+Generation 400 Max fitness =  0.0322580645161
+Generation 410 Max fitness =  0.0322580645161
+Generation 420 Max fitness =  0.0322580645161
+Generation 430 Max fitness =  0.0322580645161
+Generation 440 Max fitness =  0.0322580645161
+Generation 450 Max fitness =  0.0322580645161
+Generation 460 Max fitness =  0.0322580645161
+Generation 470 Max fitness =  0.0322580645161
+Generation 480 Max fitness =  0.0322580645161
+Generation 490 Max fitness =  0.0322580645161
+Time =  4041.85676908 For method :  EVAL
+=====================================================================================================
+Solving for the target =  ...((((..(((((.....)))))..(((((...)))))..(((((.....)))))..(((((...)))))..(((((.....)))))..(((((.....))))).((((((((((((((((((((((((((((......))))).(((((.............((((.........................................)))).............)))))(((((....))))).)))))))))))))))))))))))..(((((.....)))))..(((((.....)))))..(((((.....)))))..(((((.....)))))..(((((....)))))..(((((.....))))).))))...
+=====================================================================================================
+Start running job 1
+2  multi loop(s)
+106  Interior loop(s)
+15  Hairpin loop(s)
+106  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.0126582278481
+['UUUGGCAUUGGACAUUUUUUGUCCUUUCAAGUUUCUUGAUUGCGUCUUUUUGACGCUUCCCGCUUUGCGGGUUGACCCUUUUUGGGUCUUGGAGCUUUUUGUUCCUACCUGCCGGGGGGCGCCCGUGCCCGCCAUUUUUUUGGCGUGUCGGUUUUUUUUUUUUUAGUGUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUGCUUUUUUUUUUUUUUCCGGCGCCGUUUUUACGGCUGGCGUGGGCGCCCCCCGGCAGGUUUGACCAUUUUUUGGUCUUGGGCCUUUUUGGUCCUUGGCCCUUUUUGGGCCUUGCUGCUUUUUGCAGCUUACGCGUUUUCGCGUUUGAUCCUUUUUGGAUCUUGCCUUU'
+ '...((((..(((((.....)))))..(((((...)))))..(((((.....)))))..(((((...)))))..(((((.....)))))..(((((.....))))).((((((((((((((((((((((((((((......))))).(((((.............((((.........................................)))).............)))))(((((....))))).)))))))))))))))))))))))..(((((.....)))))..(((((.....)))))..(((((.....)))))..(((((.....)))))..(((((....)))))..(((((.....))))).))))...'
+ '-164.65' '1.0' '-164.65']
+Time =  20.3517539501 For method :  EVAL
+=====================================================================================================
+Solving for the target =  (((((((((((........)))).((...............))....(((((.......))))))))))))....(((((((..((((........))))(((.............)))....(((((.......))))))))))))....(((((((..((((........))))((((((.......))))))....(((((.......))))))))))))....(((((((..((((........))))((((((.......))))))....(((((.......))))))))))))....(((((((..((((........))))((((((.......))))))....(((((.......))))))))))))....
+=====================================================================================================
+Start running job 1
+5  multi loop(s)
+103  Interior loop(s)
+15  Hairpin loop(s)
+103  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.0153846153846
+Generation 10 Max fitness =  0.2
+Generation 20 Max fitness =  0.2
+['GGGCCGGCCCCAAAAAAAAGGGGAGGGAAAAAAAAAAGAAACCAAAACAACCAAAAAAAGGUUGCCGGCCCAAAACGAGCGGAAGCCGAAAGAAAACGGCGCAAAAAAAAAAAACAUGCAAAAGCACAAAAAAAAUGUGCCCGCUCGAAAAGCCGCCCAAGCCCAAAAAAGAGGGCCCCGAGAAACAAACUCGGGAAAAGGGCGAAAAAAACGCCCGGGCGGCAAAAAGGGCCCAACGCCAAAAAAAAGGCGGCGCCCAAAAAAAGGGCGCAAAAGCAGGAAAAAAACCUGCGGGCCCUAAAACCGCCGGAACCGCAAAAAAAAGCGGGGGGCGAAAAAAACGCCCCAAAACCCCGAAAAAAACGGGGCCGGCGGGAGA'
+ '(((((((((((........)))).((...............))....(((((.......))))))))))))....(((((((..((((........))))(((.............)))....(((((.......))))))))))))....(((((((..((((........))))((((((.......))))))....(((((.......))))))))))))....(((((((..((((........))))((((((.......))))))....(((((.......))))))))))))....(((((((..((((........))))((((((.......))))))....(((((.......))))))))))))....'
+ '-188.38' '1.0' '-188.38']
+['GGACCGCAGCGAAAAAAAACGCUAGGGAAAAAAAAAAGAAACCAAAACGCCGAAAAAAACGGCGGCGGUCCAAAACGACCACAAGCCGAAAGAAAACGGCCGCAAAAAAAAAAACAGCGAAAAACGGGAAAAAAACCCGUGUGGUCGAAAAAGGGCGCAAGCCGAAAAAAGACGGCGAGGGGAAACAAACCCCUCAAAAACCCCAAAAAAAGGGGUGCGCCCUAAAAGCGGCGGAAGCGCAAAAAAAAGCGCCGCCCCAAAAAAAGGGGCGAAAAGCCCCAAAAGAAGGGGCCCGCCGCAAAAGCCGGGCAACGGCAAAAAAAAGCCGGGCGGGAAAAAAACCCGCCAAAAGACGCAAAAAAAGCGUCGCCCGGCGAAA'
+ '(((((((((((........)))).((...............))....(((((.......))))))))))))....(((((((..((((........))))(((.............)))....(((((.......))))))))))))....(((((((..((((........))))((((((.......))))))....(((((.......))))))))))))....(((((((..((((........))))((((((.......))))))....(((((.......))))))))))))....(((((((..((((........))))((((((.......))))))....(((((.......))))))))))))....'
+ '-187.68' '1.0' '-187.68']
+Time =  101.226911068 For method :  EVAL
+=====================================================================================================
+Solving for the target =  (..((....((..((....((..((....(..((..((....((..((..((....(..((..((..((....((..((..((..((....((..((..((..((..((....((..((..((..((..((....((..((..((..((..((..((....((..((..((..((..((..((....((..((..((..((..((..((......))..))..))..))..))..))))..))..))..))..))..))))..))..))..))..))..))))..))..))..))..))))..))..))..))..))))..))..))..))))..))..))..)))..))..))))..))..)))..))))..))))..)
+=====================================================================================================
+Start running job 1
+0  multi loop(s)
+93  Interior loop(s)
+1  Hairpin loop(s)
+93  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.00980392156863
+Generation 10 Max fitness =  0.142857142857
+Generation 20 Max fitness =  0.142857142857
+Generation 30 Max fitness =  0.142857142857
+Generation 40 Max fitness =  0.142857142857
+Generation 50 Max fitness =  0.142857142857
+Generation 60 Max fitness =  0.142857142857
+Generation 70 Max fitness =  0.142857142857
+Generation 80 Max fitness =  0.142857142857
+Generation 90 Max fitness =  0.142857142857
+Generation 100 Max fitness =  0.142857142857
+Generation 110 Max fitness =  0.142857142857
+Generation 120 Max fitness =  0.142857142857
+Generation 130 Max fitness =  0.142857142857
+Generation 140 Max fitness =  0.142857142857
+Generation 150 Max fitness =  0.142857142857
+Generation 160 Max fitness =  0.142857142857
+Generation 170 Max fitness =  0.142857142857
+Generation 180 Max fitness =  0.142857142857
+Generation 190 Max fitness =  0.142857142857
+Generation 200 Max fitness =  0.142857142857
+Generation 210 Max fitness =  0.142857142857
+Generation 220 Max fitness =  0.142857142857
+Generation 230 Max fitness =  0.142857142857
+Generation 240 Max fitness =  0.142857142857
+Generation 250 Max fitness =  0.142857142857
+Generation 260 Max fitness =  0.142857142857
+Generation 270 Max fitness =  0.142857142857
+Generation 280 Max fitness =  0.142857142857
+Generation 290 Max fitness =  0.142857142857
+Generation 300 Max fitness =  0.142857142857
+Generation 310 Max fitness =  0.142857142857
+Generation 320 Max fitness =  0.142857142857
+Generation 330 Max fitness =  0.142857142857
+Generation 340 Max fitness =  0.142857142857
+Generation 350 Max fitness =  0.142857142857
+Generation 360 Max fitness =  0.142857142857
+Generation 370 Max fitness =  0.142857142857
+Generation 380 Max fitness =  0.142857142857
+Generation 390 Max fitness =  0.142857142857
+Generation 400 Max fitness =  0.142857142857
+Generation 410 Max fitness =  0.142857142857
+Generation 420 Max fitness =  0.142857142857
+Generation 430 Max fitness =  0.142857142857
+Generation 440 Max fitness =  0.142857142857
+Generation 450 Max fitness =  0.142857142857
+Generation 460 Max fitness =  0.142857142857
+Generation 470 Max fitness =  0.142857142857
+Generation 480 Max fitness =  0.142857142857
+Generation 490 Max fitness =  0.142857142857
+Time =  3963.42871404 For method :  EVAL
+=====================================================================================================
+Solving for the target =  ......((.......((.((.......((.((...............)).........((...............)).)).......)).((.......((...............)).......)).((.......((.((...............)).........((...............)).)).......)).((.......((...............)).......)).((.......((.((...............)).........((...............)).)).......)).((.......((............((...............)).)).......)).)).......))......
+=====================================================================================================
+Start running job 1
+4  multi loop(s)
+42  Interior loop(s)
+9  Hairpin loop(s)
+42  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.0120481927711
+Generation 10 Max fitness =  0.04
+Generation 20 Max fitness =  0.04
+Generation 30 Max fitness =  0.04
+Generation 40 Max fitness =  0.04
+Generation 50 Max fitness =  0.04
+Generation 60 Max fitness =  0.04
+Generation 70 Max fitness =  0.04
+Generation 80 Max fitness =  0.04
+Generation 90 Max fitness =  0.04
+Generation 100 Max fitness =  0.04
+Generation 110 Max fitness =  0.04
+Generation 120 Max fitness =  0.04
+Generation 130 Max fitness =  0.04
+Generation 140 Max fitness =  0.04
+Generation 150 Max fitness =  0.04
+Generation 160 Max fitness =  0.04
+Generation 170 Max fitness =  0.04
+Generation 180 Max fitness =  0.04
+Generation 190 Max fitness =  0.04
+Generation 200 Max fitness =  0.04
+Generation 210 Max fitness =  0.04
+Generation 220 Max fitness =  0.04
+Generation 230 Max fitness =  0.04
+Generation 240 Max fitness =  0.04
+Generation 250 Max fitness =  0.04
+Generation 260 Max fitness =  0.04
+Generation 270 Max fitness =  0.04
+Generation 280 Max fitness =  0.04
+Generation 290 Max fitness =  0.04
+Generation 300 Max fitness =  0.04
+Generation 310 Max fitness =  0.04
+Generation 320 Max fitness =  0.04
+Generation 330 Max fitness =  0.04
+Generation 340 Max fitness =  0.04
+Generation 350 Max fitness =  0.04
+Generation 360 Max fitness =  0.04
+Generation 370 Max fitness =  0.04
+Generation 380 Max fitness =  0.04
+Generation 390 Max fitness =  0.04
+Generation 400 Max fitness =  0.04
+Generation 410 Max fitness =  0.04
+Generation 420 Max fitness =  0.04
+Generation 430 Max fitness =  0.04
+Generation 440 Max fitness =  0.04
+Generation 450 Max fitness =  0.04
+Generation 460 Max fitness =  0.04
+Generation 470 Max fitness =  0.04
+Generation 480 Max fitness =  0.04
+Generation 490 Max fitness =  0.04
+Time =  1081.36582708 For method :  EVAL
+=====================================================================================================
+Solving for the target =  (((((((((((.(((((..(((((....((((((..(((((...(((((..((((((.((((((((((((((....))))))))))))))..(((....))).(((((((((....)))))))))..(((((....))))).)))))).))))).))))).))))))...((((((((.....))).)))))..((((((((((((((((((((((((....)))))))))))))).))))))))))...(((((......)))))((((((((((....))))))))))...((((....))))..)))))..))))).((((.(((.(((....)))))))))).(((((((((....))))).)))).)))).))).))))...
+=====================================================================================================
+Start running job 1
+3  multi loop(s)
+144  Interior loop(s)
+11  Hairpin loop(s)
+144  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.0227272727273
+['GGAGCGGCUCGAGCCCGAAACGUAAAAAUGCCCAAAAACCCAAACCGGCAAACACGUAACAGAGCCGCGCCCAAAAGGGCGCGGCUCUGUAAGCGAAAACGCAGCAAGCGCGAAAACGCGCUUGCAACCACAAAAAUGUGGAGCGUGUAGCCGGAGGGUUAUGGGCGAAAGGCCGAAGAAAAACUUACGGCCAAAAACGUAGCUGAGAUCGACACGGCAAAAGCCGUGUCGAUCUUAAGCUACGUUUAAACGGGGAAAAAACCCCGGCCGGGAGGCAAAAGCCUCCCGGCAAACGGGAAAACCUGAAUGCGUAACGGGCACCCCACCGACGAAAAAUCGCGGGGGGACCGCGCUUAAAAAUAGGCAGCGGACGAGACCGACUCCAAA'
+ '(((((((((((.(((((..(((((....((((((..(((((...(((((..((((((.((((((((((((((....))))))))))))))..(((....))).(((((((((....)))))))))..(((((....))))).)))))).))))).))))).))))))...((((((((.....))).)))))..((((((((((((((((((((((((....)))))))))))))).))))))))))...(((((......)))))((((((((((....))))))))))...((((....))))..)))))..))))).((((.(((.(((....)))))))))).(((((((((....))))).)))).)))).))).))))...'
+ '-242.0' '1.0' '-242.0']
+['CGGGCGGCCGCAAAGCGAAACUUGAAAAUCCAGGAAAGCAGAAAGCCGGAAACCCGAAACAGACCCCGCCUGAAAACAGGCGGGGUCUGUAAACGAAAACGUAAGGAGACGGAAAACCGUCUCCUAAUCCGGAAAACUGGAAUCGGGUACCGGCACUGCUACCUGGGAAAGGGCCCGAAAAAAUCGAGGCCCAAGACGGUGGCUCGUGUCCGGCGCGGAAAACCGCGCCGGACGCGAAGCCACCGUUAAACUGCGAAAAAACGCGGGCAGGGGGGGAAAACCCCCCCUGCAAACCCUAAAAAGGGAACGGGUAACGCUUACCCCACCCAGCCAAAAGGCGGGGGGGAGGCCACCGGAAAACCGGUAGGCCAGCGGACCGACCCGAAA'
+ '(((((((((((.(((((..(((((....((((((..(((((...(((((..((((((.((((((((((((((....))))))))))))))..(((....))).(((((((((....)))))))))..(((((....))))).)))))).))))).))))).))))))...((((((((.....))).)))))..((((((((((((((((((((((((....)))))))))))))).))))))))))...(((((......)))))((((((((((....))))))))))...((((....))))..)))))..))))).((((.(((.(((....)))))))))).(((((((((....))))).)))).)))).))).))))...'
+ '-255.0' '1.0' '-255.0']
+Time =  15.9971699715 For method :  EVAL
+=====================================================================================================
+Solving for the target =  (((..(((((((.....((((((...)))))).))))..((((((..(((...)))))).(((((...((((....))))....)))))..)))..)))..(((((((.....(((((....)))))......)))((((((((((...)))))(((((...)))))((((((((..(..(..(..(..(..((((....))))..).)..))..).))(((....)))..))))))...))))))))).(((((.((((......(((((((........((((.....))))))))...))).))))((((......((((((((....))))))..(((((...)).(((((...)))))..)))))....)))))))))...)))
+=====================================================================================================
+Start running job 1
+9  multi loop(s)
+123  Interior loop(s)
+12  Hairpin loop(s)
+123  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.00666666666667
+Generation 10 Max fitness =  0.0588235294118
+Generation 20 Max fitness =  0.0666666666667
+Generation 30 Max fitness =  0.0666666666667
+Generation 40 Max fitness =  0.0666666666667
+Generation 50 Max fitness =  0.0666666666667
+Generation 60 Max fitness =  0.0666666666667
+Generation 70 Max fitness =  0.0666666666667
+Generation 80 Max fitness =  0.0666666666667
+Generation 90 Max fitness =  0.0666666666667
+Generation 100 Max fitness =  0.0666666666667
+Generation 110 Max fitness =  0.0666666666667
+Generation 120 Max fitness =  0.0666666666667
+Generation 130 Max fitness =  0.0666666666667
+Generation 140 Max fitness =  0.0666666666667
+Generation 150 Max fitness =  0.0666666666667
+Generation 160 Max fitness =  0.0666666666667
+Generation 170 Max fitness =  0.0666666666667
+Generation 180 Max fitness =  0.0666666666667
+Generation 190 Max fitness =  0.0666666666667
+Generation 200 Max fitness =  0.0666666666667
+Generation 210 Max fitness =  0.0666666666667
+Generation 220 Max fitness =  0.0666666666667
+Generation 230 Max fitness =  0.0666666666667
+Generation 240 Max fitness =  0.0666666666667
+Generation 250 Max fitness =  0.0666666666667
+Generation 260 Max fitness =  0.0666666666667
+Generation 270 Max fitness =  0.0666666666667
+Generation 280 Max fitness =  0.0666666666667
+Generation 290 Max fitness =  0.0666666666667
+Generation 300 Max fitness =  0.0666666666667
+Generation 310 Max fitness =  0.0666666666667
+Generation 320 Max fitness =  0.0666666666667
+Generation 330 Max fitness =  0.0666666666667
+Generation 340 Max fitness =  0.0666666666667
+Generation 350 Max fitness =  0.0666666666667
+Generation 360 Max fitness =  0.0666666666667
+Generation 370 Max fitness =  0.0666666666667
+Generation 380 Max fitness =  0.0666666666667
+Generation 390 Max fitness =  0.0666666666667
+Generation 400 Max fitness =  0.0666666666667
+Generation 410 Max fitness =  0.0666666666667
+Generation 420 Max fitness =  0.0666666666667
+Generation 430 Max fitness =  0.0666666666667
+Generation 440 Max fitness =  0.0666666666667
+Generation 450 Max fitness =  0.0666666666667
+Generation 460 Max fitness =  0.0666666666667
+Generation 470 Max fitness =  0.0666666666667
+Generation 480 Max fitness =  0.0666666666667
+Generation 490 Max fitness =  0.0666666666667
+Time =  4268.51144385 For method :  EVAL
+=====================================================================================================
+Solving for the target =  (((((((((((((((.(((((.((.....)).((.....)).((.....)).((.....)).((.....)).))))).(((.....))).(((((.((.....)).((.....)).((.....)).((.....)).((.....)).))))).(((.....))).(((((.((.....)).((.....)).((.....)).((.....)).((.....)).))))).(((.....))).(((((.((.....)).((.....)).((.....)).((.....)).((.....)).))))).(((.....))).(((((.((.....)).((.....)).((.....)).((.....)).((.....)).))))).)))))))))))))))
+=====================================================================================================
+Start running job 1
+6  multi loop(s)
+102  Interior loop(s)
+29  Hairpin loop(s)
+102  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.00689655172414
+Generation 10 Max fitness =  0.04
+Generation 20 Max fitness =  0.04
+Generation 30 Max fitness =  0.04
+Generation 40 Max fitness =  0.04
+Generation 50 Max fitness =  0.04
+Generation 60 Max fitness =  0.04
+Generation 70 Max fitness =  0.04
+Generation 80 Max fitness =  0.04
+Generation 90 Max fitness =  0.04
+Generation 100 Max fitness =  0.04
+Generation 110 Max fitness =  0.04
+Generation 120 Max fitness =  0.04
+Generation 130 Max fitness =  0.04
+Generation 140 Max fitness =  0.04
+Generation 150 Max fitness =  0.04
+Generation 160 Max fitness =  0.04
+Generation 170 Max fitness =  0.04
+Generation 180 Max fitness =  0.04
+Generation 190 Max fitness =  0.04
+Generation 200 Max fitness =  0.04
+Generation 210 Max fitness =  0.04
+Generation 220 Max fitness =  0.04
+Generation 230 Max fitness =  0.04
+Generation 240 Max fitness =  0.04
+Generation 250 Max fitness =  0.04
+Generation 260 Max fitness =  0.04
+Generation 270 Max fitness =  0.04
+Generation 280 Max fitness =  0.04
+Generation 290 Max fitness =  0.04
+Generation 300 Max fitness =  0.04
+Generation 310 Max fitness =  0.04
+Generation 320 Max fitness =  0.04
+Generation 330 Max fitness =  0.04
+Generation 340 Max fitness =  0.04
+Generation 350 Max fitness =  0.04
+Generation 360 Max fitness =  0.04
+Generation 370 Max fitness =  0.04
+Generation 380 Max fitness =  0.04
+Generation 390 Max fitness =  0.04
+Generation 400 Max fitness =  0.04
+Generation 410 Max fitness =  0.04
+Generation 420 Max fitness =  0.04
+Generation 430 Max fitness =  0.04
+Generation 440 Max fitness =  0.04
+Generation 450 Max fitness =  0.04
+Generation 460 Max fitness =  0.04
+Generation 470 Max fitness =  0.04
+Generation 480 Max fitness =  0.04
+Generation 490 Max fitness =  0.04
+Time =  1862.00298405 For method :  EVAL
+=====================================================================================================
+Solving for the target =  ((..(((((........(.((..((.(.....(....).((((((((.........((......((((.....))))......))...((..((.......(..(......)..)..((..((.....(....).((((.....(((.....(..((.(...).))..).....))).((((...(.......(..(.((...)).)..).......)...))))........)))).....((((((...)))))).))..))...........))..)).........(..((....)((((((.....(........).....))))))..)..)...))))))))........).))..)).).....(.......).)))))..)).
+=====================================================================================================
+Start running job 1
+7  multi loop(s)
+72  Interior loop(s)
+10  Hairpin loop(s)
+76  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.0106382978723
+Generation 10 Max fitness =  0.0555555555556
+Generation 20 Max fitness =  0.0555555555556
+Generation 30 Max fitness =  0.0555555555556
+Generation 40 Max fitness =  0.0555555555556
+Generation 50 Max fitness =  0.0555555555556
+Generation 60 Max fitness =  0.0555555555556
+Generation 70 Max fitness =  0.0555555555556
+Generation 80 Max fitness =  0.0555555555556
+Generation 90 Max fitness =  0.0555555555556
+Generation 100 Max fitness =  0.0555555555556
+Generation 110 Max fitness =  0.0555555555556
+Generation 120 Max fitness =  0.0625
+Generation 130 Max fitness =  0.0625
+Generation 140 Max fitness =  0.0909090909091
+Generation 150 Max fitness =  0.111111111111
+Generation 160 Max fitness =  0.111111111111
+Generation 170 Max fitness =  0.111111111111
+Generation 180 Max fitness =  0.111111111111
+Generation 190 Max fitness =  0.111111111111
+Generation 200 Max fitness =  0.111111111111
+Generation 210 Max fitness =  0.111111111111
+Generation 220 Max fitness =  0.111111111111
+Generation 230 Max fitness =  0.111111111111
+Generation 240 Max fitness =  0.111111111111
+Generation 250 Max fitness =  0.111111111111
+Generation 260 Max fitness =  0.111111111111
+Generation 270 Max fitness =  0.111111111111
+Generation 280 Max fitness =  0.111111111111
+Generation 290 Max fitness =  0.111111111111
+Generation 300 Max fitness =  0.111111111111
+Generation 310 Max fitness =  0.111111111111
+Generation 320 Max fitness =  0.111111111111
+Generation 330 Max fitness =  0.111111111111
+Generation 340 Max fitness =  0.111111111111
+Generation 350 Max fitness =  0.111111111111
+Generation 360 Max fitness =  0.111111111111
+Generation 370 Max fitness =  0.111111111111
+Generation 380 Max fitness =  0.111111111111
+Generation 390 Max fitness =  0.111111111111
+Generation 400 Max fitness =  0.111111111111
+Generation 410 Max fitness =  0.111111111111
+Generation 420 Max fitness =  0.111111111111
+Generation 430 Max fitness =  0.111111111111
+Generation 440 Max fitness =  0.111111111111
+Generation 450 Max fitness =  0.111111111111
+Generation 460 Max fitness =  0.111111111111
+Generation 470 Max fitness =  0.111111111111
+Generation 480 Max fitness =  0.111111111111
+Generation 490 Max fitness =  0.111111111111
+Time =  1601.69145584 For method :  EVAL
+=====================================================================================================
+Solving for the target =  (((((....)).((((((....)))..((((.((((..(((....)))(((.((....))(((...)))((....)).)))(((....)))..)))).((((..(((....)))(((.((....))(((...)))((....)).)))(((....)))..)))).((((..(((....)))(((.((....))(((...)))((....)).)))(((....)))..)))).((((..(((....)))(((.((....))(((...)))((....)).)))(((....)))..)))).((((..(((....)))(((.((....))(((...)))((....)).)))(((....)))..)))).))))..(((....)))))).((....)))))
+=====================================================================================================
+Start running job 1
+13  multi loop(s)
+120  Interior loop(s)
+29  Hairpin loop(s)
+120  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.00588235294118
+Generation 10 Max fitness =  0.0181818181818
+Generation 20 Max fitness =  0.0181818181818
+Generation 30 Max fitness =  0.0181818181818
+Generation 40 Max fitness =  0.0181818181818
+Generation 50 Max fitness =  0.0181818181818
+Generation 60 Max fitness =  0.0181818181818
+Generation 70 Max fitness =  0.0181818181818
+Generation 80 Max fitness =  0.0181818181818
+Generation 90 Max fitness =  0.0181818181818
+Generation 100 Max fitness =  0.0181818181818
+Generation 110 Max fitness =  0.0181818181818
+Generation 120 Max fitness =  0.0181818181818
+Generation 130 Max fitness =  0.0181818181818
+Generation 140 Max fitness =  0.0181818181818
+Generation 150 Max fitness =  0.0181818181818
+Generation 160 Max fitness =  0.0181818181818
+Generation 170 Max fitness =  0.0181818181818
+Generation 180 Max fitness =  0.0181818181818
+Generation 190 Max fitness =  0.0181818181818
+Generation 200 Max fitness =  0.0181818181818
+Generation 210 Max fitness =  0.0181818181818
+Generation 220 Max fitness =  0.0181818181818
+Generation 230 Max fitness =  0.0181818181818
+Generation 240 Max fitness =  0.0181818181818
+Generation 250 Max fitness =  0.0181818181818
+Generation 260 Max fitness =  0.0181818181818
+Generation 270 Max fitness =  0.0181818181818
+Generation 280 Max fitness =  0.0181818181818
+Generation 290 Max fitness =  0.0181818181818
+Generation 300 Max fitness =  0.0181818181818
+Generation 310 Max fitness =  0.0181818181818
+Generation 320 Max fitness =  0.0181818181818
+Generation 330 Max fitness =  0.0181818181818
+Generation 340 Max fitness =  0.0181818181818
+Generation 350 Max fitness =  0.0181818181818
+Generation 360 Max fitness =  0.0181818181818
+Generation 370 Max fitness =  0.0181818181818
+Generation 380 Max fitness =  0.0181818181818
+Generation 390 Max fitness =  0.0181818181818
+Generation 400 Max fitness =  0.0181818181818
+Generation 410 Max fitness =  0.0181818181818
+Generation 420 Max fitness =  0.0181818181818
+Generation 430 Max fitness =  0.0181818181818
+Generation 440 Max fitness =  0.0181818181818
+Generation 450 Max fitness =  0.0181818181818
+Generation 460 Max fitness =  0.0181818181818
+Generation 470 Max fitness =  0.0181818181818
+Generation 480 Max fitness =  0.0181818181818
+Generation 490 Max fitness =  0.0181818181818
+Time =  4396.13537598 For method :  EVAL
+=====================================================================================================
+Solving for the target =  (....(((((...(((((...(((((....(((((...(((((...(((((..(((((....(((((...(((((...(((((..(((((...(((((...(((((..(((((...(((((..(((((..(((((..(((((..(((((.(((((.((((((((((.....))))).....))))).....))))).....))))).....))))).....))))).....))))).....))))).....))))).....))))).....))))).....))))).....))))).....))))).....))))).....))))).....))))).....))))).....))))).....))))).....))))).....))))).....).....
+=====================================================================================================
+Start running job 1
+0  multi loop(s)
+111  Interior loop(s)
+1  Hairpin loop(s)
+111  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.0212765957447
+Generation 10 Max fitness =  0.333333333333
+Generation 20 Max fitness =  0.333333333333
+Generation 30 Max fitness =  0.333333333333
+Generation 40 Max fitness =  0.333333333333
+Generation 50 Max fitness =  0.333333333333
+Generation 60 Max fitness =  0.333333333333
+Generation 70 Max fitness =  0.333333333333
+Generation 80 Max fitness =  0.333333333333
+Generation 90 Max fitness =  0.333333333333
+Generation 100 Max fitness =  0.333333333333
+Generation 110 Max fitness =  0.333333333333
+Generation 120 Max fitness =  0.333333333333
+Generation 130 Max fitness =  0.333333333333
+Generation 140 Max fitness =  0.333333333333
+Generation 150 Max fitness =  0.333333333333
+Generation 160 Max fitness =  0.333333333333
+Generation 170 Max fitness =  0.333333333333
+Generation 180 Max fitness =  0.333333333333
+Generation 190 Max fitness =  0.333333333333
+Generation 200 Max fitness =  0.333333333333
+Generation 210 Max fitness =  0.333333333333
+Generation 220 Max fitness =  0.333333333333
+Generation 230 Max fitness =  0.333333333333
+Generation 240 Max fitness =  0.333333333333
+Generation 250 Max fitness =  0.333333333333
+Generation 260 Max fitness =  0.333333333333
+Generation 270 Max fitness =  0.333333333333
+Generation 280 Max fitness =  0.333333333333
+Generation 290 Max fitness =  0.333333333333
+Generation 300 Max fitness =  0.333333333333
+Generation 310 Max fitness =  0.333333333333
+Generation 320 Max fitness =  0.333333333333
+Generation 330 Max fitness =  0.333333333333
+Generation 340 Max fitness =  0.333333333333
+Generation 350 Max fitness =  0.333333333333
+Generation 360 Max fitness =  0.333333333333
+Generation 370 Max fitness =  0.333333333333
+Generation 380 Max fitness =  0.333333333333
+Generation 390 Max fitness =  0.333333333333
+Generation 400 Max fitness =  0.333333333333
+Generation 410 Max fitness =  0.333333333333
+Generation 420 Max fitness =  0.333333333333
+Generation 430 Max fitness =  0.333333333333
+Generation 440 Max fitness =  0.333333333333
+Generation 450 Max fitness =  0.333333333333
+Generation 460 Max fitness =  0.333333333333
+Generation 470 Max fitness =  0.333333333333
+Generation 480 Max fitness =  0.333333333333
+Generation 490 Max fitness =  0.333333333333
+Time =  4363.41139698 For method :  EVAL
+=====================================================================================================
+Solving for the target =  .....((((((((..((((....))))..((((....))))..((((....))))..((((....))))..)))))))).....((((((((..((((....))))..((((....))))..((((....))))..((((....))))..)))))))).....((((((((..((((....))))..((((....))))..((((....))))..((((....))))..)))))))).....((((((((..((((....))))..((((....))))..((((....))))..((((....))))..)))))))).....((((((((..((((....))))..((((....))))..((((....))))..((((....))))..)))))))).....
+=====================================================================================================
+Start running job 1
+5  multi loop(s)
+120  Interior loop(s)
+20  Hairpin loop(s)
+120  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.010989010989
+['UUUUUCCGGGGCCUUCUCCUUUUGGAGUUAGCGUUUUCGCUUUAGCCUUUUGGCUUUCCCCUUUUGGGGUUGGCCCCGGUUUUUCCGGGACGUUCACGUUUUCGUGUUCGGCUUUUGCUGUUCGGGUUUUCUCGUUCAGGUUUUCCUGUUCGUCCCGGUUUUUCGGCUCCGUUCUGGUUUUCCGGUUCAACUUUUGUUGUUCAGGUUUUCCUGUUCCCAUUUUUGGGUUCGGAGCCGUUUUUCGGGGGACUUACGGUUUUCCGUUUGCGCUUUUGUGCUUCCCCUUUUGGGGUUGGGCUUUUGCCCUUGUCCCCCGUUUUUGCCGCAGCUUGCACUUUUGUGCUUCGCCUUUUGGCGUUGGCGUUUUCGCCUUCCGGUUUUCCGGUUGCUGCGGCUUUUU'
+ '.....((((((((..((((....))))..((((....))))..((((....))))..((((....))))..)))))))).....((((((((..((((....))))..((((....))))..((((....))))..((((....))))..)))))))).....((((((((..((((....))))..((((....))))..((((....))))..((((....))))..)))))))).....((((((((..((((....))))..((((....))))..((((....))))..((((....))))..)))))))).....((((((((..((((....))))..((((....))))..((((....))))..((((....))))..)))))))).....'
+ '-178.8' '1.0' '-178.8']
+['AAAAAGGGCCCACAACACAAAAAUGUGAAACGCAAAAGCGUAAGCCCAAAAGGGCAAGCGGAAAACCGCAAGUGGGCCCAAAAACGGCGAGAAACGCCAAAAGGCGAACGGCAAAAGCUGAACCGAAAAAUCGGAAGCGCAAAAGCGUAAUUUCGCCGAAAAACGUCCCCGAAGCCAAAAAUGGCAAACAUAAAAAUGUAAUCAAAAAAUUGAAACCACAAAAGUGGAACGGGGGCGAAAAACGCGACCGAAGGCGAAAACGCCAAGGCCAAAAGGCCAAAUCGAAAACGAUAACCCGAAAACGGGAACGGUCGCGAAAAAGGCGAACGAAGGCCAAAAGGCCAAGGGCAAAAGCCCAACGCCAAAAGGCGAAGCUCAAAAGAGCAACGUUCGCCAAAAA'
+ '.....((((((((..((((....))))..((((....))))..((((....))))..((((....))))..)))))))).....((((((((..((((....))))..((((....))))..((((....))))..((((....))))..)))))))).....((((((((..((((....))))..((((....))))..((((....))))..((((....))))..)))))))).....((((((((..((((....))))..((((....))))..((((....))))..((((....))))..)))))))).....((((((((..((((....))))..((((....))))..((((....))))..((((....))))..)))))))).....'
+ '-183.5' '1.0' '-183.5']
+['AAAAACGAGGGCCAAGCGCAAAGGCGCAACGCCAAAAGGCGAAGAGCAAAAGCUCAAGCGAAAAAUCGUAAGGCUCUCGAAAAACCGAGCCGAACGACAAAAGUCGAAGCGCAAAAGUGCAAAGGGAAAACCCUAAGGCCAAAAGGCCAACGGCUCGGAAAAAGGCAGCCGAACCCCAAAAGGGGAAGGGGAAAACCCCAACUGUAAAAACGGAACAAGAAAACUUGAACGGCUGCCAAAAACCCCCGGCAACGCAAAAAUGCGAACCCCAAAAGGGGAAACCGAAAACGGUAACCGAAAAAUCGGAAGUCGGGGGAAAAACCGACAGCAAACGGAAAACUGUAACGAUAAAAGUCGAACACCAAAAGGUGAACGAGAAAACUCGAAGCUGUCGGAAAAA'
+ '.....((((((((..((((....))))..((((....))))..((((....))))..((((....))))..)))))))).....((((((((..((((....))))..((((....))))..((((....))))..((((....))))..)))))))).....((((((((..((((....))))..((((....))))..((((....))))..((((....))))..)))))))).....((((((((..((((....))))..((((....))))..((((....))))..((((....))))..)))))))).....((((((((..((((....))))..((((....))))..((((....))))..((((....))))..)))))))).....'
+ '-180.5' '1.0' '-180.5']
+['AAAAAGCACGCCCAAGCCCAAAGGGGCAAAGGGAAAACCCUAAACCGAAAACGGUAAGGCCAAAAGGCUAAGGGUGUGCAAAAAGGCGACCGAACCGGAAAACCGGAAGCGGAAAACUGCAAAGGGAAAACCCUAACGGCAAAAGCCGAACGGUCGCCAAAAACGUAGCCCAACUCCAAAAGGGGAACCGGAAAACUGGAAGUCGAAAACGGCAACGCGAAAACGCGAAGGGCUGCGAAAAACCCCGCGGAAGGGAAAAAUCCCAAGGCCAAAAGGCCAAGGGCAAAAGCCCAACCGAAAAAUCGGAACUGCGGGGAAAAACCCACGGGAAGUGGAAAACUACAACGGUAAAAGCCGAACCCCAAAAGGGGAAGGACAAAAGUCCAACCCGUGGGAAAAA'
+ '.....((((((((..((((....))))..((((....))))..((((....))))..((((....))))..)))))))).....((((((((..((((....))))..((((....))))..((((....))))..((((....))))..)))))))).....((((((((..((((....))))..((((....))))..((((....))))..((((....))))..)))))))).....((((((((..((((....))))..((((....))))..((((....))))..((((....))))..)))))))).....((((((((..((((....))))..((((....))))..((((....))))..((((....))))..)))))))).....'
+ '-191.6' '1.0' '-191.6']
+Time =  23.9399828911 For method :  EVAL
+=====================================================================================================
+Solving for the target =  .......((.........((.........((.........((.........((.........((.........((.........((.........((.........((.........((.........((.........((.........((.........((.........((.........((.........((.........)).........)).........)).........)).........)).........)).........)).........)).........)).........)).........)).........)).........)).........)).........)).........)).........)).........))......
+=====================================================================================================
+Start running job 1
+0  multi loop(s)
+36  Interior loop(s)
+1  Hairpin loop(s)
+36  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.0149253731343
+['UUUUUUUGCUUUUUUUUUCCUUUUUUUUUCCUUUUUUUUUGGUUUUUUUUUGAUUUUUUUUUGCUUUUUUUUUGGUUUUUUUUUCCUUUUUUUUUUCUUUUUUUUUGCUUUUUUUUUGCUUUUUUUUUCUUUUUUUUUUCCUUUUUUUUUCCUUUUUUUUUGGUUUUUUUUUGCUUUUUUUUUGUUUUUUUUUUCCUUUUUUUUUGGUUUUUUUUUACUUUUUUUUUGCUUUUUUUUUUCUUUUUUUUUGGUUUUUUUUUGGUUUUUUUUUAGUUUUUUUUUGCUUUUUGUUUGUUUUUUUUUUGGUUUUUUUUUGGUUUUUUUUUCCUUUUUUUUUGCUUUUUUUUUUCUUUUUUUUUUCUUUUUUUUUGGUUUUGUUUUGGUUUUUUUUUGCUUUUUU'
+ '.......((.........((.........((.........((.........((.........((.........((.........((.........((.........((.........((.........((.........((.........((.........((.........((.........((.........((.........)).........)).........)).........)).........)).........)).........)).........)).........)).........)).........)).........)).........)).........)).........)).........)).........)).........))......'
+ '-12.89' '1.0' '-12.89']
+Time =  14.1003899574 For method :  EVAL
+=====================================================================================================
+Solving for the target =  ................................................................................................................................................................................................................................................................................................................................................................................................................
+=====================================================================================================
+Start running job 1
+0  multi loop(s)
+0  Interior loop(s)
+0  Hairpin loop(s)
+0  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+['AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'
+ '................................................................................................................................................................................................................................................................................................................................................................................................................'
+ '0.0' '1.0' '0.0']
+['UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU'
+ '................................................................................................................................................................................................................................................................................................................................................................................................................'
+ '0.0' '1.0' '0.0']
+['GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG'
+ '................................................................................................................................................................................................................................................................................................................................................................................................................'
+ '0.0' '1.0' '0.0']
+['CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC'
+ '................................................................................................................................................................................................................................................................................................................................................................................................................'
+ '0.0' '1.0' '0.0']
+Time =  0.0013439655304 For method :  EVAL
+=====================================================================================================
+Solving for the target =  ..(.((..(((((....(((((......))))))))))((((...((((.....))))))))(((..(((....)))))).(((...((((...((((......))))))))(((..(((.....))))))((.((....)))).((((....(((..(((......))))))((.((.....))))(((....))).(((((.....((.((......))))(((.....)))((....)).((((((......(((......)))((.....))...(((((((...))))))).......))))))......))))).....))))....)))...))..)...(.((.((((....((....))((....))((((((...)))))).)))))).)
+=====================================================================================================
+Start running job 1
+6  multi loop(s)
+114  Interior loop(s)
+18  Hairpin loop(s)
+114  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.0077519379845
+Generation 10 Max fitness =  0.04
+Generation 20 Max fitness =  0.047619047619
+Generation 30 Max fitness =  0.0625
+Generation 40 Max fitness =  0.0625
+Generation 50 Max fitness =  0.0625
+Generation 60 Max fitness =  0.0625
+Generation 70 Max fitness =  0.0625
+Generation 80 Max fitness =  0.0909090909091
+Generation 90 Max fitness =  0.0909090909091
+Generation 100 Max fitness =  0.0909090909091
+Generation 110 Max fitness =  0.0909090909091
+Generation 120 Max fitness =  0.0909090909091
+Generation 130 Max fitness =  0.0909090909091
+Generation 140 Max fitness =  0.0909090909091
+Generation 150 Max fitness =  0.0909090909091
+Generation 160 Max fitness =  0.0909090909091
+Generation 170 Max fitness =  0.0909090909091
+Generation 180 Max fitness =  0.0909090909091
+Generation 190 Max fitness =  0.0909090909091
+Generation 200 Max fitness =  0.0909090909091
+Generation 210 Max fitness =  0.0909090909091
+Generation 220 Max fitness =  0.0909090909091
+Generation 230 Max fitness =  0.0909090909091
+Generation 240 Max fitness =  0.0909090909091
+Generation 250 Max fitness =  0.0909090909091
+Generation 260 Max fitness =  0.0909090909091
+Generation 270 Max fitness =  0.0909090909091
+Generation 280 Max fitness =  0.0909090909091
+Generation 290 Max fitness =  0.0909090909091
+Generation 300 Max fitness =  0.0909090909091
+Generation 310 Max fitness =  0.0909090909091
+Generation 320 Max fitness =  0.0909090909091
+Generation 330 Max fitness =  0.0909090909091
+Generation 340 Max fitness =  0.0909090909091
+Generation 350 Max fitness =  0.0909090909091
+Generation 360 Max fitness =  0.0909090909091
+Generation 370 Max fitness =  0.0909090909091
+Generation 380 Max fitness =  0.0909090909091
+Generation 390 Max fitness =  0.0909090909091
+Generation 400 Max fitness =  0.0909090909091
+Generation 410 Max fitness =  0.0909090909091
+Generation 420 Max fitness =  0.0909090909091
+Generation 430 Max fitness =  0.0909090909091
+Generation 440 Max fitness =  0.0909090909091
+Generation 450 Max fitness =  0.0909090909091
+Generation 460 Max fitness =  0.0909090909091
+Generation 470 Max fitness =  0.0909090909091
+Generation 480 Max fitness =  0.0909090909091
+Generation 490 Max fitness =  0.0909090909091
+Time =  2263.87550712 For method :  EVAL
+=====================================================================================================
+Solving for the target =  (....)..(....(...(..(.(..(...(((.(((...((((....)))).(((((..(.(((..(.((((..(.((((..(.((((((((.((((((.(((((.((((.((((..((((...)))).))).)))))).))))).)))))).)))))))..).))))..).))))..).)))..).))))).)))...(((.(((((.(..(((.(..((((.(..((((.(..(((((((.((((((.(((((.((((((.(((.((((((....))))))..)))).)))).))))).)))))).)))))))).)..)))).)..)))).)..))).)..))))).((((....))))...))).)))...)..).)..)...)....)..(....)
+=====================================================================================================
+Start running job 1
+3  multi loop(s)
+127  Interior loop(s)
+6  Hairpin loop(s)
+129  loop(s) in total
+ Starting of evolution 
+ Can not initialize the log folder 
+Generation 0 Max fitness =  0.0116279069767
+Generation 10 Max fitness =  0.025641025641
+Generation 20 Max fitness =  0.025641025641
+Generation 30 Max fitness =  0.025641025641
+Generation 40 Max fitness =  0.025641025641
+Generation 50 Max fitness =  0.025641025641
+Generation 60 Max fitness =  0.025641025641
+Generation 70 Max fitness =  0.025641025641
+Generation 80 Max fitness =  0.025641025641
+Generation 90 Max fitness =  0.025641025641
+Generation 100 Max fitness =  0.025641025641
+Generation 110 Max fitness =  0.025641025641
+Generation 120 Max fitness =  0.025641025641
+Generation 130 Max fitness =  0.025641025641
+Generation 140 Max fitness =  0.025641025641
+Generation 150 Max fitness =  0.025641025641
+Generation 160 Max fitness =  0.025641025641
+Generation 170 Max fitness =  0.025641025641
+Generation 180 Max fitness =  0.025641025641
+Generation 190 Max fitness =  0.025641025641
+Generation 200 Max fitness =  0.025641025641
+Generation 210 Max fitness =  0.025641025641
+Generation 220 Max fitness =  0.025641025641
+Generation 230 Max fitness =  0.025641025641
+Generation 240 Max fitness =  0.025641025641
+Generation 250 Max fitness =  0.025641025641
+Generation 260 Max fitness =  0.025641025641
+Generation 270 Max fitness =  0.025641025641
+Generation 280 Max fitness =  0.025641025641
+Generation 290 Max fitness =  0.025641025641
+Generation 300 Max fitness =  0.025641025641
+Generation 310 Max fitness =  0.025641025641
+Generation 320 Max fitness =  0.025641025641
+Generation 330 Max fitness =  0.025641025641
+Generation 340 Max fitness =  0.025641025641
+Generation 350 Max fitness =  0.025641025641
+Generation 360 Max fitness =  0.025641025641
+Generation 370 Max fitness =  0.025641025641
+Generation 380 Max fitness =  0.025641025641
+Generation 390 Max fitness =  0.025641025641
+Generation 400 Max fitness =  0.025641025641
+Generation 410 Max fitness =  0.025641025641
+Generation 420 Max fitness =  0.025641025641
+Generation 430 Max fitness =  0.025641025641
+Generation 440 Max fitness =  0.025641025641
+Generation 450 Max fitness =  0.025641025641
+Generation 460 Max fitness =  0.025641025641
+Generation 470 Max fitness =  0.025641025641
+Generation 480 Max fitness =  0.025641025641
+Generation 490 Max fitness =  0.025641025641
+Time =  4592.40239596 For method :  EVAL

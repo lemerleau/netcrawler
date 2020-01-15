@@ -98,6 +98,8 @@ def boostInterior(sequence,target, coord) :
     if target[coord[0]] == "(" : 
         if target[coord[0]+1] == ".":
             sequence[coord[0]+1] = "G"  
+            sequence[coord[0]] = "G" 
+            sequence[coord[1]] = "C" 
     return sequence 
 
 def pphamming(listOfStructures, landscape) : 
@@ -113,7 +115,7 @@ def ppens_defect(listOfSequences, landscape) :
     return dists
 
 #Mutation function 
-def mutateOne(seq, mut_probs,target,pos, p_n, p_c, mut_bp=.5) :  
+def mutateOne(seq, mut_probs,target,pos, p_n, p_c, mut_bp=.1) :  
     base_paire = ["GC","CG","AU","UA", "GU", "UG"]
     nucleotides = ["A", "G","U","C"]
     p_table = pos["bp_pos"]
@@ -132,9 +134,11 @@ def mutateOne(seq, mut_probs,target,pos, p_n, p_c, mut_bp=.5) :
             RNA_seq[bp_cord[0]] = bp[0][0]
             RNA_seq[bp_cord[1]] = bp[0][1]
         
-        if bp_cord in pos["interior"] : 
+        if bp_cord in pos["hairpins"] : 
                 RNA_seq = boost_hairpins(RNA_seq,target, bp_cord)
         
+        elif bp_cord in pos["interior"] : 
+                RNA_seq = boostInterior(RNA_seq,target, bp_cord)
         """
         elif bp_cord  in pos["multi"] : 
             RNA_seq = boostMulti(RNA_seq, bp_cord,pos)
@@ -212,10 +216,10 @@ def eval_proportion_selection(population, size) :
     delta_mfe = delta_mfe / sum(delta_mfe)
     weights = (1-delta_mfe)**100
     
-    p = numpy.exp(mfes)/sum(numpy.exp(mfes))
-    #selected = numpy.random.choice(list(population["RNA_sequence"]),size=size,p=weights/sum(weights))
+    #p = numpy.exp(mfes)/sum(numpy.exp(mfes))
+    selected = numpy.random.choice(list(population["RNA_sequence"]),size=size,p=weights/sum(weights))
     #print sum(p)
-    selected = numpy.random.choice(list(population["RNA_sequence"]),size=size,p=p)
+    #selected = numpy.random.choice(list(population["RNA_sequence"]),size=size,p=p)
     
     return list(selected)
 
