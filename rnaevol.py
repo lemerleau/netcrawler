@@ -115,7 +115,7 @@ def ppens_defect(listOfSequences, landscape) :
     return dists
 
 #Mutation function 
-def mutateOne(seq, mut_probs,target,pos, p_n, p_c, mut_bp=.1) :  
+def mutateOne(seq, mut_probs,target,pos, p_n, p_c, mut_bp=.5) :  # best = 0.5, 0.1, 1/6
     base_paire = ["GC","CG","AU","UA", "GU", "UG"]
     nucleotides = ["A", "G","U","C"]
     p_table = pos["bp_pos"]
@@ -136,10 +136,10 @@ def mutateOne(seq, mut_probs,target,pos, p_n, p_c, mut_bp=.1) :
         
         if bp_cord in pos["hairpins"] : 
                 RNA_seq = boost_hairpins(RNA_seq,target, bp_cord)
-        
+        """
         elif bp_cord in pos["interior"] : 
                 RNA_seq = boostInterior(RNA_seq,target, bp_cord)
-        """
+        
         elif bp_cord  in pos["multi"] : 
             RNA_seq = boostMulti(RNA_seq, bp_cord,pos)
      
@@ -379,8 +379,8 @@ def main() :
     mut_prob = 1./init_depth
     number_of_generation = args.g
     pop_size = args.n
-    p_n = [0.7,0.1,0.1,.1] #default = [0.25,0.25,0.25,.25] [0.25,0.65,0.05,.05] ["A", "G","U","C"]
-    p_c =[0.2,0.2,0.1,0.1,0.2,0.2] #[0.2,0.2,0.1,0.1,0.2,0.2] #[0.4, 0.5, 0.1, 0.,0.,0.] ["GC","CG","AU","UA", "GU", "UG"]
+    p_n = [0.95,0.0,0.05,.0] #default = [0.25,0.25,0.25,.25] [0.25,0.65,0.05,.05] [0.7,0.1,0.1,.1] ["A", "G","U","C"]
+    p_c =[0.3, 0.4, 0.2, 0.0,0.,0.1] #[0.2,0.2,0.1,0.1,0.2,0.2] #[0.4, 0.5, 0.1, 0.,0.,0.] ["GC","CG","AU","UA", "GU", "UG"]
     ppservers = ()
 
     mut_probs = numpy.array(RNA.ptable(target)[1:])
