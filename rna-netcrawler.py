@@ -304,51 +304,51 @@ def netcrawler(landscape, number_of_generation, mut_probs, init_pop, selection_m
         if (number_of_generation - t)%10*wind_size == 0 : 
             print ('Generation '+str(number_of_generation - n)), "Max fitness = ", w_i
         
-	for i in range(wind_size) :
-	    
+        for i in range(wind_size) :
+            
             mutant = mutateOne(init_sequence, mut_probs,landscape.target,pos, p_n, p_c)
             mutants.append(mutant)
-	    mutant_strc, mutant_mfe = RNA.fold(mutant)
+            mutant_strc, mutant_mfe = RNA.fold(mutant)
             w_j = landscape.fitness(mutant_strc)
             eval_ +=1
-	    t = t+1
-	    delta_j = ppeval([mutant], landscape.target,log_folder)[0] - mutant_mfe
+            t = t+1
+            #delta_j = ppeval([mutant], landscape.target,log_folder)[0] - mutant_mfe
 
-	    if delta_j < delta_i: 
-		delta_i = delta_j
-		init_sequence = mutant
-		current_structure = mutant_strc
-		current_mfe = mutant_mfe
-		w_i = w_j
+            if delta_j < delta_i: 
+                delta_i = delta_j
+                init_sequence = np>copy(mutant)
+                current_structure = mutant_strc
+                current_mfe = mutant_mfe
+                w_i = w_j
 
-		fitness_data.append([t,w_i])
-                 
-                print "v_i = ",v_i, "w_j = ", delta_j, "v_obs = ", v_i/eval_, " total of mutants = ", eval_
-                epoches.append([epoche, w_j,v_i,  v_i/eval_, eval_])
-                evals.append(eval_)
+                fitness_data.append([t,w_i])
+                    
+                    print "v_i = ",v_i, "w_j = ", delta_j, "v_obs = ", v_i/eval_, " total of mutants = ", eval_
+                    epoches.append([epoche, w_j,v_i,  v_i/eval_, eval_])
+                    evals.append(eval_)
+                    
+                    eval_ = 1.
+                    v_i = 1.
+                    oup = 1.
+                    mutants = []
+                    mutants.append(init_sequence)
+                    
+            
+                elif delta_j == delta_i : 
+                    #if not np.array_equal(init_seq, mutant) : 
+                    init_sequence = mutant
+                    v_i +=1.
+            fitness_data.append([t,w_i])
                 
-                eval_ = 1.
-                v_i = 1.
-                oup = 1.
-                mutants = []
-                mutants.append(init_sequence)
-                
+                else : 
+            fitness_data.append([t,w_i])
+                    continue
         
-            elif delta_j == delta_i : 
-                #if not np.array_equal(init_seq, mutant) : 
-                init_sequence = mutant
-                v_i +=1.
-		fitness_data.append([t,w_i])
-               
-            else : 
-		fitness_data.append([t,w_i])
-                continue
-       
-        n +=1
-	if n<=0 or w_i ==1.  : 
-	   epoches.append([epoche, w_i,v_i,  v_i/eval_, eval_])
+            n +=1
+        if n<=0 or w_i ==1.  : 
+        epoches.append([epoche, w_i,v_i,  v_i/eval_, eval_])
 
-    return init_sequence, current_structure, current_mfe, w_i , epoches, fitness_data
+        return init_sequence, current_structure, current_mfe, w_i , epoches, fitness_data
 
 
 def run_netcrawler(number_of_generation,pop_size, mut_probs, log_folder,landscape, p_n, p_c) : 

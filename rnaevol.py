@@ -115,7 +115,7 @@ def ppens_defect(listOfSequences, landscape) :
     return dists
 
 #Mutation function 
-def mutateOne(seq, mut_probs,target,pos, p_n, p_c, mut_bp=.5) :  # best = 0.5, 0.1, 1/6
+def mutateOne(seq, mut_probs,target,pos, p_n, p_c, mut_bp=.1) :  # best = 0.5, 0.1, 1/6
     base_paire = ["GC","CG","AU","UA", "GU", "UG"]
     nucleotides = ["A", "G","U","C"]
     p_table = pos["bp_pos"]
@@ -212,12 +212,13 @@ def eval_proportion_selection(population, size) :
 
     evals = numpy.array(population["Evals"], dtype = float)
     mfes  = numpy.array(population["Mfes"], dtype = float)
+    fitnesses  = numpy.array(population["Fitness"], dtype = float)
     delta_mfe = evals - mfes 
     delta_mfe = delta_mfe / sum(delta_mfe)
     weights = (1-delta_mfe)**100
     
     #p = numpy.exp(mfes)/sum(numpy.exp(mfes))
-    selected = numpy.random.choice(list(population["RNA_sequence"]),size=size,p=weights/sum(weights))
+    selected = numpy.random.choice(list(population["RNA_sequence"]),size=size,p=fitnesses/sum(fitnesses))
     #print sum(p)
     #selected = numpy.random.choice(list(population["RNA_sequence"]),size=size,p=p)
     
@@ -254,13 +255,15 @@ def simple_EA(landscape, number_of_generation, mut_probs, init_pop, selection_me
     print (" Starting of evolution ")
     prev_population = init_pop.copy(deep=True) #Initialize the population of RNA
     
-    root_path = "../Logs/Defect/Test100/"+str(log_folder)+"/"+selection_method
+    root_path = "Logs/degree_analysis/"+str(selection_method)+'/'+str(log_folder)
     try:
         os.makedirs(root_path)
-    except OSError :
-        print (" Can not initialize the log folder ")
+    except OSError as error:
+        #print "ERROR", error 
+        pass
     
     population_size =  len(init_pop)
+    save_population(init_pop, 0, root_path)
     n = number_of_generation
     max_fitness = max(numpy.array(prev_population["Fitness"], dtype = float))
     best_sequence = list(prev_population["RNA_sequence"])[list(prev_population["Fitness"]).index(str(max_fitness))]
@@ -288,10 +291,12 @@ def simple_EA(landscape, number_of_generation, mut_probs, init_pop, selection_me
         #newgeneration.append(defects)
         
         prev_population = pandas.DataFrame(numpy.array(newgeneration).T, columns=["RNA_sequence", "RNA_structure", "Mfes", "Fitness","Evals"])
+        save_population(prev_population, n+1, root_path)
         max_fitness = max(numpy.array(prev_population["Fitness"], dtype=float))
         
         best_sequence = list(prev_population["RNA_sequence"])[list(prev_population["Fitness"]).index(str(max_fitness))]
         n -=1
+    
 
     return prev_population
        
@@ -336,7 +341,7 @@ def run(number_of_generation,pop_size, mut_probs, log_folder,landscape, p_n, p_c
     print len(pos["bp_pos"])," loop(s) in total"
     init_pop = pandas.DataFrame(numpy.array([pop, strcs, mfes, fitnesses, evals]).T, columns=["RNA_sequence", "RNA_structure", "Mfes", "Fitness","Evals"])
     tic = time.time()
-    best_pop = simple_EA(landscape,number_of_generation, mut_probs,init_pop, "EVAL",log_folder, pos, p_n, p_c)
+    best_pop = simple_EA(landscape,number_of_generation, mut_probs,init_pop, "F",log_folder, pos, p_n, p_c)
     toc = time.time()
     
     for ind in best_pop.values : 
@@ -380,9 +385,8 @@ def main() :
     number_of_generation = args.g
     pop_size = args.n
     p_n = [0.95,0.0,0.05,.0] #default = [0.25,0.25,0.25,.25] [0.25,0.65,0.05,.05] [0.7,0.1,0.1,.1] ["A", "G","U","C"]
-    p_c =[0.3, 0.4, 0.2, 0.0,0.,0.1] #[0.2,0.2,0.1,0.1,0.2,0.2] #[0.4, 0.5, 0.1, 0.,0.,0.] ["GC","CG","AU","UA", "GU", "UG"]
+    p_c =[0.4, 0.4, 0.2, 0.,0.,0.] #[0.2,0.2,0.1,0.1,0.2,0.2] #[0.4, 0.5, 0.1, 0.,0.,0.] ["GC","CG","AU","UA", "GU", "UG"]
     ppservers = ()
-
     mut_probs = numpy.array(RNA.ptable(target)[1:])
     mut_probs = mut_probs + mut_prob
     mut_probs[mut_probs>mut_prob] = 0

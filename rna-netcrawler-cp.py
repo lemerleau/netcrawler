@@ -67,9 +67,9 @@ def getInteriorCoord(sequence, target) :
             list_+=filter(None,dt.strip().split("\n"))
     return numpy.array(list(set([tuple(map(int,string.strip().split(","))) for string in list_]))) -1
 
-def boost_hairpins(sequence, coord) :
-    #stems = list(numpy.random.choice(["A"],len(range(coord[1]-coord[0]-1))))
-    if (coord[1]-coord[0]-1)>100 : 
+def boost_hairpins(sequence,target, coord) :
+    
+    if (coord[1]-coord[0]-1) > 100 : 
 
         with open("DB3/Hp/Hp"+str(coord[1]-coord[0]-1)+".txt", 'r') as f: 
             Hps = f.read()
@@ -85,6 +85,8 @@ def boost_hairpins(sequence, coord) :
         sequence[coord[0]:coord[1]+1] = stems
     else : 
         sequence[coord[0]+1:coord[1]] = stems
+    
+    
     return sequence
 
 def boostMulti(sequence, coord, pos) : 
@@ -128,23 +130,18 @@ def ppens_defect(listOfSequences, landscape) :
     return dists
 
 #Mutation function 
-def mutateOne(seq, mut_probs,target,pos, p_n, p_c, mut_bp=0.5) :  
+def mutateOne(seq, mut_probs,target,pos, p_n, p_c, mut_bp=.1) :  # best = 0.5, 0.1, 1/6
     base_paire = ["GC","CG","AU","UA", "GU", "UG"]
     nucleotides = ["A", "G","U","C"]
     p_table = pos["bp_pos"]
- 
     RNA_seq = numpy.array(list(seq))
-
     r = numpy.random.rand(len(seq))
     mut_pos =RNA_seq[r<mut_probs] 
     choices = numpy.random.choice(nucleotides, len(mut_pos), p=p_n)
     RNA_seq[r<mut_probs] = choices 
-    
+    apply = []
     for bp_cord in p_table : 
         r = random.uniform(0,1)
-       
-        if bp_cord in pos["interior"] : 
-            RNA_seq = boost_hairpins(RNA_seq, bp_cord)
         
         if r < mut_bp : 
             bp = numpy.random.choice(base_paire,1, p=p_c)
@@ -152,12 +149,18 @@ def mutateOne(seq, mut_probs,target,pos, p_n, p_c, mut_bp=0.5) :
             RNA_seq[bp_cord[0]] = bp[0][0]
             RNA_seq[bp_cord[1]] = bp[0][1]
         
-        
+        if bp_cord in pos["hairpins"] : 
+                RNA_seq = boost_hairpins(RNA_seq,target, bp_cord)
         """
+        elif bp_cord in pos["interior"] : 
+                RNA_seq = boostInterior(RNA_seq,target, bp_cord)
+        
         elif bp_cord  in pos["multi"] : 
             RNA_seq = boostMulti(RNA_seq, bp_cord,pos)
+     
+        elif bp_cord in pos["interior"] : 
+            RNA_seq = boostInterior(RNA_seq, bp_cord, pos)
         """
-       
 
     return ''.join(RNA_seq)
 
@@ -312,7 +315,7 @@ def simple_EA(landscape, number_of_generation, mut_probs, init_pop, selection_me
 def netcrawler(landscape, number_of_generation, mut_probs, init_pop, selection_method, log_folder,pos,p_n, p_c, wind_size) : 
     
     print (" Starting of evolution ")
-    init_sequence = ''.join(numpy.random.choice(['A'],len(landscape.target))) #Initialize the population of RNA
+    init_sequence = ''.join(numpy.random.choice(['A', 'C', 'G','U'],len(landscape.target))) #Initialize the population of RNA
     current_structure, current_mfe = RNA.fold(init_sequence)
     print "initial seq :", init_sequence
     
@@ -379,7 +382,7 @@ def netcrawler(landscape, number_of_generation, mut_probs, init_pop, selection_m
 
 	    if len(mutants) > 100 : 
 
-		evals = ppeval(mutants, landscape.target,log_folder)
+		    evals = ppeval(mutants, landscape.target,log_folder)
     		strcs, mfes = ppfold(mutants,log_folder)
     		fitnesses = numpy.array(pphamming(strcs,landscape))
 		
@@ -531,8 +534,8 @@ def main() :
     mut_prob = 1./init_depth
     number_of_generation = args.g
     pop_size = args.n
-    p_n = [0.9,0.0,0.1,.0] #default = [0.25,0.25,0.25,.25] [0.25,0.65,0.05,.05] ["A", "G","U","C"]
-    p_c =[0.2,0.2,0.1,0.1,0.2,0.2] #[0.2,0.2,0.1,0.1,0.2,0.2] #[0.4, 0.5, 0.1, 0.,0.,0.] ["GC","CG","AU","UA", "GU", "UG"]
+    p_n = [0.95,0.0,0.05,.0] #default = [0.25,0.25,0.25,.25] [0.25,0.65,0.05,.05] [0.7,0.1,0.1,.1] ["A", "G","U","C"]
+    p_c =[0.4, 0.4, 0.2, 0.,0.,0.] #[0.2,0.2,0.1,0.1,0.2,0.2] #[0.4, 0.5, 0.1, 0.,0.,0.] ["GC","CG","AU","UA", "GU", "UG"]
     ppservers = ()
 
     mut_probs = numpy.array(RNA.ptable(target)[1:])
