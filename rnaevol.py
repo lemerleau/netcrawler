@@ -2,6 +2,7 @@ import pandas
 import Individual
 import random
 import numpy 
+import numpy  as np
 import RNA
 import collections
 import pp 
@@ -10,6 +11,10 @@ import platform
 import subprocess
 import multiprocess
 import time
+import scipy.stats
+
+
+from scipy.stats import levy
 import argparse
 import itertools
 
@@ -66,7 +71,7 @@ def getInteriorCoord(sequence, target) :
             list_+=filter(None,dt.strip().split("\n"))
     return numpy.array(list(set([tuple(map(int,string.strip().split(","))) for string in list_]))) -1
 
-def boost_hairpins(sequence,target, coord) :
+def boost_hairpins(sequence, coord) :
     
     if (coord[1]-coord[0]-1) > 100 : 
 
@@ -115,7 +120,7 @@ def ppens_defect(listOfSequences, landscape) :
     return dists
 
 #Mutation function 
-def mutateOne(seq, mut_probs,target,pos, p_n, p_c, mut_bp=.1) :  # best = 0.5, 0.1, 1/6
+def mutateOne(seq, mut_probs,target,pos, p_n, p_c, mut_bp=0.1) :  # best = 0.5, 0.1, 1/6
     base_paire = ["GC","CG","AU","UA", "GU", "UG"]
     nucleotides = ["A", "G","U","C"]
     p_table = pos["bp_pos"]
@@ -135,7 +140,7 @@ def mutateOne(seq, mut_probs,target,pos, p_n, p_c, mut_bp=.1) :  # best = 0.5, 0
             RNA_seq[bp_cord[1]] = bp[0][1]
         
         if bp_cord in pos["hairpins"] : 
-                RNA_seq = boost_hairpins(RNA_seq,target, bp_cord)
+                RNA_seq = boost_hairpins(RNA_seq, bp_cord)
         """
         elif bp_cord in pos["interior"] : 
                 RNA_seq = boostInterior(RNA_seq,target, bp_cord)
@@ -192,7 +197,7 @@ def ppeval(listOfSeqs, target, task) :
 def ppfold(listOfSeqs,task) : 
     dataFrame= pandas.DataFrame(listOfSeqs)
     dataFrame.to_csv("tmp/sequences"+str(task),sep=" ",index=False, header=False)    
-    os.system("RNAfold -j -P vrna185x.par --infile=tmp/sequences"+str(task)+" --noPS > tmp/rnafold_result"+str(task)) #To change the energy par just add -P vrna185x.par  to RNAfold
+    os.system("RNAfold -j -P vrna185x.par --infile=tmp/sequences"+str(task)+"  > tmp/rnafold_result"+str(task)) #To change the energy par just add -P vrna185x.par  to RNAfold
     os.system("cut -d ' ' -f 1 tmp/rnafold_result"+str(task)+" | tr -d A-Z > tmp/result_"+str(task))
     os.system("cat tmp/rnafold_result"+str(task)+"|tr -d A-Z,'(',')' | cut -d ' ' -f 2- >tmp/mfes"+str(task))
     with open("tmp/result_"+str(task), "r") as file_ : 
@@ -218,7 +223,7 @@ def eval_proportion_selection(population, size) :
     weights = (1-delta_mfe)**100
     
     #p = numpy.exp(mfes)/sum(numpy.exp(mfes))
-    selected = numpy.random.choice(list(population["RNA_sequence"]),size=size,p=fitnesses/sum(fitnesses))
+    selected = numpy.random.choice(list(population["RNA_sequence"]),size=size,p=weights/sum(weights))
     #print sum(p)
     #selected = numpy.random.choice(list(population["RNA_sequence"]),size=size,p=p)
     
@@ -234,20 +239,73 @@ def ensDefect_proportion_selection(population, size, target) :
 
 
 def reproduce(population, size) : 
-    list_fitness = []
-    #ref = numpy.random.choice(a=[".",len(population[0].RNA_seq)])
-    for ind in population : 
-        list_fitness.append(ind.fitness)
-    list_fitness = sorted(list_fitness, reverse=True) 
-
-    sorted_pop = [ ] 
-    for fitness in list_fitness : 
-        for ind in population : 
-            if ind.fitness == fitness : # or self.landscape.hamming_distance(ind.RNA_structure, ref) == 0 : 
-                sorted_pop.append(ind)
-                
-    return sorted_pop[:size]
+    
+    sorted_pop = population.sort_values(by ='Fitness', ascending=False )         
+    return list(sorted_pop['RNA_sequence'])[:11]
  
+def mutateOnePoint(seq): 
+    nucleotides = ["A", "C", "G" , "U"]
+    mutate_pos = numpy.random.randint(low=0, high=len(seq))
+    RNA_seq = list(seq)
+    RNA_seq[mutate_pos] = numpy.random.choice(nucleotides, 1)[0]
+    return "".join(RNA_seq)
+
+def compute_relative_degree(sequence, nb_mutant=100) :
+    
+    target = RNA.fold(sequence)[0] 
+    
+    mutants = [ mutateOnePoint(sequence) for i in range(nb_mutant)]
+    strs = [RNA.fold(mutant)[0] for mutant in mutants]
+    
+    return strs.count(target)/(3.*len(sequence))
+
+def select_on_relative_degree(pop, size) : 
+    #degrees = map(compute_relative_degree, pop)
+    pool = mp.Pool(mp.cpu_count())
+    degrees= list(pool.map(compute_relative_degree, pop))
+    pool.close()
+    pop = numpy.array(pop)
+
+    return numpy.random.choice(pop, size, p=(1.-numpy.array(degrees))/(1.-numpy.array(degrees)))
+
+def levy_adv_mutation(pop, pos, p_n, p_c) : 
+    base_paire = ["GC","CG","AU","UA", "GU", "UG"]
+    nucleotides = ["A", "G","U","C"]
+    bp_pos = pos["bp_pos"]
+    nbp_indexes = numpy.where(numpy.array(pos["p_table"])==-1)[0]
+    mutants = []
+    
+    
+    
+    bp_points = levy_rdv(1,len(bp_pos),len(pop))
+    nb_points = levy_rdv(1,len(nbp_indexes),len(pop))
+    
+    for i in range(len(pop)) : 
+        mutant = numpy.array(list(pop[i]))
+        
+        #Mutate a base pair position
+        bp_choice = numpy.random.choice(base_paire,bp_points[i], p=p_c)
+        bp_indexes_to_mutate = numpy.random.choice(range(len(bp_pos)), bp_points[i],replace=False)
+        bp_to_mutate = numpy.array(bp_pos)[bp_indexes_to_mutate]
+        
+        for j in range(bp_points[i]) : 
+            mutant[bp_to_mutate[j][0]] =bp_choice[j][0]
+            mutant[bp_to_mutate[j][1]] =bp_choice[j][1]
+        
+        #Mutate a non base pair position
+        nbp_indexes_to_mutate = numpy.random.choice(list(nbp_indexes), nb_points[i], replace=False)
+        mutant[nbp_indexes_to_mutate]= numpy.random.choice(['A', 'C','G','U'], nb_points[i],p=p_n)
+        
+        for bp_cord in pos["hairpins"] : 
+            mutant = boost_hairpins(mutant, bp_cord)
+        mutants.append("".join(mutant))
+        
+    return mutants
+
+def levy_rdv(a,b,size) : 
+    levy_dat = scipy.stats.levy.rvs(size=size)
+    levy_ab = (b-a)*((levy_dat - min(levy_dat))/(max(levy_dat)-min(levy_dat))) + a
+    return numpy.array(levy_ab, dtype=int)
 
 
 def simple_EA(landscape, number_of_generation, mut_probs, init_pop, selection_method, log_folder,pos,p_n, p_c) : 
@@ -263,21 +321,28 @@ def simple_EA(landscape, number_of_generation, mut_probs, init_pop, selection_me
         pass
     
     population_size =  len(init_pop)
-    save_population(init_pop, 0, root_path)
+    #save_population(init_pop, 0, root_path)
     n = number_of_generation
     max_fitness = max(numpy.array(prev_population["Fitness"], dtype = float))
     best_sequence = list(prev_population["RNA_sequence"])[list(prev_population["Fitness"]).index(str(max_fitness))]
     
+    best_pop = []
+    best_pop.append(best_sequence)
+    current_fitest = max_fitness
+
     while (n > 0) and (max_fitness < 1.):
         
         if (number_of_generation - n)%10 == 0 : 
-            print ('Generation '+str(number_of_generation - n)), "Max fitness = ", max_fitness,best_sequence,list(prev_population["Mfes"])[list(prev_population["Fitness"]).index(str(max_fitness))]
+            print ('Generation '+str(number_of_generation - n)), "Max fitness = ", current_fitest,best_sequence,list(prev_population["Mfes"])[list(prev_population["Fitness"]).index(str(current_fitest))]
            
         newgeneration = []
-    
+        best = reproduce(prev_population, 10)
         selected_ind = eval_proportion_selection(prev_population,population_size)
         
-        mutated = mutateAll(selected_ind,mut_probs,landscape.target,pos, p_n, p_c)
+        mutated = levy_adv_mutation(selected_ind,pos, p_n, p_c)
+        for seq in best : 
+            mutated.append(seq)
+
         newgeneration.append(mutated)
 
         structures, mfes = ppfold(mutated,log_folder)
@@ -291,13 +356,32 @@ def simple_EA(landscape, number_of_generation, mut_probs, init_pop, selection_me
         #newgeneration.append(defects)
         
         prev_population = pandas.DataFrame(numpy.array(newgeneration).T, columns=["RNA_sequence", "RNA_structure", "Mfes", "Fitness","Evals"])
-        save_population(prev_population, n+1, root_path)
-        max_fitness = max(numpy.array(prev_population["Fitness"], dtype=float))
         
-        best_sequence = list(prev_population["RNA_sequence"])[list(prev_population["Fitness"]).index(str(max_fitness))]
-        n -=1
-    
+        #save_population(prev_population, number_of_generation-n+1, root_path)
+        current_fitest = max(numpy.array(prev_population["Fitness"], dtype=float))
 
+        if max_fitness<current_fitest : 
+
+            best_sequence = list(prev_population["RNA_sequence"])[list(prev_population["Fitness"]).index(str(current_fitest))]
+            best_pop.append(best_sequence)
+            max_fitness = current_fitest
+
+        elif max_fitness==current_fitest : 
+
+            best_sequence = list(prev_population["RNA_sequence"])[list(prev_population["Fitness"]).index(str(current_fitest))]
+            best_pop.append(best_sequence)
+
+        n -=1
+        if (number_of_generation - n)%100 == 0 :
+            if p_c[0]>=0.3 : 
+                p_c [0] = p_c [0]-0.1
+                p_c [1] = p_c [1]-0.1
+                p_c [2] = p_c [2]+0.1
+                p_c [3] = p_c [3]+0.1
+            else : 
+                [0.4, 0.5, 0.1, 0.,0.,0.]
+    
+    save_population(pandas.DataFrame(best_pop), "best", root_path)
     return prev_population
        
 
@@ -330,7 +414,7 @@ def run(number_of_generation,pop_size, mut_probs, log_folder,landscape, p_n, p_c
     fitnesses = pphamming(strcs, landscape)
     #ens_defects = ppens_defect(pop, landscape)
     pos = {
-        "p_table" : numpy.array(RNA.ptable(target)) - 1,
+        "p_table" : numpy.array(RNA.ptable(target)[1:]) - 1,
         "bp_pos"  : p_table,
         "hairpins": getHairepinCoord(pop[0],target),
         "interior": getInteriorCoord(pop[0],target), 
@@ -384,21 +468,22 @@ def main() :
     mut_prob = 1./init_depth
     number_of_generation = args.g
     pop_size = args.n
-    p_n = [0.95,0.0,0.05,.0] #default = [0.25,0.25,0.25,.25] [0.25,0.65,0.05,.05] [0.7,0.1,0.1,.1] ["A", "G","U","C"]
-    p_c =[0.4, 0.4, 0.2, 0.,0.,0.] #[0.2,0.2,0.1,0.1,0.2,0.2] #[0.4, 0.5, 0.1, 0.,0.,0.] ["GC","CG","AU","UA", "GU", "UG"]
+    p_n = [0.7,0.1,0.1,.1] #default = [0.25,0.25,0.25,.25] [0.25,0.65,0.05,.05] [0.7,0.1,0.1,.1] ["A", "G","U","C"]
+    p_c = [0.5, 0.5, 0., 0.,0.,0.] #[0.2,0.2,0.1,0.1,0.2,0.2] #[0.4, 0.5, 0.1, 0.,0.,0.] ["GC","CG","AU","UA", "GU", "UG"]
     ppservers = ()
     mut_probs = numpy.array(RNA.ptable(target)[1:])
     mut_probs = mut_probs + mut_prob
     mut_probs[mut_probs>mut_prob] = 0
 
-
+    
     job_server = pp.Server(4, ppservers=ppservers)
     
     print "Start running job", number_of_run
+    
     run(number_of_generation, pop_size, mut_probs, 0, landscape, p_n, p_c)
     
     """
-    jobs = [(task , job_server.submit(run, (number_of_generation,pop_size, mut_probs, task,landscape, p_n, p_c), (ppeval,ppfold, getInteriorCoord,boostInterior,getMultiCoord, boostMulti, pphamming,mutateAll,get_bp_position, eval_proportion_selection,getHairepinCoord, boost_hairpins, mutateOne,  save_population, simple_EA, ppens_defect),("numpy", "Individual", "RNA", "random","pandas","os", "time", "collections","subprocess","multiprocess"))) for task in range(number_of_run)]
+    jobs = [(task , job_server.submit(run, (number_of_generation,pop_size, mut_probs, task,landscape, p_n, p_c), (levy_adv_mutation,reproduce,levy_rdv,ppeval,ppfold, getInteriorCoord,boostInterior,getMultiCoord, boostMulti, pphamming,mutateAll,get_bp_position, eval_proportion_selection,getHairepinCoord, boost_hairpins, mutateOne,  save_population, simple_EA, ppens_defect),("numpy", "Individual", "RNA", "random","scipy.stats","pandas","os", "time", "collections","subprocess","multiprocess"))) for task in range(number_of_run)]
     
     for task, job in jobs : 
         job()

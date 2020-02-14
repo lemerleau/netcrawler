@@ -13,6 +13,7 @@ import time
 import argparse
 import itertools
 import matplotlib.pyplot as plt 
+import multiprocessing as mp 
 
 class Landscape (object) : 
 
@@ -237,8 +238,8 @@ def eval_proportion_selection(population, size) :
     choices = list(population["RNA_sequence"])
     choices = numpy.array(choices)
 
-    weights = list(population["Mfes"])
-    #weights = list(weights)
+    #weights = list(population["Mfes"])
+    weights = list(weights)
     return choices[weights.index(max(weights))] , max(weights)
 
 
@@ -264,7 +265,35 @@ def reproduce(population, size) :
                 sorted_pop.append(ind)
                 
     return sorted_pop[:size]
- 
+
+def mutateOnePoint(seq): 
+    nucleotides = ["A", "C", "G" , "U"]
+    mutate_pos = numpy.random.randint(low=0, high=len(seq))
+    RNA_seq = list(seq)
+    RNA_seq[mutate_pos] = numpy.random.choice(nucleotides, 1)[0]
+    return "".join(RNA_seq)
+
+def compute_relative_degree(sequence, nb_mutant=100) :
+    
+    target = ppfold([sequence], 1)[0]
+    
+    mutants = [ mutateOnePoint(sequence) for i in range(nb_mutant)]
+    strs,_ = ppfold(mutants, 1)
+    
+    return strs.count(target)/(3.*len(sequence))
+
+def select_on_relative_degree(pop, size) : 
+    #degrees = map(compute_relative_degree, pop)
+    """
+    pool = mp.Pool(mp.cpu_count())
+    degrees= list(pool.map(compute_relative_degree, pop))
+    pool.close()
+    """
+    degrees= [compute_relative_degree(seq) for seq in pop]
+    pop = numpy.array(pop)
+
+    return pop[degrees.index(min(degrees))] 
+
 
 
 def simple_EA(landscape, number_of_generation, mut_probs, init_pop, selection_method, log_folder,pos,p_n, p_c) : 
@@ -314,10 +343,19 @@ def simple_EA(landscape, number_of_generation, mut_probs, init_pop, selection_me
 
 def netcrawler(landscape, number_of_generation, mut_probs, init_pop, selection_method, log_folder,pos,p_n, p_c, wind_size) : 
     
+    root_path = "Logs/degree_analysis/"+str(selection_method)+'/'+str(log_folder)
+    try:
+        os.makedirs(root_path)
+    except OSError as error:
+        #print "ERROR", error 
+        pass
+
     print (" Starting of evolution ")
     init_sequence = ''.join(numpy.random.choice(['A', 'C', 'G','U'],len(landscape.target))) #Initialize the population of RNA
     current_structure, current_mfe = RNA.fold(init_sequence)
     print "initial seq :", init_sequence
+    best_pop = []
+    best_pop.append(init_sequence)
     
     w_i = landscape.fitness(current_structure)
     n = 0
@@ -333,29 +371,31 @@ def netcrawler(landscape, number_of_generation, mut_probs, init_pop, selection_m
     fitness_data = []
     fitness_data.append([0., w_i])
     t= 0.
-    
+    neutral_set = []
+    neutral_set.append(init_sequence)
+    mut_bp = 0.05
     while (n<number_of_generation) and (w_i < 1.):
         
         if (number_of_generation - n)%10 == 0 : 
             print ('Generation '+str(number_of_generation - n)), "Max fitness = ", w_i
         
-	for i in range(wind_size) :
-	    
-            mutant = mutateOne(init_sequence, mut_probs,landscape.target,pos, p_n, p_c)
+        for i in range(wind_size) :
+            
+            mutant = mutateOne(init_sequence, mut_probs,landscape.target,pos, p_n, p_c, mut_bp)
             mutants.append(mutant)
-	    mutant_strc, mutant_mfe = RNA.fold(mutant)
+            mutant_strc, mutant_mfe = RNA.fold(mutant)
             w_j = landscape.fitness(mutant_strc)
             eval_ +=1
-	    t = t+1
+            t = t+1
+
             if w_j > w_i : 
                 epoche +=1
                 init_sequence = mutant
-		current_structure = mutant_strc
-		current_mfe = mutant_mfe
-                
+                current_structure = mutant_strc
+                current_mfe = mutant_mfe
                 w_i = w_j
-		if t%100 == 0 : 
-			fitness_data.append([t/100,w_i])
+                if t%100 == 0 : 
+                    fitness_data.append([t/100,w_i])
                  
                 print "v_i = ",v_i, "w_j = ", w_j, "v_obs = ", v_i/eval_, " total of mutants = ", eval_
                 epoches.append([epoche, w_j,v_i,  v_i/eval_, eval_])
@@ -366,37 +406,48 @@ def netcrawler(landscape, number_of_generation, mut_probs, init_pop, selection_m
                 oup = 1.
                 mutants = []
                 mutants.append(init_sequence)
+
+                neutral_set = []
+                neutral_set.append(init_sequence)
                 
         
             elif w_j == w_i : 
                 #if not np.array_equal(init_seq, mutant) : 
                 init_sequence = mutant
                 v_i +=1.
-		if t%100 == 0 : 
-			fitness_data.append([t/100,w_i])
+                neutral_set.append(init_sequence)
+                if t%100 == 0 : 
+                    fitness_data.append([t/100,w_i])
                
             else : 
-		if t%100 == 0 : 
-			fitness_data.append([t/100,w_i])
+                if t%100 == 0 : 
+                    fitness_data.append([t/100,w_i])
                 continue
+            best_pop.append(init_sequence)
+            """
+            if len(neutral_set) > 100 : 
+                print "Select one neighbor"
+                init_sequence = select_on_relative_degree(neutral_set,1)
+                neutral_set=[]
+                #mut_bp = mut_bp + 0.05
+            """
+            
+            if len(mutants) > 100 : 
 
-	    if len(mutants) > 100 : 
+                evals = ppeval(mutants, landscape.target,log_folder)
+                strcs, mfes = ppfold(mutants,log_folder)
+                fitnesses = numpy.array(pphamming(strcs,landscape))
 
-		    evals = ppeval(mutants, landscape.target,log_folder)
-    		strcs, mfes = ppfold(mutants,log_folder)
-    		fitnesses = numpy.array(pphamming(strcs,landscape))
-		
-		pop = pandas.DataFrame(numpy.array([mutants, strcs, mfes, fitnesses, evals]).T, columns=["RNA_sequence", "RNA_structure", "Mfes", "Fitness","Evals"])
-    
-		init_sequence,current_mfe = eval_proportion_selection(pop,1)
-		
-		mutants =[]
-	
-       
+                pop = pandas.DataFrame(numpy.array([mutants, strcs, mfes, fitnesses, evals]).T, columns=["RNA_sequence", "RNA_structure", "Mfes", "Fitness","Evals"])
+                init_sequence,current_mfe = eval_proportion_selection(pop,1)
+                mutants =[]
+            
+            
         n +=1
-	if n<=0 or w_i ==1.  : 
-	   epoches.append([epoche, w_i,v_i,  v_i/eval_, eval_])
-
+        if n<=0 or w_i ==1.  : 
+            epoches.append([epoche, w_i,v_i,  v_i/eval_, eval_])
+    #print len(neutral_set), neutral_set
+    save_population(pandas.DataFrame(best_pop), "best", root_path)
     return init_sequence, current_structure, current_mfe, w_i , epoches, fitness_data
 
 
@@ -437,7 +488,7 @@ def run_netcrawler(number_of_generation,pop_size, mut_probs, log_folder,landscap
     print len(pos["bp_pos"])," loop(s) in total"
     #init_pop = pandas.DataFrame(numpy.array([pop, strcs, mfes, fitnesses, evals]).T, columns=["RNA_sequence", "RNA_structure", "Mfes", "Fitness","Evals"])
     tic = time.time()
-    init_sequence, current_struc, current_mfe, w_i,  epoches, fitness_data  = netcrawler(landscape,number_of_generation, mut_probs,pop, "EVAL",log_folder, pos, p_n, p_c,10)
+    init_sequence, current_struc, current_mfe, w_i,  epoches, fitness_data  = netcrawler(landscape,number_of_generation, mut_probs,pop, "net_craw",log_folder, pos, p_n, p_c,10)
     toc = time.time()
     
     #for ind in best_pop.values : 
@@ -534,8 +585,8 @@ def main() :
     mut_prob = 1./init_depth
     number_of_generation = args.g
     pop_size = args.n
-    p_n = [0.95,0.0,0.05,.0] #default = [0.25,0.25,0.25,.25] [0.25,0.65,0.05,.05] [0.7,0.1,0.1,.1] ["A", "G","U","C"]
-    p_c =[0.4, 0.4, 0.2, 0.,0.,0.] #[0.2,0.2,0.1,0.1,0.2,0.2] #[0.4, 0.5, 0.1, 0.,0.,0.] ["GC","CG","AU","UA", "GU", "UG"]
+    p_n = [0.7,0.1,0.1,.1] #default = [0.25,0.25,0.25,.25] [0.25,0.65,0.05,.05] [0.7,0.1,0.1,.1] ["A", "G","U","C"]
+    p_c = [0.4, 0.5, 0.1, 0.,0.,0.] #[0.2,0.2,0.1,0.1,0.2,0.2] #[0.4, 0.5, 0.1, 0.,0.,0.] ["GC","CG","AU","UA", "GU", "UG"]
     ppservers = ()
 
     mut_probs = numpy.array(RNA.ptable(target)[1:])
@@ -546,7 +597,7 @@ def main() :
     job_server = pp.Server(4, ppservers=ppservers)
     
     print "Start running job", number_of_run
-    run_netcrawler(number_of_generation, pop_size, mut_probs, 0, landscape, p_n, p_c)
+    run_netcrawler(number_of_generation, pop_size, mut_probs, 1, landscape, p_n, p_c)
     
    #obs = [(task , job_server.submit(run_netcrawler, (number_of_generation,pop_size, mut_probs, task,landscape, p_n, p_c), (ppeval,ppfold, netcrawler,  getInteriorCoord,boostInterior,getMultiCoord, boostMulti, pphamming,mutateAll,get_bp_position, eval_proportion_selection,getHairepinCoord, boost_hairpins, mutateOne,  save_population, simple_EA, ppens_defect),("numpy", "Individual", "RNA", "random","pandas","os", "time", "collections","subprocess","multiprocess"))) for task in range(number_of_run)]
     """
